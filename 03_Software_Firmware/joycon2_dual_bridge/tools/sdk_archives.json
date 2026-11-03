@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "framework": "Arduino ESP32 3.3.12",
+  "archives": [
+    {
+      "archive": "esp32-core-3.3.12.zip",
+      "sha256": "87401004f279a206781e368b66098a8383b7cf87cce7811a6afd0163503fa78f",
+      "destination": "06_Controller_Dependencies/j2sdk/data/packages/esp32/hardware/esp32/3.3.12"
+    },
+    {
+      "archive": "esp32-libs-3.3.12.zip",
+      "sha256": "4efd0f654c860b018e0ca2f858042ea6a78d8c2d57eef790b0d480d63bb56edc",
+      "destination": "06_Controller_Dependencies/j2sdk/data/packages/esp32/tools/esp32-libs/3.3.12"
+    },
+    {
+      "archive": "xtensa-esp-elf-14.2.0_20260121-i686-w64-mingw32.zip",
+      "sha256": "d57eeb3783bce663cca312323ac9b305a22dfab479c642320c62aeefcc536ac0",
+      "destination": "06_Controller_Dependencies/j2sdk/data/packages/esp32/tools/esp-x32/2601"
+    },
+    {
+      "archive": "esptool-v5.3.1-windows-amd64.zip",
+      "sha256": "2b4a73c45db27426685896f64ce3e557f63a64f43cc100cb65c0cc3486af96d3",
+      "destination": "06_Controller_Dependencies/j2sdk/data/packages/esp32/tools/esptool_py/5.3.1"
+    },
+    {
+      "archive": "mkspiffs-0.2.3-arduino-esp32-win32.zip",
+      "sha256": "b647f2c2efe6949819c85ea9404271b55c7c9c25bcb98d3b98a1d0ba771adf56",
+      "destination": "06_Controller_Dependencies/j2sdk/data/packages/esp32/tools/mkspiffs/0.2.3"
+    },
+    {
+      "archive": "i686-w64-mingw32-mklittlefs-db0513a.zip",
+      "sha256": "47d7d9b70397ee8dd0b858d3cc0f01db4d8a03a031652f788d81700c74f107cd",
+      "destination": "06_Controller_Dependencies/j2sdk/data/packages/esp32/tools/mklittlefs/4.0.2-db0513a"
+    }
+  ],
+  "nimble": {
+    "version": "2.5.2",
+    "upstream_commit": "11876a729e292246b3955b89364ca768c64202b1",
+    "compile_tree_sha256": "964529c96a8d1cf5cc889dadf4280eb112ff77e537c69d9c650adc6d088f5fdd",
+    "compile_files": 437,
+    "fingerprint_scope": "src/** plus library.properties, LICENSE, NOTICE; sorted relative path/size/SHA256 records encoded with JSON sort_keys=True,separators=(comma,colon)"
+  },
+  "network_downloads_performed_by_prepare": false,
+  "vendor_archives_or_private_backups_included": false
+}

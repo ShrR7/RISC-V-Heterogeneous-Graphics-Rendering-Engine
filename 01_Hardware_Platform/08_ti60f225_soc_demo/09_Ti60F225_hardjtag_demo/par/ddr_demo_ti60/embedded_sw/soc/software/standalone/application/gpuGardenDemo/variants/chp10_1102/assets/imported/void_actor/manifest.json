@@ -1,0 +1,863 @@
+{
+  "schema": 1,
+  "variant": "void_art_20261013",
+  "license": "CC0-1.0",
+  "author": "Foozle / David (chroma_dave)",
+  "official_sources": [
+    "https://foozlecc.itch.io/void-main-ship",
+    "https://foozlecc.itch.io/void-fleet-pack-1"
+  ],
+  "raw_source_manifest_sha256": "bbc2337b02604aa1378572618d85e50dcaeb908779ebdb38740cb04d1cbbb716",
+  "scope": "Only derived PNGs in the isolated variant. Collision/game logic unchanged.",
+  "process": "Same source canvas layer compositing; common alpha-bbox crop; nearest-neighbour aspect fit; optional whole-canvas 180-degree rotation.",
+  "notes": [
+    "All layers use preserved mirrored PNG source bytes with verified Git blob hash.",
+    "All animation frames in a group share exact dimensions, crop and anchor.",
+    "Continuous anchor coordinates are recorded as exact fractions; renderer anchor is their nearest integer.",
+    "Pixel dimensions require integer rounding; actual x/y raster scales are recorded independently.",
+    "Enemy and Boss nose point down; player nose points up.",
+    "No shield layer or additional runtime compositing command is required."
+  ],
+  "sprites": [
+    {
+      "name": "PLAYER_0",
+      "file": "PLAYER_0.png",
+      "path": "PLAYER_0.png",
+      "width": 34,
+      "height": 29,
+      "dimensions": [
+        34,
+        29
+      ],
+      "anchor": [
+        17,
+        15
+      ],
+      "anchor_x": 17,
+      "anchor_y": 15,
+      "anchor_exact_fraction": [
+        "17",
+        "29/2"
+      ],
+      "anchor_rounding": "nearest integer; positive half rounds up",
+      "anchor_error_pixels": [
+        "0",
+        "1/2"
+      ],
+      "source_canvas_dimensions": [
+        48,
+        48
+      ],
+      "source_logical_centre": [
+        24,
+        24
+      ],
+      "rotated_logical_centre": [
+        24,
+        24
+      ],
+      "rotate_180": false,
+      "composed_bbox_after_rotation": [
+        9,
+        11,
+        39,
+        37
+      ],
+      "group_union_bbox_after_rotation": [
+        9,
+        11,
+        39,
+        37
+      ],
+      "max_fit_dimensions": [
+        34,
+        46
+      ],
+      "requested_uniform_fit_scale": "17/15",
+      "actual_raster_scale": [
+        "17/15",
+        "29/26"
+      ],
+      "resampling": "NEAREST",
+      "colour_transform": "none",
+      "png_sha256": "6912d0741ad38f258e85558372e37350253ccc38096a6d1b3a085753b592d6ab",
+      "source_layers_in_compositing_order": [
+        {
+          "path": "devshare/assets/images/foozle/ship_engine.png",
+          "source_url": "https://raw.githubusercontent.com/devshareacademy/phaser-3-space-shooter/395f76d9003a6bec361ca9c3bba84d674b55c97a/assets/images/foozle/ship_engine.png",
+          "repository": "devshareacademy/phaser-3-space-shooter",
+          "commit": "395f76d9003a6bec361ca9c3bba84d674b55c97a",
+          "source_sha256": "8a7c214047c980c13255830278d2bee9e70c69b097ff5bea57fb20cfb74694f7",
+          "source_git_blob_sha1": "35f4d9fe5e7fd33d094ba0c6918c5539c65a0869",
+          "sheet_dimensions": [
+            48,
+            48
+          ],
+          "frame_size": [
+            48,
+            48
+          ],
+          "frame_index": 0,
+          "sheet_crop_box": [
+            0,
+            0,
+            48,
+            48
+          ],
+          "frame_alpha_bbox": [
+            13,
+            20,
+            35,
+            35
+          ],
+          "license": "CC0-1.0"
+        },
+        {
+          "path": "devshare/assets/images/foozle/ship.png",
+          "source_url": "https://raw.githubusercontent.com/devshareacademy/phaser-3-space-shooter/395f76d9003a6bec361ca9c3bba84d674b55c97a/assets/images/foozle/ship.png",
+          "repository": "devshareacademy/phaser-3-space-shooter",
+          "commit": "395f76d9003a6bec361ca9c3bba84d674b55c97a",
+          "source_sha256": "9d49be41832a5b4de6cb5d73aa194cfb084eaee9699f7b6d1f8980cdc290091f",
+          "source_git_blob_sha1": "58542fc9685105fa4d709721b6048006188eea59",
+          "sheet_dimensions": [
+            192,
+            48
+          ],
+          "frame_size": [
+            48,
+            48
+          ],
+          "frame_index": 0,
+          "sheet_crop_box": [
+            0,
+            0,
+            48,
+            48
+          ],
+          "frame_alpha_bbox": [
+            9,
+            11,
+            39,
+            37
+          ],
+          "license": "CC0-1.0"
+        },
+        {
+          "path": "devshare/assets/images/foozle/ship_engine_thruster.png",
+          "source_url": "https://raw.githubusercontent.com/devshareacademy/phaser-3-space-shooter/395f76d9003a6bec361ca9c3bba84d674b55c97a/assets/images/foozle/ship_engine_thruster.png",
+          "repository": "devshareacademy/phaser-3-space-shooter",
+          "commit": "395f76d9003a6bec361ca9c3bba84d674b55c97a",
+          "source_sha256": "582c5ec41e274e552dd65eee4e34228cb2bf5ac66194ab0e2ea7107b7694d27b",
+          "source_git_blob_sha1": "f2175d92a273e249678cac45079f34c6b494cd41",
+          "sheet_dimensions": [
+            144,
+            48
+          ],
+          "frame_size": [
+            48,
+            48
+          ],
+          "frame_index": 0,
+          "sheet_crop_box": [
+            0,
+            0,
+            48,
+            48
+          ],
+          "frame_alpha_bbox": [
+            14,
+            31,
+            34,
+            36
+          ],
+          "license": "CC0-1.0"
+        }
+      ]
+    },
+    {
+      "name": "PLAYER_1",
+      "file": "PLAYER_1.png",
+      "path": "PLAYER_1.png",
+      "width": 34,
+      "height": 29,
+      "dimensions": [
+        34,
+        29
+      ],
+      "anchor": [
+        17,
+        15
+      ],
+      "anchor_x": 17,
+      "anchor_y": 15,
+      "anchor_exact_fraction": [
+        "17",
+        "29/2"
+      ],
+      "anchor_rounding": "nearest integer; positive half rounds up",
+      "anchor_error_pixels": [
+        "0",
+        "1/2"
+      ],
+      "source_canvas_dimensions": [
+        48,
+        48
+      ],
+      "source_logical_centre": [
+        24,
+        24
+      ],
+      "rotated_logical_centre": [
+        24,
+        24
+      ],
+      "rotate_180": false,
+      "composed_bbox_after_rotation": [
+        9,
+        11,
+        39,
+        37
+      ],
+      "group_union_bbox_after_rotation": [
+        9,
+        11,
+        39,
+        37
+      ],
+      "max_fit_dimensions": [
+        34,
+        46
+      ],
+      "requested_uniform_fit_scale": "17/15",
+      "actual_raster_scale": [
+        "17/15",
+        "29/26"
+      ],
+      "resampling": "NEAREST",
+      "colour_transform": "none",
+      "png_sha256": "b588820ba2a4ccc313ed2498962f044f4c0cfdaaee0aabb56b8b221950bbae4b",
+      "source_layers_in_compositing_order": [
+        {
+          "path": "devshare/assets/images/foozle/ship_engine.png",
+          "source_url": "https://raw.githubusercontent.com/devshareacademy/phaser-3-space-shooter/395f76d9003a6bec361ca9c3bba84d674b55c97a/assets/images/foozle/ship_engine.png",
+          "repository": "devshareacademy/phaser-3-space-shooter",
+          "commit": "395f76d9003a6bec361ca9c3bba84d674b55c97a",
+          "source_sha256": "8a7c214047c980c13255830278d2bee9e70c69b097ff5bea57fb20cfb74694f7",
+          "source_git_blob_sha1": "35f4d9fe5e7fd33d094ba0c6918c5539c65a0869",
+          "sheet_dimensions": [
+            48,
+            48
+          ],
+          "frame_size": [
+            48,
+            48
+          ],
+          "frame_index": 0,
+          "sheet_crop_box": [
+            0,
+            0,
+            48,
+            48
+          ],
+          "frame_alpha_bbox": [
+            13,
+            20,
+            35,
+            35
+          ],
+          "license": "CC0-1.0"
+        },
+        {
+          "path": "devshare/assets/images/foozle/ship.png",
+          "source_url": "https://raw.githubusercontent.com/devshareacademy/phaser-3-space-shooter/395f76d9003a6bec361ca9c3bba84d674b55c97a/assets/images/foozle/ship.png",
+          "repository": "devshareacademy/phaser-3-space-shooter",
+          "commit": "395f76d9003a6bec361ca9c3bba84d674b55c97a",
+          "source_sha256": "9d49be41832a5b4de6cb5d73aa194cfb084eaee9699f7b6d1f8980cdc290091f",
+          "source_git_blob_sha1": "58542fc9685105fa4d709721b6048006188eea59",
+          "sheet_dimensions": [
+            192,
+            48
+          ],
+          "frame_size": [
+            48,
+            48
+          ],
+          "frame_index": 0,
+          "sheet_crop_box": [
+            0,
+            0,
+            48,
+            48
+          ],
+          "frame_alpha_bbox": [
+            9,
+            11,
+            39,
+            37
+          ],
+          "license": "CC0-1.0"
+        },
+        {
+          "path": "devshare/assets/images/foozle/ship_engine_thruster.png",
+          "source_url": "https://raw.githubusercontent.com/devshareacademy/phaser-3-space-shooter/395f76d9003a6bec361ca9c3bba84d674b55c97a/assets/images/foozle/ship_engine_thruster.png",
+          "repository": "devshareacademy/phaser-3-space-shooter",
+          "commit": "395f76d9003a6bec361ca9c3bba84d674b55c97a",
+          "source_sha256": "582c5ec41e274e552dd65eee4e34228cb2bf5ac66194ab0e2ea7107b7694d27b",
+          "source_git_blob_sha1": "f2175d92a273e249678cac45079f34c6b494cd41",
+          "sheet_dimensions": [
+            144,
+            48
+          ],
+          "frame_size": [
+            48,
+            48
+          ],
+          "frame_index": 1,
+          "sheet_crop_box": [
+            48,
+            0,
+            96,
+            48
+          ],
+          "frame_alpha_bbox": [
+            14,
+            31,
+            34,
+            37
+          ],
+          "license": "CC0-1.0"
+        }
+      ]
+    },
+    {
+      "name": "PLAYER_2",
+      "file": "PLAYER_2.png",
+      "path": "PLAYER_2.png",
+      "width": 34,
+      "height": 29,
+      "dimensions": [
+        34,
+        29
+      ],
+      "anchor": [
+        17,
+        15
+      ],
+      "anchor_x": 17,
+      "anchor_y": 15,
+      "anchor_exact_fraction": [
+        "17",
+        "29/2"
+      ],
+      "anchor_rounding": "nearest integer; positive half rounds up",
+      "anchor_error_pixels": [
+        "0",
+        "1/2"
+      ],
+      "source_canvas_dimensions": [
+        48,
+        48
+      ],
+      "source_logical_centre": [
+        24,
+        24
+      ],
+      "rotated_logical_centre": [
+        24,
+        24
+      ],
+      "rotate_180": false,
+      "composed_bbox_after_rotation": [
+        9,
+        11,
+        39,
+        37
+      ],
+      "group_union_bbox_after_rotation": [
+        9,
+        11,
+        39,
+        37
+      ],
+      "max_fit_dimensions": [
+        34,
+        46
+      ],
+      "requested_uniform_fit_scale": "17/15",
+      "actual_raster_scale": [
+        "17/15",
+        "29/26"
+      ],
+      "resampling": "NEAREST",
+      "colour_transform": "none",
+      "png_sha256": "5103fb0738d1a1c6c16e8ebf0434cf6778d7a14b137dc9ba4382c5ec7aec4da6",
+      "source_layers_in_compositing_order": [
+        {
+          "path": "devshare/assets/images/foozle/ship_engine.png",
+          "source_url": "https://raw.githubusercontent.com/devshareacademy/phaser-3-space-shooter/395f76d9003a6bec361ca9c3bba84d674b55c97a/assets/images/foozle/ship_engine.png",
+          "repository": "devshareacademy/phaser-3-space-shooter",
+          "commit": "395f76d9003a6bec361ca9c3bba84d674b55c97a",
+          "source_sha256": "8a7c214047c980c13255830278d2bee9e70c69b097ff5bea57fb20cfb74694f7",
+          "source_git_blob_sha1": "35f4d9fe5e7fd33d094ba0c6918c5539c65a0869",
+          "sheet_dimensions": [
+            48,
+            48
+          ],
+          "frame_size": [
+            48,
+            48
+          ],
+          "frame_index": 0,
+          "sheet_crop_box": [
+            0,
+            0,
+            48,
+            48
+          ],
+          "frame_alpha_bbox": [
+            13,
+            20,
+            35,
+            35
+          ],
+          "license": "CC0-1.0"
+        },
+        {
+          "path": "devshare/assets/images/foozle/ship.png",
+          "source_url": "https://raw.githubusercontent.com/devshareacademy/phaser-3-space-shooter/395f76d9003a6bec361ca9c3bba84d674b55c97a/assets/images/foozle/ship.png",
+          "repository": "devshareacademy/phaser-3-space-shooter",
+          "commit": "395f76d9003a6bec361ca9c3bba84d674b55c97a",
+          "source_sha256": "9d49be41832a5b4de6cb5d73aa194cfb084eaee9699f7b6d1f8980cdc290091f",
+          "source_git_blob_sha1": "58542fc9685105fa4d709721b6048006188eea59",
+          "sheet_dimensions": [
+            192,
+            48
+          ],
+          "frame_size": [
+            48,
+            48
+          ],
+          "frame_index": 0,
+          "sheet_crop_box": [
+            0,
+            0,
+            48,
+            48
+          ],
+          "frame_alpha_bbox": [
+            9,
+            11,
+            39,
+            37
+          ],
+          "license": "CC0-1.0"
+        },
+        {
+          "path": "devshare/assets/images/foozle/ship_engine_thruster.png",
+          "source_url": "https://raw.githubusercontent.com/devshareacademy/phaser-3-space-shooter/395f76d9003a6bec361ca9c3bba84d674b55c97a/assets/images/foozle/ship_engine_thruster.png",
+          "repository": "devshareacademy/phaser-3-space-shooter",
+          "commit": "395f76d9003a6bec361ca9c3bba84d674b55c97a",
+          "source_sha256": "582c5ec41e274e552dd65eee4e34228cb2bf5ac66194ab0e2ea7107b7694d27b",
+          "source_git_blob_sha1": "f2175d92a273e249678cac45079f34c6b494cd41",
+          "sheet_dimensions": [
+            144,
+            48
+          ],
+          "frame_size": [
+            48,
+            48
+          ],
+          "frame_index": 2,
+          "sheet_crop_box": [
+            96,
+            0,
+            144,
+            48
+          ],
+          "frame_alpha_bbox": [
+            14,
+            30,
+            34,
+            36
+          ],
+          "license": "CC0-1.0"
+        }
+      ]
+    },
+    {
+      "name": "DARTER1",
+      "file": "DARTER1.png",
+      "path": "DARTER1.png",
+      "width": 45,
+      "height": 51,
+      "dimensions": [
+        45,
+        51
+      ],
+      "anchor": [
+        23,
+        33
+      ],
+      "anchor_x": 23,
+      "anchor_y": 33,
+      "anchor_exact_fraction": [
+        "45/2",
+        "816/25"
+      ],
+      "anchor_rounding": "nearest integer; positive half rounds up",
+      "anchor_error_pixels": [
+        "1/2",
+        "9/25"
+      ],
+      "source_canvas_dimensions": [
+        64,
+        64
+      ],
+      "source_logical_centre": [
+        32,
+        32
+      ],
+      "rotated_logical_centre": [
+        32,
+        32
+      ],
+      "rotate_180": true,
+      "composed_bbox_after_rotation": [
+        21,
+        16,
+        43,
+        41
+      ],
+      "group_union_bbox_after_rotation": [
+        21,
+        16,
+        43,
+        41
+      ],
+      "max_fit_dimensions": [
+        49,
+        51
+      ],
+      "requested_uniform_fit_scale": "51/25",
+      "actual_raster_scale": [
+        "45/22",
+        "51/25"
+      ],
+      "resampling": "NEAREST",
+      "colour_transform": "none",
+      "png_sha256": "7841faf216bc37954d6262babfcac83b9900169f4591e8fd66bb4c4d7a33f502",
+      "source_layers_in_compositing_order": [
+        {
+          "path": "devshare/assets/images/foozle/scout_engine.png",
+          "source_url": "https://raw.githubusercontent.com/devshareacademy/phaser-3-space-shooter/395f76d9003a6bec361ca9c3bba84d674b55c97a/assets/images/foozle/scout_engine.png",
+          "repository": "devshareacademy/phaser-3-space-shooter",
+          "commit": "395f76d9003a6bec361ca9c3bba84d674b55c97a",
+          "source_sha256": "a2605a73bbc1f13f57928129eb9cb6140a8d19afcea97e2510d98703e639c8b2",
+          "source_git_blob_sha1": "b7deb1fd5e5717232068d9429842edbd5333bf0c",
+          "sheet_dimensions": [
+            640,
+            64
+          ],
+          "frame_size": [
+            64,
+            64
+          ],
+          "frame_index": 0,
+          "sheet_crop_box": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "frame_alpha_bbox": [
+            29,
+            38,
+            35,
+            48
+          ],
+          "license": "CC0-1.0"
+        },
+        {
+          "path": "devshare/assets/images/foozle/scout.png",
+          "source_url": "https://raw.githubusercontent.com/devshareacademy/phaser-3-space-shooter/395f76d9003a6bec361ca9c3bba84d674b55c97a/assets/images/foozle/scout.png",
+          "repository": "devshareacademy/phaser-3-space-shooter",
+          "commit": "395f76d9003a6bec361ca9c3bba84d674b55c97a",
+          "source_sha256": "48efffeeece3ae4f727404480addd346c87804813a4523364188c607f9b45168",
+          "source_git_blob_sha1": "8c1895f3b77d878c36841e898a1830e36f61099e",
+          "sheet_dimensions": [
+            64,
+            64
+          ],
+          "frame_size": [
+            64,
+            64
+          ],
+          "frame_index": 0,
+          "sheet_crop_box": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "frame_alpha_bbox": [
+            21,
+            23,
+            43,
+            45
+          ],
+          "license": "CC0-1.0"
+        }
+      ]
+    },
+    {
+      "name": "STOPPER1",
+      "file": "STOPPER1.png",
+      "path": "STOPPER1.png",
+      "width": 65,
+      "height": 74,
+      "dimensions": [
+        65,
+        74
+      ],
+      "anchor": [
+        33,
+        48
+      ],
+      "anchor_x": 33,
+      "anchor_y": 48,
+      "anchor_exact_fraction": [
+        "65/2",
+        "814/17"
+      ],
+      "anchor_rounding": "nearest integer; positive half rounds up",
+      "anchor_error_pixels": [
+        "1/2",
+        "2/17"
+      ],
+      "source_canvas_dimensions": [
+        64,
+        64
+      ],
+      "source_logical_centre": [
+        32,
+        32
+      ],
+      "rotated_logical_centre": [
+        32,
+        32
+      ],
+      "rotate_180": true,
+      "composed_bbox_after_rotation": [
+        17,
+        10,
+        47,
+        44
+      ],
+      "group_union_bbox_after_rotation": [
+        17,
+        10,
+        47,
+        44
+      ],
+      "max_fit_dimensions": [
+        65,
+        102
+      ],
+      "requested_uniform_fit_scale": "13/6",
+      "actual_raster_scale": [
+        "13/6",
+        "37/17"
+      ],
+      "resampling": "NEAREST",
+      "colour_transform": "none",
+      "png_sha256": "55e699eae097f7f0f5dc218cff2784554da58a60301d22e5af28577dd70309aa",
+      "source_layers_in_compositing_order": [
+        {
+          "path": "luke/img/enemy/lv1_to_5/Engine/Bomber.png",
+          "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/Engine/Bomber.png",
+          "repository": "LukeTsengTW/pygame-space-shooting-game",
+          "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+          "source_sha256": "f28f26619a5a17c56cf8e7154bf52a34d303132c695ef74ae5b7d13ad7f520fa",
+          "source_git_blob_sha1": "87247ed98d37a55e62071d9a4836997cbf40333a",
+          "sheet_dimensions": [
+            640,
+            64
+          ],
+          "frame_size": [
+            64,
+            64
+          ],
+          "frame_index": 0,
+          "sheet_crop_box": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "frame_alpha_bbox": [
+            18,
+            44,
+            46,
+            54
+          ],
+          "license": "CC0-1.0"
+        },
+        {
+          "path": "luke/img/enemy/lv1_to_5/base/Bomber.png",
+          "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/base/Bomber.png",
+          "repository": "LukeTsengTW/pygame-space-shooting-game",
+          "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+          "source_sha256": "801a270bf1189fd3dc62749145a5c5abb03e981a03b39a08f95bddc488e8880d",
+          "source_git_blob_sha1": "23cfc813eb4f8477663264d221c8c63e105d4287",
+          "sheet_dimensions": [
+            512,
+            64
+          ],
+          "frame_size": [
+            64,
+            64
+          ],
+          "frame_index": 0,
+          "sheet_crop_box": [
+            0,
+            0,
+            64,
+            64
+          ],
+          "frame_alpha_bbox": [
+            17,
+            20,
+            47,
+            47
+          ],
+          "license": "CC0-1.0"
+        }
+      ]
+    },
+    {
+      "name": "BOSS1",
+      "file": "BOSS1.png",
+      "path": "BOSS1.png",
+      "width": 83,
+      "height": 117,
+      "dimensions": [
+        83,
+        117
+      ],
+      "anchor": [
+        42,
+        58
+      ],
+      "anchor_x": 42,
+      "anchor_y": 58,
+      "anchor_exact_fraction": [
+        "83/2",
+        "5850/101"
+      ],
+      "anchor_rounding": "nearest integer; positive half rounds up",
+      "anchor_error_pixels": [
+        "1/2",
+        "8/101"
+      ],
+      "source_canvas_dimensions": [
+        128,
+        128
+      ],
+      "source_logical_centre": [
+        64,
+        64
+      ],
+      "rotated_logical_centre": [
+        64,
+        64
+      ],
+      "rotate_180": true,
+      "composed_bbox_after_rotation": [
+        28,
+        14,
+        100,
+        115
+      ],
+      "group_union_bbox_after_rotation": [
+        28,
+        14,
+        100,
+        115
+      ],
+      "max_fit_dimensions": [
+        160,
+        117
+      ],
+      "requested_uniform_fit_scale": "117/101",
+      "actual_raster_scale": [
+        "83/72",
+        "117/101"
+      ],
+      "resampling": "NEAREST",
+      "colour_transform": "none",
+      "png_sha256": "a7993456dd58b5f4c58f07e5b44be77a540e2a929d0b8e51ed964f9ad412fa34",
+      "source_layers_in_compositing_order": [
+        {
+          "path": "luke/img/enemy/lv1_to_5/Engine/Dreadnought.png",
+          "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/Engine/Dreadnought.png",
+          "repository": "LukeTsengTW/pygame-space-shooting-game",
+          "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+          "source_sha256": "8484c65ccb1d85c47207e8bdc34c5efee24d447ffe020ad927801af0ad603742",
+          "source_git_blob_sha1": "bc6b2693cbce1e408ecfcd41ba411d0a9fee4e11",
+          "sheet_dimensions": [
+            1536,
+            128
+          ],
+          "frame_size": [
+            128,
+            128
+          ],
+          "frame_index": 0,
+          "sheet_crop_box": [
+            0,
+            0,
+            128,
+            128
+          ],
+          "frame_alpha_bbox": [
+            29,
+            101,
+            99,
+            114
+          ],
+          "license": "CC0-1.0"
+        },
+        {
+          "path": "luke/img/enemy/lv1_to_5/base/Dreadnought.png",
+          "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/base/Dreadnought.png",
+          "repository": "LukeTsengTW/pygame-space-shooting-game",
+          "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+          "source_sha256": "fd238dd5799d68b34950e09b5eeb102d4ea226eb4866cb4e68dc194aecb48a52",
+          "source_git_blob_sha1": "b3bd52c3a8972d09b015889283b23aac96d5dc7d",
+          "sheet_dimensions": [
+            1536,
+            128
+          ],
+          "frame_size": [
+            128,
+            128
+          ],
+          "frame_index": 0,
+          "sheet_crop_box": [
+            0,
+            0,
+            128,
+            128
+          ],
+          "frame_alpha_bbox": [
+            28,
+            13,
+            100,
+            113
+          ],
+          "license": "CC0-1.0"
+        }
+      ]
+    }
+  ]
+}

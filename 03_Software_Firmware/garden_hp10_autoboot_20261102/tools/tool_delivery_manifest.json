@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "purpose": "portable dryrun-first Garden Flash installer",
+  "hardware_accessed_by_this_subtask": false,
+  "flash_programmed_by_this_subtask": false,
+  "files": {
+    "tools/flash_ops.py": {
+      "bytes": 15244,
+      "sha256": "245a047604ac361fb687a4f5dffd7e0b4d1ea6c87de1d8fbadc064e85ddd3657"
+    },
+    "tools/inspect_config.py": {
+      "bytes": 2953,
+      "sha256": "7b010a492325fae2bd1ca86ae7b497c416194d804aaf102b956993fd6f45e4e0"
+    },
+    "tools/install_autoboot.py": {
+      "bytes": 14601,
+      "sha256": "9d25f12763de6b1f810853978bdf8255f429eb17aa72dcb62050a7f8f7e97350"
+    },
+    "tools/test_flash_ops.py": {
+      "bytes": 12948,
+      "sha256": "d0ff124ea6ca07c5f010d018b8c6903e349ca1ba343da9548c759281ec7a4b67"
+    },
+    "tools/test_install_autoboot.py": {
+      "bytes": 6865,
+      "sha256": "b06704f6a1c920ca941e6f6672d3cc128f761bf3b882fea9ad286a6b8a6e92e5"
+    },
+    "tools/record_tools.py": {
+      "bytes": 1503,
+      "sha256": "ac50d167a8b6bd0f2d3268710a668b2c510fbbf5273ce8ac7a39e786cac3883d"
+    },
+    "tools/flash_tools_README.txt": {
+      "bytes": 7512,
+      "sha256": "42ef67ed75595f9b273c3142ed3f368e3c7f36feb19a681088100ffad96bed03"
+    },
+    "tools/installer_README.txt": {
+      "bytes": 4565,
+      "sha256": "681d4e0342f861288cd5dc73ef8e6a8199c5df97b0f4552f174dee76508ed7cb"
+    },
+    "固化Garden.ps1": {
+      "bytes": 1253,
+      "sha256": "20bda90b4cbfd050fda47d48860d68ced54f6589adaa78b0e27701ff956a16de"
+    },
+    "tools/evidence/flash_host_checks.log": {
+      "bytes": 3246,
+      "sha256": "9065ae4f3f11c6ee79fa3f08a50d4836201c798a56a9566253fbc4e0a183764d"
+    },
+    "tools/evidence/installer_host_checks.log": {
+      "bytes": 1419,
+      "sha256": "8582c39438d0bd6bcf0f869d35fb575a27cb0aaa19bcef2a28dd69d0c24db81f"
+    },
+    "tools/evidence/installer_ps51_dryrun.json": {
+      "bytes": 4613,
+      "sha256": "fd2f1504a9b445d020e7316453bf71158d13ab5196df423a581d3550b454abd2"
+    }
+  },
+  "dependency_assemble_flash_sha256": "57fbb8de83709e4eee3ba08e04cc44e6385f40ee75341f543effd9c684b84424",
+  "notes": "Actual board backup/03_Software_Firmware/readback/cold boot are recorded by root separately."
+}

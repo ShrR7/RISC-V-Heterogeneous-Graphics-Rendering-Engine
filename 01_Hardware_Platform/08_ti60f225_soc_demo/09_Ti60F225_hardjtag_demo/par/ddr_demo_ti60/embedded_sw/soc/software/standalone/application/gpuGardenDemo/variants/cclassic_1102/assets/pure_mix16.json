@@ -1,0 +1,169 @@
+{
+  "schema": 1,
+  "purpose": "isolated four-style same-emitter pure2000 test",
+  "adapted": true,
+  "blob_path": "assets/pure_mix16.bin",
+  "blob_bytes": 2128,
+  "blob_sha256": "9cdb9cca37a3d26fe1284e64e251c141bd8e9cb392b20bc8e3f1121bde00292e",
+  "blob_crc32": "0x2DCA18FE",
+  "header_magic": "0x31584D50",
+  "count": 4,
+  "payload_bytes": 2112,
+  "payload_crc32": "0xC78CE44B",
+  "load_address": "0x009B0000",
+  "meta_offset": 16,
+  "meta_bytes": 16,
+  "pixel_offset": 80,
+  "tile_bytes": 512,
+  "meta_layout": "little-endian uint32 asset, packed(anchor_x|anchor_y<<8|source_width<<16|source_height<<24), source_crc32, tile_crc32",
+  "source_atlas_sha256": "584c47be285778f8680a0f0a5f21a12aa610b3e02b7aa5c58885cedb06b998a6",
+  "normal_game_atlas_unmodified": true,
+  "source_png_unmodified": true,
+  "key_rgb565": "0xF81F",
+  "styles": [
+    {
+      "style": 0,
+      "source_asset": 52,
+      "source_name": "DIAMOND_B1_R0",
+      "source_style": "magenta_orb",
+      "source_width": 18,
+      "source_height": 16,
+      "source_anchor": [
+        8,
+        7
+      ],
+      "source_atlas_offset": 280148,
+      "source_crc32": "0xEDE0E823",
+      "source_rgb565_sha256": "c6a4af42567d3d8880083f31754c6ffd91c39af71c5de39c545b10f70bd861a1",
+      "source_png": "assets/source/user_20261016/bullet_02_magenta_orb.png",
+      "source_png_sha256": "7bca20152de0cab6adaf0c4b33421616a60cfa83896526ecd4b529f9897083dc",
+      "resized_width": 16,
+      "resized_height": 14,
+      "pad_x": 0,
+      "pad_y": 1,
+      "tile_width": 16,
+      "tile_height": 16,
+      "tile_anchor": [
+        7,
+        7
+      ],
+      "tile_crc32": "0x9902F3B0",
+      "tile_sha256": "c4ccc1f2f35842c6cba20f2e4ae343aea51006d55c71ca2ebaef85734a0e1d94",
+      "packed_meta": "0x10120707",
+      "pixel_offset": 80
+    },
+    {
+      "style": 1,
+      "source_asset": 60,
+      "source_name": "DIAMOND_B2_R0",
+      "source_style": "cyan_orb",
+      "source_width": 14,
+      "source_height": 15,
+      "source_anchor": [
+        7,
+        7
+      ],
+      "source_atlas_offset": 280724,
+      "source_crc32": "0xE5E1947B",
+      "source_rgb565_sha256": "7370dcb7d392b4a08a3607942208b6c24cfd606ae155bcdb220aae067337b1db",
+      "source_png": "assets/source/user_20261016/bullet_01_cyan_orb.png",
+      "source_png_sha256": "98c2932ddfd1cb24760a60a5d75912657f4f2b29f17b297f5fe4e9289953548f",
+      "resized_width": 14,
+      "resized_height": 15,
+      "pad_x": 1,
+      "pad_y": 0,
+      "tile_width": 16,
+      "tile_height": 16,
+      "tile_anchor": [
+        8,
+        7
+      ],
+      "tile_crc32": "0x285EBC14",
+      "tile_sha256": "4ffcde248ab9da8442abceb966849279cdc2ed00f42bac04e2529c8e897fd091",
+      "packed_meta": "0x0F0E0708",
+      "pixel_offset": 592
+    },
+    {
+      "style": 2,
+      "source_asset": 68,
+      "source_name": "DIAMOND_B3_R0",
+      "source_style": "green_ring",
+      "source_width": 23,
+      "source_height": 23,
+      "source_anchor": [
+        12,
+        12
+      ],
+      "source_atlas_offset": 281144,
+      "source_crc32": "0xB331CA8D",
+      "source_rgb565_sha256": "b356a5011ef3e5c74a64c7ed0575d74848a3ff4b3b4e04e45303b19eeb1aa8cb",
+      "source_png": "assets/source/user_20261016/bullet_05_green_ring.png",
+      "source_png_sha256": "f913a65d555dcc8233ba2b62624e1014148dead750de662e0d9cb1558b5c6a4a",
+      "resized_width": 16,
+      "resized_height": 16,
+      "pad_x": 0,
+      "pad_y": 0,
+      "tile_width": 16,
+      "tile_height": 16,
+      "tile_anchor": [
+        9,
+        9
+      ],
+      "tile_crc32": "0xB891BB07",
+      "tile_sha256": "5557b7714f10f8b1e93795f058a4496f65566e21c304df0d6f30fdd76d41f72d",
+      "packed_meta": "0x17170909",
+      "pixel_offset": 1104
+    },
+    {
+      "style": 3,
+      "source_asset": 76,
+      "source_name": "DIAMOND_B4_R0",
+      "source_style": "pink_star",
+      "source_width": 21,
+      "source_height": 20,
+      "source_anchor": [
+        10,
+        9
+      ],
+      "source_atlas_offset": 309804,
+      "source_crc32": "0x265D2A96",
+      "source_rgb565_sha256": "ed3f0356761da68c728042f596e8062ab4732d431ccea61b795af42279ce157f",
+      "source_png": "assets/source/user_20261016/bullet_09_pink_star.png",
+      "source_png_sha256": "f9e3c9cd43996311fb09e22bf9f8da618e987f4b069acbd827f8a47715d856a9",
+      "resized_width": 16,
+      "resized_height": 15,
+      "pad_x": 0,
+      "pad_y": 0,
+      "tile_width": 16,
+      "tile_height": 16,
+      "tile_anchor": [
+        8,
+        7
+      ],
+      "tile_crc32": "0xEB223456",
+      "tile_sha256": "07b38c03bd9e8705a4dc488bb879c19c5c8258801c8a96790453801fdafd5645",
+      "packed_meta": "0x14150708",
+      "pixel_offset": 1616
+    }
+  ],
+  "resize": "downscale only; max dimension16; nearest integer dimensions (size*16+largest//2)//largest",
+  "sampling": "srcX=floor(x*source_width/resized_width), srcY=floor(y*source_height/resized_height); exact RGB565 copy",
+  "padding": "floor-centred in16x16; all padding pixels exact0xF81F",
+  "anchor_mapping": "lower midpoint of exact preimage if retained; otherwise minimum absolute rational sampling error, lower index on ties; plus padding",
+  "source_point_local": [
+    320,
+    64
+  ],
+  "source_point_global": [
+    640,
+    184
+  ],
+  "velocity_q4": "vx=((i*17)%49)-24; vy=32",
+  "activation": "10 additional objects before each successfully presented warmup frame; no PURE_START before target reached",
+  "header_path": "src/pure_bullet_mix16.h",
+  "header_sha256": "5c5456304576d6f6bad3e7254d3b090a68e54a44507e605f60f25fa94fa40f26",
+  "generator_path": "tools/build_pure_mix16.py",
+  "generator_sha256": "2417bec8f3ba5f2f28b408f4d683beb56342be88180e4c75f2f8d575c211f52f",
+  "stage9_and_legacy_use_identical_tiles": true,
+  "hardware_access": false
+}

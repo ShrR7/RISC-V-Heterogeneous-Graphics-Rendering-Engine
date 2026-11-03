@@ -1,0 +1,1148 @@
+{
+  "schema": 1,
+  "kind": "accepted_game_autoboot_inputs",
+  "source_variant": "chp10_1102",
+  "default_mode": "AUTO_game",
+  "retain_T_test": true,
+  "source_game_elf_sha256": "8479724d45b06dac9cc61fb1b3bb583c9d80baa7a1ed1b20d9309f5aeb8ac9ad",
+  "fpga_bit_md5": "d59183e81a58833b1d550a91ebbe5e23",
+  "entries": [
+    {
+      "name": "game.bin",
+      "source": "01_Hardware_Platform\\08_ti60f225_soc_demo\\09_Ti60F225_hardjtag_demo\\par\\ddr_demo_ti60\\embedded_sw\\soc\\software\\standalone\\application\\gpuGardenDemo\\variants\\chp10_1102\\build\\gardenStage9Game.bin",
+      "ddr_address": 4096,
+      "bytes": 118862,
+      "sha256": "e21f57a34f4d854410e2cffdfaed0a4dd56b8182934c31b7cd746cd58a06caca",
+      "crc32": "621711f7"
+    },
+    {
+      "name": "game.elf",
+      "source": "01_Hardware_Platform\\08_ti60f225_soc_demo\\09_Ti60F225_hardjtag_demo\\par\\ddr_demo_ti60\\embedded_sw\\soc\\software\\standalone\\application\\gpuGardenDemo\\variants\\chp10_1102\\build\\gardenStage9Game.elf",
+      "ddr_address": null,
+      "bytes": 158188,
+      "sha256": "8479724d45b06dac9cc61fb1b3bb583c9d80baa7a1ed1b20d9309f5aeb8ac9ad",
+      "crc32": "72530820"
+    },
+    {
+      "name": "atlas.bin",
+      "source": "01_Hardware_Platform\\08_ti60f225_soc_demo\\09_Ti60F225_hardjtag_demo\\par\\ddr_demo_ti60\\embedded_sw\\soc\\software\\standalone\\application\\gpuGardenDemo\\variants\\chp10_1102\\assets\\atlas.bin",
+      "ddr_address": 6045696,
+      "bytes": 755700,
+      "sha256": "48e6a628e02d68f1bbd86be37c85dcccd3df800d6c79aa3e58ccd5571a56b867",
+      "crc32": "408d5d96"
+    },
+    {
+      "name": "stage9_tiles.bin",
+      "source": "01_Hardware_Platform\\08_ti60f225_soc_demo\\09_Ti60F225_hardjtag_demo\\par\\ddr_demo_ti60\\embedded_sw\\soc\\software\\standalone\\application\\gpuGardenDemo\\variants\\chp10_1102\\assets\\stage9_tiles.bin",
+      "ddr_address": 9437184,
+      "bytes": 666624,
+      "sha256": "6a73ac55168bae6b84853f7d75fb57f960d63e52729235749610df8d7f0b07db",
+      "crc32": "1250b2a5"
+    },
+    {
+      "name": "pure_scatter16.bin",
+      "source": "01_Hardware_Platform\\08_ti60f225_soc_demo\\09_Ti60F225_hardjtag_demo\\par\\ddr_demo_ti60\\embedded_sw\\soc\\software\\standalone\\application\\gpuGardenDemo\\variants\\chp10_1102\\assets\\pure_scatter16.bin",
+      "ddr_address": 10158080,
+      "bytes": 28640,
+      "sha256": "a738c4dff7eb4e4c7b2b73c5b56780b338940ec21b663b3a959231d44643bfa6",
+      "crc32": "4ee686c0"
+    },
+    {
+      "name": "fpga.bit",
+      "source": "frozen matching configuration",
+      "ddr_address": null,
+      "bytes": 2776119,
+      "sha256": "4b820a6741df4289fb9ff80b8dcd6d34adbde56a125540f2261df7dc60a3605a",
+      "crc32": "75cb342e"
+    },
+    {
+      "name": "fpga.hex",
+      "source": "frozen matching configuration",
+      "ddr_address": null,
+      "bytes": 2776179,
+      "sha256": "ec41420de3b174c95abe2634951366557a0a780f42913250253cf9ba93c2aba6",
+      "crc32": "d26a00e8"
+    },
+    {
+      "name": "game_build_manifest.json",
+      "source": "01_Hardware_Platform\\08_ti60f225_soc_demo\\09_Ti60F225_hardjtag_demo\\par\\ddr_demo_ti60\\embedded_sw\\soc\\software\\standalone\\application\\gpuGardenDemo\\variants\\chp10_1102\\build\\build_manifest.json",
+      "ddr_address": null,
+      "bytes": 2422,
+      "sha256": "2ed56bbabdd6ad7868b0d76a8356c150bd13d96397b79987bdb82ff55108d4e6",
+      "crc32": "4fd50236"
+    }
+  ],
+  "source_archive": {
+    "bytes": 717429,
+    "sha256": "ab04766d7d811eb3f0f4fb28d21d2e9b8ac46c70815a32f3bf51b34f62977b45",
+    "crc32": "b7ebc506"
+  },
+  "final_build_identity": {
+    "final_build_id": "chp10_1102-HP10-zero-gameover",
+    "variant": "chp10_1102",
+    "elf_sha256": "8479724d45b06dac9cc61fb1b3bb583c9d80baa7a1ed1b20d9309f5aeb8ac9ad",
+    "bin_sha256": "e21f57a34f4d854410e2cffdfaed0a4dd56b8182934c31b7cd746cd58a06caca",
+    "source_fingerprint": "6c6380536f026a101310fcec19ce3a7e112329fcaadb51c4a28ba0ba6521ee6b",
+    "memory": {
+      "entry": 4096,
+      "load_ranges": [
+        {
+          "file_offset": 4096,
+          "address": 4096,
+          "filesz": 118862,
+          "memsz": 126880,
+          "flags": 7
+        }
+      ],
+      "memory_end": 130976,
+      "binary_bytes": 118862,
+      "stack_and_BSS_envelope_checked": true
+    },
+    "log_runtime_region": {
+      "address": 12255232,
+      "bytes": 3712,
+      "guard_bytes": 16,
+      "additional_flash_segment": false,
+      "rationale": "low-DDR BSS initializes indices/stats; queue/format data are written before used"
+    },
+    "hardware_access": false,
+    "flash_write": false,
+    "unchanged_fpga_md5": "d59183e81a58833b1d550a91ebbe5e23",
+    "unchanged_boot_slot_sha256": "daaaddab6b275694085571d63bf97531e42709a43a85236309f51937c7ec5bf6"
+  },
+  "final_source_files": {
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/build/build_manifest.json": {
+      "bytes": 2422,
+      "sha256": "2ed56bbabdd6ad7868b0d76a8356c150bd13d96397b79987bdb82ff55108d4e6",
+      "crc32": "4fd50236"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/display_debug.c": {
+      "bytes": 1534,
+      "sha256": "8a5d47b49f8a18a9f49b23c540528d9debba9cb03d6a70d69a91b48a4fc8424b",
+      "crc32": "aab47b7c"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/display_debug.h": {
+      "bytes": 503,
+      "sha256": "1b2de46c0c2cbae9c947552d711634a0fdf3b9e6c63fc0fe61718c1a7af10aca",
+      "crc32": "8dde2a23"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/frame_profile.c": {
+      "bytes": 3183,
+      "sha256": "16029be2cface54ac04569ac502591901ede6afeceda708f758acf13c7e0b239",
+      "crc32": "377043c1"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/frame_profile.h": {
+      "bytes": 667,
+      "sha256": "77993a7b85d732526683655a6006412f4f465cf4b00751d643e199ea34f949e0",
+      "crc32": "2961d58f"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/g9_memory.c": {
+      "bytes": 4848,
+      "sha256": "9404ee412b3e55282257c73668402348e89088339c82c9a820b1e8166bdc1d38",
+      "crc32": "c3fdaa84"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/g9_memory.h": {
+      "bytes": 3070,
+      "sha256": "0873236b832605ae7b50a3f90269c325dcadbaa40a086f5ceed05fa2f93ff6b0",
+      "crc32": "0f8f1d90"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/g9_route.c": {
+      "bytes": 7071,
+      "sha256": "add3f8463cc51e959d1796c379656bd7d3573baa357bc8db3db799f4ac7ae31a",
+      "crc32": "23e7fafc"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/g9_route.h": {
+      "bytes": 579,
+      "sha256": "d1b37249260a75edf09e65f1be67f83b12d811a2a34fdb44c42c575a1ec7a42e",
+      "crc32": "90601bce"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/g9_workload.c": {
+      "bytes": 3865,
+      "sha256": "f67049307ed715b46fac9d92975467534a0d9093f49f7015c41faeb96b24fbac",
+      "crc32": "c6279540"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/g9_workload.h": {
+      "bytes": 1695,
+      "sha256": "cc3b766feebdcb5c0b7712ac2029eb8e638494898a664a821e673536fbdfc87e",
+      "crc32": "d65f9a8c"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/garden_actor_ui.c": {
+      "bytes": 6843,
+      "sha256": "b7cd6b3ec472590f94cad807dad38c10f979bea0a6cf483e773d4fe62c4673a9",
+      "crc32": "7b7e2505"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/garden_actor_ui.h": {
+      "bytes": 2233,
+      "sha256": "23d282330cda4d6e5d9196aac32944489b70da1d827e728cb860a8b6e85d1cec",
+      "crc32": "b4781557"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/garden_animation.c": {
+      "bytes": 7312,
+      "sha256": "2b17939083335c848586e6cfc6582cd3d99df21573c29a444861708019635ccd",
+      "crc32": "5b1d04a1"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/garden_animation.h": {
+      "bytes": 2432,
+      "sha256": "584e77a080e4ecab0dd9b6d8e1b6df052c3bf2c45e827a844cdb68e7080bcbf7",
+      "crc32": "0e7100ac"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/garden_assets.c": {
+      "bytes": 57524,
+      "sha256": "a0daaa7c43f53e3ae94c2e2b3a62adcde5b5f97ef8731c95947f8349e79358f6",
+      "crc32": "bcb7e4b9"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/garden_assets.h": {
+      "bytes": 5161,
+      "sha256": "c0e590409d5b6376bbd9bc3379b673397e1665989cf9c1dc0d61b9e361b1bb21",
+      "crc32": "d1e264f7"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/garden_clear.c": {
+      "bytes": 1133,
+      "sha256": "2c096ba69b3f5b297f550ca72681082d1f87bb6701ef2590119ab104f2de0c9d",
+      "crc32": "b0e7a6f3"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/garden_clear.h": {
+      "bytes": 992,
+      "sha256": "fbbe546354434d97527c1ccf159b1df0bd448ad2d30dffd333037ae091cf7e45",
+      "crc32": "b917d699"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/garden_combat.c": {
+      "bytes": 21287,
+      "sha256": "298553dbe013d245c0bc76c691d048f91cfc8a79bfe5e75ea99d52919bcd7335",
+      "crc32": "a368afcc"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/garden_combat.h": {
+      "bytes": 5160,
+      "sha256": "5a64aa4c1c39faf0045f25fcbb6b9ce095f0771cef3d0c9d7967f599228bc7a3",
+      "crc32": "2491ffdf"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/garden_controller.c": {
+      "bytes": 3489,
+      "sha256": "62bb5419ea61e34672da7fb192615e6f4eb76e3521cb8ec5a13bb3f96d4d87a4",
+      "crc32": "ddd0def9"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/garden_controller.h": {
+      "bytes": 2608,
+      "sha256": "d082e2d766ab398fc7e7d4b5d1eb48c5f37bcda345f1c44bac894d4a7a209737",
+      "crc32": "644540bf"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/garden_core.c": {
+      "bytes": 63024,
+      "sha256": "76850b440c393d5f9d1b3d8a2afcfc512b59fe952acb1f8baa9c7686cbe29ab6",
+      "crc32": "c81d07b3"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/garden_core.h": {
+      "bytes": 11667,
+      "sha256": "f3e8c6081b65d44cb90b7c93b0f92c5f2340f7b3325531b22cf892cec2d4ef27",
+      "crc32": "c3254fbf"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/garden_feedback.c": {
+      "bytes": 10691,
+      "sha256": "03576d4250afb723a1279e512e118a1a8a155072633bf77e5f732799cd257d46",
+      "crc32": "4ab3c67e"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/garden_feedback.h": {
+      "bytes": 2613,
+      "sha256": "4e3f331a922020668263bbe096e4737d1bbd8d3abf6aea258c41a4fe8722ea62",
+      "crc32": "891fec8d"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/garden_fx.c": {
+      "bytes": 9149,
+      "sha256": "00c07e70fd4efd83ce9e323eab2c0b9303309a4ccf477f5e377f03aaa3ed9d74",
+      "crc32": "cd116b9c"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/garden_fx.h": {
+      "bytes": 2925,
+      "sha256": "03f28a6a405f366eddd71cb211db299004e76ebfeaa8ba79f2cc2d9e3e25349e",
+      "crc32": "a4c2f8a6"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/garden_heading_precision.c": {
+      "bytes": 2764,
+      "sha256": "69b70ead2d5fc4bd61b9b1a0898c02c67d6d601a593923aaf0846250beec74a9",
+      "crc32": "3af179c7"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/garden_heading_precision.h": {
+      "bytes": 1345,
+      "sha256": "515e11875976bfd361b098601a1e9a8699f803717906b90d35daab6ef82f6d71",
+      "crc32": "68ecc091"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/garden_log.c": {
+      "bytes": 5020,
+      "sha256": "45685dc8a665522bae310d40c0a5bf60a482a18f3a7e449ebd864d575259dc6a",
+      "crc32": "9a87d114"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/garden_log.h": {
+      "bytes": 1716,
+      "sha256": "5c899b858b9985ccd9c6846cdcef6ac33d50508a8b070e9c9788a628d4a5f1eb",
+      "crc32": "5611ecf4"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/garden_motion.c": {
+      "bytes": 9306,
+      "sha256": "735305065e7bcb8c961294ecef709389a87c4f54d178e58f94ecb146652a9e7f",
+      "crc32": "9ea431a4"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/garden_motion.h": {
+      "bytes": 2287,
+      "sha256": "b90763803898e081fe599ca2da9b7c5eb7cdfefad7712758a21a9a32f3959277",
+      "crc32": "f635b37b"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/garden_ordnance_view.c": {
+      "bytes": 8956,
+      "sha256": "20e03070a5b8007544c6ebe7f479900ff9f325391ce3b25c131b6bbabb0f280c",
+      "crc32": "a146ea58"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/garden_ordnance_view.h": {
+      "bytes": 1839,
+      "sha256": "948c8aa21d3774b2da14c173a926fc9c1e24a6ec0e13af8514d475aa6ed798bf",
+      "crc32": "b14d80ce"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/garden_render.c": {
+      "bytes": 35172,
+      "sha256": "29a5b3737ca5841c9ed039d42fecf0f4236a762c7d01611f2adfea8aa1b104f6",
+      "crc32": "efeac261"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/garden_render.h": {
+      "bytes": 4164,
+      "sha256": "dc3b907f86501caf2fd3060112f2c1062f3f770e3146c48cfc88982052fb077b",
+      "crc32": "47580061"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/garden_scene.c": {
+      "bytes": 16789,
+      "sha256": "cbfe9802e96b6432c4ce5b0521e8975e3b11d9dbdcb4a264749a23a834d2126f",
+      "crc32": "a4c60e90"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/garden_scene.h": {
+      "bytes": 3187,
+      "sha256": "3e53eace1a2028f4be1b68a8505a807361341e9a96e3f630880ac87b66a3b471",
+      "crc32": "ec8de429"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/garden_session.c": {
+      "bytes": 1332,
+      "sha256": "b523f1669561ea74e7af426718ee8ad18e42a27391b01100928080476625b7a1",
+      "crc32": "058535f6"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/garden_session.h": {
+      "bytes": 642,
+      "sha256": "9396a73da0fe7c753e9719725f1216c3ca06e74bcb153b7fc717335d86597827",
+      "crc32": "71737660"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/garden_stage.c": {
+      "bytes": 16939,
+      "sha256": "488b5867ca0a1e721fa15be703bfff6f634604aa5f46918fb2ff0d63ec6f8a17",
+      "crc32": "4332f1a6"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/garden_stage.h": {
+      "bytes": 3942,
+      "sha256": "123c8980f9bbea1e800cc8e69ff88e4a581a575b91cdc1c5062cf28520920289",
+      "crc32": "d112cfc2"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/garden_ui.c": {
+      "bytes": 15295,
+      "sha256": "fbb22171c4ca21772f361905cb1acdffab5050ba7dfcbcbaf49c213a94d280b9",
+      "crc32": "d63fe9d4"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/garden_ui.h": {
+      "bytes": 1724,
+      "sha256": "c7ff4bd7ef8ee185fdf1c4bfe718d9ba1254c336cf8465134114a6191a54303f",
+      "crc32": "7901588c"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/gpu_alpha_ref.h": {
+      "bytes": 1091,
+      "sha256": "d8aef857db5f7d39d724c952c442c7d2618f6dbf42acda0082030a9eb3e6ccf2",
+      "crc32": "2a9c38da"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/gpu_alpha_verify.c": {
+      "bytes": 6434,
+      "sha256": "38d8b41508a55318d3494d6a1e86e785ccbbe3bd3bb546d438460e59b3d66473",
+      "crc32": "05a23e96"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/gpu_alpha_verify.h": {
+      "bytes": 1291,
+      "sha256": "94a8a57a0b5cf0be18e6992ef96a2652735e1d162c3328ef1fe179ce482221b6",
+      "crc32": "68eff16e"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/gpu_display.c": {
+      "bytes": 4599,
+      "sha256": "ad1e1f4fb1af5b475700126af7ee3223fd31ec4029ca108004de6e10f6224fac",
+      "crc32": "98899f17"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/gpu_display.h": {
+      "bytes": 2709,
+      "sha256": "bf7432e7e05956d006dd0f7bd254e4aa965e187520e0cb16d48ce51133c68923",
+      "crc32": "e43dda93"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/gpu_driver.c": {
+      "bytes": 15890,
+      "sha256": "a222c9df299ad7decb7ee5c0ff837c6b376f378ece250f886d4b069a44b65c0e",
+      "crc32": "a3cc5b5a"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/gpu_driver.h": {
+      "bytes": 2817,
+      "sha256": "053fa2d82438349cedb15c259f5707c7e44fb7fdb2ae4f949b4103e235b5a21a",
+      "crc32": "f87fb535"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/gpu_precision_verify.c": {
+      "bytes": 10609,
+      "sha256": "7ec0a32d13f0cdf4787c0d23c040e2bcaa8b6a4c58fc4b5e31c430d0250790f0",
+      "crc32": "c83feb5f"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/gpu_precision_verify.h": {
+      "bytes": 1381,
+      "sha256": "b7cc7739d693b0d21d39506462a6f895c1122e31dd2fcd561ee61be208199554",
+      "crc32": "05c377c4"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/gpu_regs.h": {
+      "bytes": 2956,
+      "sha256": "94dd9030848ddc75611f575c96a244f7f2e901d0fcda606d06213623358cd59a",
+      "crc32": "b1963dbe"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/main.c": {
+      "bytes": 43740,
+      "sha256": "70605637ca8b37922c7ed17261a6c947579b1191ccb8109466346bb048a0c89c",
+      "crc32": "27d838a0"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/pad_hw.c": {
+      "bytes": 6853,
+      "sha256": "f1fb5802232a621aec9b63e367132fe121550e8e2565e9a7765a7d237e1e7133",
+      "crc32": "b5e4f7a7"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/pad_hw.h": {
+      "bytes": 1886,
+      "sha256": "ac397f1c9bd2444cdd13dd724a0309c262f4bdc70a5b431dbeb5f42bb08a3af8",
+      "crc32": "e46391f8"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/pressure_player.c": {
+      "bytes": 2251,
+      "sha256": "1de7797fdddeeae3b2ddc9655b22b7dc2af4e117312a34cb43ccee2196e3e6a1",
+      "crc32": "2f0161c9"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/pressure_player.h": {
+      "bytes": 803,
+      "sha256": "2aa6d25c26da96cc1adb447cbe02a3cf45aac1a54e070ec3092753a3dca7c466",
+      "crc32": "4b5ae106"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/pure_bullet_art16.h": {
+      "bytes": 2891,
+      "sha256": "db5aa14e4bcb4107f7767837bee5fc32a6732ca6116816e0bec9299297832142",
+      "crc32": "a71af3d6"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/pure_bullet_mix16.h": {
+      "bytes": 824,
+      "sha256": "5c5456304576d6f6bad3e7254d3b090a68e54a44507e605f60f25fa94fa40f26",
+      "crc32": "0e634f93"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/pure_bullet_scatter16.h": {
+      "bytes": 2388,
+      "sha256": "cc04c6fb13062bfb0fdec9c056dcae28a82e944b5dd489b786fe20b7bb3b34fc",
+      "crc32": "07812cbf"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/pure_bullet_test.c": {
+      "bytes": 32387,
+      "sha256": "b4da63fa35e1faf80c8e202d170cb9ad503ecac298a18c2ebd6cd46df2fd4d03",
+      "crc32": "1db8b831"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/pure_bullet_test.h": {
+      "bytes": 2977,
+      "sha256": "f804fc251176d033468d0ed279bb813f24a4c0e41b77af6ec34c6a6c66b707a6",
+      "crc32": "61ed8166"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/stage9_link.c": {
+      "bytes": 6577,
+      "sha256": "4f97d832844d50bd267ae708d410fd056f4efd9a0b083887db7a00762dc65771",
+      "crc32": "a4f4d14c"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/stage9_link.h": {
+      "bytes": 2132,
+      "sha256": "8ac576b4b3a9c206f1b78b7ae5a108e74e9cd17eacb5d9dd0b24a2a56a9a44d1",
+      "crc32": "9a2d89f7"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/stage9_tiles.h": {
+      "bytes": 1928,
+      "sha256": "6997537319725796e479d4a7d14f3b720c063afd36905906eef4d72da28f49f2",
+      "crc32": "3575180e"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/triple_boss.c": {
+      "bytes": 3854,
+      "sha256": "4e1e0614830399af18ca958a31413719a5cb2da1f0fc8cd42139ef4c1cee02ac",
+      "crc32": "f6e4a589"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/triple_boss.h": {
+      "bytes": 510,
+      "sha256": "6518f7f2530e102aeca75cb1d292ef87657fc38c64215ad2a54532b93511c90f",
+      "crc32": "fbdc1175"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/src/void_display_counter.c": {
+      "bytes": 8954,
+      "sha256": "7d79865dc9b01fda0263fb4f67d8d99b67e46571983860b6a487cbc51e3a93cb",
+      "crc32": "d1c5b5db"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/analyze_display7.py": {
+      "bytes": 14557,
+      "sha256": "08ac9a612bdabdf2e36e54d526fc84465100eb929aeda6a78e0b52f8bf5459ab",
+      "crc32": "50318d17"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/audit_g9_run.py": {
+      "bytes": 36918,
+      "sha256": "60711912541e9d1900ee50884a23aeccd38b9668e0fdb6117b4c5a493aafa243",
+      "crc32": "aeab72ce"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/audit_hazard_contact.py": {
+      "bytes": 26229,
+      "sha256": "9dde7ff7780e1c55daa9aa9711df0afb7eb44f54304875b9121d282674ca675a",
+      "crc32": "ff975cfe"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/audit_motion_delivery.py": {
+      "bytes": 14604,
+      "sha256": "1a96b67c10335f7c59ef904b19f358c29969a2fa86143221eea4f939e4b3e9a0",
+      "crc32": "ea28ff66"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/audit_wave_light_preview.py": {
+      "bytes": 5175,
+      "sha256": "cae8d049d27f4d74312c4daa0fea8e9e6820e780c0c05ac31d32e0be95260345",
+      "crc32": "25428f3a"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/board_run_fx_variant.ps1": {
+      "bytes": 54118,
+      "sha256": "6ae99b0cc11ae663b220b15deca1c0f819f93c8119b4276238ebdb6eb1e3c400",
+      "crc32": "2cc3349f"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/build_atlas.py": {
+      "bytes": 25377,
+      "sha256": "6a66b6f948bf878e95d21158e633babc4c2a327fbcf2af17a60d31867a9033bb",
+      "crc32": "b7b9d0b4"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/build_boss_stress_atlas.py": {
+      "bytes": 10323,
+      "sha256": "372ad17d861f4ea7c183f1eb1a2cad1ae0790b5a84853c40cd15d63338c33e5d",
+      "crc32": "cf3d1cf2"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/build_bullet_scale_atlas.py": {
+      "bytes": 10447,
+      "sha256": "ca8f539d09996ea22da6d6ced0a13575fd23fb0083ae4fe51e6c26b49bb9a8f4",
+      "crc32": "b014c4cf"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/build_cruiser_atlas.py": {
+      "bytes": 22651,
+      "sha256": "bd1fe7cfe3b33b40e2c2161114e42b719932682afe73f9ac6284ee6eb25d703d",
+      "crc32": "7da69e1e"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/build_feedback_atlas.py": {
+      "bytes": 15219,
+      "sha256": "17c3f5e5cab1dd28200ca421b38f9febb6952ecc0d2edc5edfe6fda39af2fa41",
+      "crc32": "c0d05f77"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/build_fx_atlas.py": {
+      "bytes": 13359,
+      "sha256": "0914614d655450d7e3a6d41123c3c53760bfce779743ae044678d7d8072eb4af",
+      "crc32": "18616942"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/build_fx_variant.ps1": {
+      "bytes": 6598,
+      "sha256": "9b64f926be9750312a9c4bf65ffa78e093c6090c71bd0541cad85d6b9062c857",
+      "crc32": "27a76774"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/build_hazard_atlas.py": {
+      "bytes": 16078,
+      "sha256": "7efe149a9801af75cc57ab7f8d0e13d0880a211df1062d1b8adc901aa7b56aa8",
+      "crc32": "44d82a14"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/build_ordnance_atlas.py": {
+      "bytes": 16802,
+      "sha256": "8fd9e2e43059b421e8ca5e12fa76022a4b15fc269b6d751d31f1a84b817a589a",
+      "crc32": "1f4128e1"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/build_precision_atlas.py": {
+      "bytes": 17551,
+      "sha256": "ec871a2b75e344c6559012877ef37cf6ca6bf95865c5e2a11c9bd1c169f90174",
+      "crc32": "36c8e7a2"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/build_pure_bullet_art16.py": {
+      "bytes": 6917,
+      "sha256": "4899b16e60a78116a876c010eda1be1c85796573362df59f81c879c0162a97de",
+      "crc32": "b4aa5f2a"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/build_pure_mix16.py": {
+      "bytes": 7199,
+      "sha256": "4e3bf815c6e8ad5800e3ae2bd0dba55050ac9d97c32457249244bb8d3d864d90",
+      "crc32": "680000f6"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/build_pure_scatter16.py": {
+      "bytes": 13376,
+      "sha256": "98a8806c2f8a217091916d045059480cf2d5e0850ff295fca6436d0708d3050d",
+      "crc32": "b80b08f7"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/build_scene_atlas.py": {
+      "bytes": 24028,
+      "sha256": "c759ebee389df84441aac8edaa724beb37df0336357de6ae52eaf750e6d40cb5",
+      "crc32": "257eb96e"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/build_variety_atlas.py": {
+      "bytes": 18995,
+      "sha256": "394b0728ac541d6a7ffc37995ef1bbf7a6be8d3fe84330e503f002920c1df6fb",
+      "crc32": "5513fea6"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/capture_phase2_fault.py": {
+      "bytes": 3145,
+      "sha256": "e966628e091d69590fbedac5c22527ab05e9a6c99fd33547c88b62c443657e55",
+      "crc32": "1e888cce"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/check_cruiser_contact.ps1": {
+      "bytes": 9844,
+      "sha256": "6f123344e279d3eb432a540d9ef7750da5cc84d572b52ad88fd318e2931cbf0d",
+      "crc32": "7c8f5707"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/check_game_session_board.py": {
+      "bytes": 2757,
+      "sha256": "df4fb8658e680c7f4d955026d77fb95d38d5736826912a5181bf08d3ec1fc1e6",
+      "crc32": "92d9acff"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/check_hazard_contact.ps1": {
+      "bytes": 9843,
+      "sha256": "3048dfc9359866faa46498776b800d87a3927ec388ab95d3b0b71746e53ae380",
+      "crc32": "842298a8"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/check_idle_takeover_board.py": {
+      "bytes": 1624,
+      "sha256": "8d3527e4d7b05594d486ef87af8e6e517673ad3cd6b0eea509e73cea3c87b6a2",
+      "crc32": "0b1a25ea"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/invoke_gdb.ps1": {
+      "bytes": 2841,
+      "sha256": "207b5ae7bd36c92409c9c03e9f27383d06ee49dae9f282333f704af1f8af2221",
+      "crc32": "bd456788"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/Makefile.fx": {
+      "bytes": 1763,
+      "sha256": "4f55abefd56a00197e9c9e54a24d4599b39493af064754bf96b920cb882bc6a5",
+      "crc32": "fc8930e9"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/measure_three_boss.py": {
+      "bytes": 5278,
+      "sha256": "02ff253d2ae35f1174e3fcdf0f1fee09145902c50f33d90e82de3db31aaaccf7",
+      "crc32": "e4524b27"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/pack_stage9_tiles.py": {
+      "bytes": 10989,
+      "sha256": "2dc13c26a0003218ac19d1115b157553128f3f34f5f569d3f6fc209de8942aeb",
+      "crc32": "09d847ad"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/probe_three_boss_display.py": {
+      "bytes": 1836,
+      "sha256": "88ea116e48a9fbb16eae762dd858138b27d0bafb901a412e492f5e91f2c52e23",
+      "crc32": "b2e627ff"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/recover_rtl11.ps1": {
+      "bytes": 6929,
+      "sha256": "9641cccdceb5d6e0aa2b7be8098467652c3c1e77298ade58189f42b53bceb165",
+      "crc32": "22b41e50"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/recover_rtl13.ps1": {
+      "bytes": 10847,
+      "sha256": "ece5b8abc6705aace12638db49674cea324d4fd1910abbf54a8fa155425e90d0",
+      "crc32": "3fbb888c"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/render_animation_preview.py": {
+      "bytes": 8741,
+      "sha256": "091c148af474b02ddbf78a56afb11fa2a101bf92e23123240105931d3da7741d",
+      "crc32": "527fb1ba"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/render_combat_preview.py": {
+      "bytes": 6649,
+      "sha256": "803f25b194253f98fd6e0f8ccbf53c150b74035ade716a7927e3a03c98bdf710",
+      "crc32": "eeb700b4"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/render_reward_preview.py": {
+      "bytes": 6633,
+      "sha256": "a39d3405318f8310352b1c937a8cf250d58a0af8b564133804c5cae9c85f5282",
+      "crc32": "6c5487f5"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/render_rhythm_preview.py": {
+      "bytes": 7915,
+      "sha256": "d22b49596eca85a6daff4aa827e23f65dd258f6cc506406842108a784c99abaf",
+      "crc32": "ebdd5540"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/render_scene_preview.py": {
+      "bytes": 6121,
+      "sha256": "2e8d0ca63f99025b4f5b4593fc72eccc2fdd144f91eb54e3e35de3bea03d7316",
+      "crc32": "b4ccc483"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/render_ui_preview.py": {
+      "bytes": 6781,
+      "sha256": "03ad58916e36cdc5c5b6fc507922e20ff7ab0b33813cc3842ec9a6af97ac5684",
+      "crc32": "c177528d"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/resolve_rtl11.ps1": {
+      "bytes": 1752,
+      "sha256": "9df7f7e8a8127603a8b2b73aab5179984314cc129ad052c49e99cddaec75d703",
+      "crc32": "ccdfd1fb"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/resolve_rtl13.ps1": {
+      "bytes": 1749,
+      "sha256": "fe1d1cc6b6cc8ca1459f2c39465516722530022ea73ca4e3f1700ae2db4da26e",
+      "crc32": "efc11b0e"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/summarize_animation.py": {
+      "bytes": 25240,
+      "sha256": "7963c714f3cc01dae2a29694aedc1888d016f3c3fd05a7228e09a7b1b9fda415",
+      "crc32": "a3526176"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/summarize_batch_game.py": {
+      "bytes": 5880,
+      "sha256": "c9096643e47fb7b7a2b7bd46f0d6a84b52b56784afd37ce33e68b132cdf3d85d",
+      "crc32": "bdd06952"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/summarize_batch_perf.py": {
+      "bytes": 15113,
+      "sha256": "895f832fbd9d2e808db9e4568922fb0489d500c272cde0c662d1869966aea05d",
+      "crc32": "03384d01"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/summarize_coherent.py": {
+      "bytes": 5435,
+      "sha256": "0769c1f7fb57b080fb60a918a8fd480596af0a6dfc50fb965bed3aed97bbeb93",
+      "crc32": "f8709847"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/summarize_combat_smoke.py": {
+      "bytes": 12933,
+      "sha256": "e324b61be7d6e5213c8a18ccc1acc83280a7bf92c6b1618e8aae9d1cdade81df",
+      "crc32": "5bb7d519"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/summarize_combat_transition.py": {
+      "bytes": 9929,
+      "sha256": "e0f6f30dc76c38b420dc64a74ddf6e0e7e013e85e5b8eff433882b265f775919",
+      "crc32": "529b898f"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/summarize_controls.py": {
+      "bytes": 14450,
+      "sha256": "b51832aec45b71deb31de611d4ada5dd4267c14241a082b12ef139f2bc4f3146",
+      "crc32": "2eab546a"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/summarize_cruiser.py": {
+      "bytes": 3444,
+      "sha256": "ed08b7f71be1f84fe150e5a769463a9c25806476d2a413f0ee09a11186d5a7b7",
+      "crc32": "a77e22e9"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/summarize_feedback_smoke.py": {
+      "bytes": 21750,
+      "sha256": "ad0b438f6bb8c61bd6c126a642035b70292c3f71b7d2b3d15b1aa15769bf9269",
+      "crc32": "f6db69e5"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/summarize_hazard.py": {
+      "bytes": 12524,
+      "sha256": "c52f3a647a2494a47dfe3d6484285b1bb8221c71ab9e83220a2eca7b17a6e493",
+      "crc32": "68c9bf4a"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/summarize_ordnance.py": {
+      "bytes": 8626,
+      "sha256": "e0413dcf6d922634da02ce3cdabda5e2de39a880471900c9da5e8d8f174e79bd",
+      "crc32": "7170aea0"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/summarize_precision.py": {
+      "bytes": 28674,
+      "sha256": "89cf9974fcbbcabc5f92b0c0e58085dcd9d84d43a10b8d312c43f801b3b79327",
+      "crc32": "f183978f"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/summarize_reward.py": {
+      "bytes": 20946,
+      "sha256": "819539dec9ca2192dd6f0149ac348ba87ab635b1555b5870e54a2760c0dac3b2",
+      "crc32": "52c441d0"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/summarize_rhythm_perhit.py": {
+      "bytes": 12921,
+      "sha256": "f77f1dde1dadaade0cb5cee0067f991a26f550924f74dc67a54f99968fdbc9f3",
+      "crc32": "c5758ba6"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/summarize_rhythm_smoke.py": {
+      "bytes": 10835,
+      "sha256": "6d55feaef217ddb480abaa6044ad87204995a0f492ab69341185b8bae76cbb91",
+      "crc32": "f80e656a"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/summarize_scene_smoke.py": {
+      "bytes": 25020,
+      "sha256": "87a304c9ecbc2ababdd2894fd63a6e4990b611ecb3e4b66b7d53f62aaef12bbc",
+      "crc32": "94c8001c"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/summarize_sortie.py": {
+      "bytes": 3559,
+      "sha256": "d4ddddcd3b756e5240c4669de3c711ec7ebd85236d272833aa7e7ff21f798f46",
+      "crc32": "5d518b2b"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/summarize_stage_smoke.py": {
+      "bytes": 19683,
+      "sha256": "dd61e197df57d62a70dbef3e14d7a73470eea788e1e270b9980efab839ceffc3",
+      "crc32": "5de82229"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/summarize_variety.py": {
+      "bytes": 9251,
+      "sha256": "2192d52c57d9677ea387e2019bbef75e9ab14f588903705804fbe1bb7509401a",
+      "crc32": "15b9b112"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/test_audit_g9_run.py": {
+      "bytes": 4490,
+      "sha256": "9de2d0c740500d799ffce6dbcea6de086ae83073488cdccfbaa70929654d8492",
+      "crc32": "fe549fb3"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/test_audit_motion_delivery.py": {
+      "bytes": 14470,
+      "sha256": "f3d4220c1318767a9541d8a23c24a2b0fc8736c07045a29b23ecabad16ae9770",
+      "crc32": "78380bdd"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/test_batch_game_audit.py": {
+      "bytes": 7887,
+      "sha256": "ff3eb65b90026ce39fe14720bcc211801204ba789b56929634d9c71f0c37debf",
+      "crc32": "9e9b2ae6"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/test_batch_perf_audit.py": {
+      "bytes": 13167,
+      "sha256": "1b704738789e6f03f1fb09b500329236119b6c8c7b22cb4aa7f4ab68ad7ec670",
+      "crc32": "aca73b01"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/test_boss_stress_assets.py": {
+      "bytes": 3888,
+      "sha256": "1c9c508bd7761b4c6a0c00322cb34a011b7722ac36f3e85cef6d5de957d63eba",
+      "crc32": "dee4607f"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/test_bottom_clear_order.py": {
+      "bytes": 2370,
+      "sha256": "12a50dc81cb7bb6241b566c965b989c0f235f2870706fcfbefe5420f145a8974",
+      "crc32": "403de26a"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/test_coherent_audit.py": {
+      "bytes": 12029,
+      "sha256": "d59f77726e95517dca2db286c0bf6c4b5815f8f4b53b8006d3a150cdcbfc32f2",
+      "crc32": "bb48c88a"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/test_gdb_capture.py": {
+      "bytes": 8742,
+      "sha256": "ac3350ef110ceb490cb0b98f49dbf9cf14097f19098427f8f46106f36e82f438",
+      "crc32": "586bfa7c"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/test_pure_model_equivalence.ps1": {
+      "bytes": 2065,
+      "sha256": "7150a8eb6ca88150193657f33c62872c9e2aefb34b5e04f1756f7d9ac107a15c",
+      "crc32": "2a76f555"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/test_recovery_contract.ps1": {
+      "bytes": 11230,
+      "sha256": "1f952dd0501796d13d2df5bdf5c6fcc0579d31910136fe3d410208635a05661e",
+      "crc32": "b4283cc9"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/test_start_garden.py": {
+      "bytes": 12172,
+      "sha256": "339f1444586adfe55c731398c1961def4aee69c3eb6095a5cd2775de8626de54",
+      "crc32": "51099ae4"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/test_summarize_controls.py": {
+      "bytes": 10137,
+      "sha256": "3e99a59cfaa4ca3a5b02b9620c6a0bac8feaba4d93de5e895fe940dfb40cb868",
+      "crc32": "6e8406b7"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/test_variety_audit.py": {
+      "bytes": 14762,
+      "sha256": "33ce299d7978d1fa62733dd8849a049632008b9aface3cc302219c03e85c56e8",
+      "crc32": "d6bf2598"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_actor_hud.py": {
+      "bytes": 3175,
+      "sha256": "20c4cb04087030ee7b1707ae41013f1c7ab5857c985cbb7386120ab031cde4ee",
+      "crc32": "39a8896e"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_actor_renderer.py": {
+      "bytes": 5114,
+      "sha256": "813084c4676e6116bae477dbd2648230b05a8e10d3cb51e368d61be6abe01c43",
+      "crc32": "dcb52786"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_animation.py": {
+      "bytes": 3980,
+      "sha256": "c77f1ccd42e2524aac5b0366ea9bf08a527888e94f18cde4bd1c9fea5555b1c4",
+      "crc32": "df096704"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_animation_scene.py": {
+      "bytes": 5056,
+      "sha256": "ed060efdaceab6bdd6fc4b1213d506f12c02c081cf5df82a0331b4a8969d8f61",
+      "crc32": "d74f4ee5"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_batch_driver_host.py": {
+      "bytes": 2169,
+      "sha256": "18109eb149879e3a976e9e47f6601360bb448c57e1eb5a62fb3f5e0e765671f1",
+      "crc32": "c8ec3512"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_batch_render_host.py": {
+      "bytes": 5900,
+      "sha256": "ca049762ed797b853d7bc58cd4bdbe0dcc433d6d1645cf8f8fb4c75d8e5a61fc",
+      "crc32": "691e57ce"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_boss_calm.py": {
+      "bytes": 5217,
+      "sha256": "c5645415033b9a474ce72a5667803c2fa91b50db34ac4a72f6dfa8924e17ed6e",
+      "crc32": "a1b6e315"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_boss_nose.py": {
+      "bytes": 4641,
+      "sha256": "0356f1c04bacd6903ef51be9fff0a8b4395f7f689f6f4dc2127f065727054f34",
+      "crc32": "892da4cd"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_bullet_heading.py": {
+      "bytes": 4019,
+      "sha256": "41584f6de16e61419c6e5dae79b2445fd8def13338c99f407961efe9857b85fa",
+      "crc32": "507274e8"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_bullet_scale_assets.py": {
+      "bytes": 12902,
+      "sha256": "a79ec8cc1cc99720dd6a34c44296c0f9b93657bf284861f2e095ebec975fe18d",
+      "crc32": "6e904d1c"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_coherent_patterns.py": {
+      "bytes": 5090,
+      "sha256": "89f024d52a412b63af440d1a651fa3a9319946037112e24e3f042867984fa840",
+      "crc32": "e751dcd3"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_combat_core.py": {
+      "bytes": 8828,
+      "sha256": "186496dea03262bc241a4b8631afffba983c6cf2d796e809a759bbedd0c2e7a2",
+      "crc32": "eaf97c54"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_combat_feedback.py": {
+      "bytes": 9848,
+      "sha256": "20686e314e19c391c185d417457d8cb92883ada71a52f6c94befd9c257600beb",
+      "crc32": "a9d9b35e"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_combat_legacy.py": {
+      "bytes": 3573,
+      "sha256": "4c6d14b0cad9dd5456cfc31df8f35ce9656131088b5f3351c2b2fbfaa8789eb5",
+      "crc32": "96632659"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_cruiser_assets.py": {
+      "bytes": 12741,
+      "sha256": "4b5b15629ac21f6e5c8d1f62d28094f0c0b8b38e053a9c703bc0ef61465d5ea0",
+      "crc32": "6227bedf"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_cruiser_view_host.py": {
+      "bytes": 5176,
+      "sha256": "f2d3634fd1502ac1b5e8840a9a28ec935c3e72c6895139747d59e3a65ceb3d1c",
+      "crc32": "33512634"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_damage_sum.py": {
+      "bytes": 6677,
+      "sha256": "a44c4b3bb6bad5e436857996137d821a20413065629c49e596bdc07b4f390a7c",
+      "crc32": "0da094f2"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_demo_bomb.py": {
+      "bytes": 4934,
+      "sha256": "857a7ebd42a1621d8e0558b8e36e47eb3125895522785cde7a8176c77b7a2150",
+      "crc32": "833e32b5"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_display_target.py": {
+      "bytes": 7210,
+      "sha256": "5a6de60bfd74d03ed69d5b6ce8e2dbd4e6b050ad5f87af77c5df6d7960315ffa",
+      "crc32": "9335853e"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_engineering_ui.py": {
+      "bytes": 4208,
+      "sha256": "6cb85fe7ec87400c935dab7877bdf3ce17e9ed0ae76172c0400e5ebd77bfdbe8",
+      "crc32": "07bf5127"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_feedback_host.py": {
+      "bytes": 4608,
+      "sha256": "37b14895e23f6ffd1c623d6d058236917560a5026515319f7da1653a811b127a",
+      "crc32": "260b54de"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_feedback_hud.py": {
+      "bytes": 3546,
+      "sha256": "953ea4687cbecdf41e0a4c861d5f0a07b209064011dfe570c911584adda9a870",
+      "crc32": "7747d922"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_fx_host.py": {
+      "bytes": 4767,
+      "sha256": "8bf92f16357da0fad4db4d0e1b8ead36d8da34915d0edcfd6fc047e7324918e7",
+      "crc32": "37a4fd5e"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_g9_route.py": {
+      "bytes": 2611,
+      "sha256": "501eabeb6bae52ab8dc47c3691c1ad4def04b2fc45724f41154992b85943d330",
+      "crc32": "b74e005a"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_hazard_assets.py": {
+      "bytes": 8410,
+      "sha256": "20b07a1950be07050ac4ab2e4b9e229caea37dbc2bbce3749662fbfe6b8169ef",
+      "crc32": "17d35318"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_hazard_core.py": {
+      "bytes": 5794,
+      "sha256": "62378661fdd6443710610984ddeeac2fc599edbad8ef145c90b431385192dd7d",
+      "crc32": "2f97a70e"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_hazard_view_host.py": {
+      "bytes": 4603,
+      "sha256": "8bb00608e01183c493adda8f6319980c743a8a2c8b788192496ed9d7ae0452b0",
+      "crc32": "093018f2"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_health10_core_host.py": {
+      "bytes": 5407,
+      "sha256": "ace85cea256eed8728a68ac6e16ec6e1ec3e3b2514cd6e370b0a6388d04e631f",
+      "crc32": "9d2cf16f"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_health10_ui.py": {
+      "bytes": 2281,
+      "sha256": "dc6c39886177a44168fda2c01e61bfe58a7bab3ea5f3ebff68ccd9e81edd4258",
+      "crc32": "74e99549"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_hp_animation.py": {
+      "bytes": 1735,
+      "sha256": "46eaa32fcad3d4b5ee23c97f2979afe8766434a1baf37c2b869cf48e97e333b2",
+      "crc32": "7be0e454"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_motion.py": {
+      "bytes": 7999,
+      "sha256": "76c4243fbf1d9a58ee67f7388ec463cabbd0039f56de94533d8e4b32bde59744",
+      "crc32": "dc1de8a5"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_ordnance_assets.py": {
+      "bytes": 5795,
+      "sha256": "caf63c9a80e7f7dc04eb34f40a633627bd03587865fbc2818919e739eebccbf8",
+      "crc32": "1707535d"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_ordnance_core.py": {
+      "bytes": 5688,
+      "sha256": "002505fe50ace45b3172ab35436ad9a8cfa7cb7cdd62b47d6bd9f67259e737ca",
+      "crc32": "0827e721"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_ordnance_view_host.py": {
+      "bytes": 4166,
+      "sha256": "b7b05833afb288115967803ad649ef248720b7d06a8f08c5bb9f95f80051bb2f",
+      "crc32": "d08a1f47"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_precision_assets.py": {
+      "bytes": 9347,
+      "sha256": "5ea4b63b8a06c17313a3bcc4d83e06e4e41369b3f3dccb32abc7d9000f591e0f",
+      "crc32": "dfc46725"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_precision_heading.py": {
+      "bytes": 11806,
+      "sha256": "938077d4e0d0da94de0a9b2a963bee9fa1a7cd9552f53ce5916cc7fcd00b328b",
+      "crc32": "f9c082a5"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_precision_probe.py": {
+      "bytes": 6150,
+      "sha256": "40a4bf0708c451b9d6ffed6ec1ff5b809c8e156fed2da748a634c4580836d266",
+      "crc32": "23b5dc4d"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_pressure_player_host.py": {
+      "bytes": 11569,
+      "sha256": "e63a9e801900092e7bb91743fd659a4da9cac864a3cddea7b0a2894501d3dc08",
+      "crc32": "332ed205"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_render_batch.py": {
+      "bytes": 9379,
+      "sha256": "f9c4f56e44dc1816aaeefc4c3e8b81688ef65cedbe7198664b39b31b3eda50c8",
+      "crc32": "3f9653b4"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_reward_core.py": {
+      "bytes": 3125,
+      "sha256": "54e5ad2edb928c8bbe2993c30cc02a78f9287ac2bed8e151a337e9e44cf30b99",
+      "crc32": "e93ff77e"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_reward_presentation_host.py": {
+      "bytes": 4253,
+      "sha256": "7c8ae0e619aa32f480e9f95e239a30b73c2ba59941d8094977ffad140dc609c5",
+      "crc32": "9e05ca94"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_reward_render.py": {
+      "bytes": 7119,
+      "sha256": "d2d192207f509c60c671f73ea7684a377bc2bcf4c86ab699123186169aa7e936",
+      "crc32": "19c4069a"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_reward_ui.py": {
+      "bytes": 4150,
+      "sha256": "3557f70c88c999f6ba1418d1881fb677b5561581ab019154b8a5007f204f1126",
+      "crc32": "d0954676"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_rhythm_allocator.py": {
+      "bytes": 8698,
+      "sha256": "f692bbc774ef0af79777f32e008b44b293906cce99aaa5922d8d78b8c72b9a83",
+      "crc32": "f346334c"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_rhythm_core.py": {
+      "bytes": 6729,
+      "sha256": "15ed109e87d842788d30795d4bf2bc5dffa313b8d43e5d0c075e78ccb0bcb600",
+      "crc32": "80cec2c9"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_scene_host.py": {
+      "bytes": 4695,
+      "sha256": "112f064cb9f1386baa5af32e894abaf3719311a223e7cae1c926ae4627e7d7b4",
+      "crc32": "75059538"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_score_renderer.py": {
+      "bytes": 4214,
+      "sha256": "a0e0f0c5ff9ad0ff0c0cff49a71126c026feff594044a2bd7b74cc9a85365128",
+      "crc32": "3dd92be0"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_settlement_fill.py": {
+      "bytes": 6680,
+      "sha256": "f51c933581cad5391749480b6a6c8d9c363d0433d8384a97a1fc21cd78748bf0",
+      "crc32": "ac34795a"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_stage_host.py": {
+      "bytes": 4264,
+      "sha256": "5869ceb0bf1a54d2dcec444a9e4a016806701c173d897c96eb1f38f4f6915e4d",
+      "crc32": "d8862af9"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_triple_model_host.py": {
+      "bytes": 2137,
+      "sha256": "f28ede1a3d8d4312fe0e94d9535778e5796dc10228f344d7f5be821c34a72943",
+      "crc32": "12d50b73"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_variety_assets.py": {
+      "bytes": 11320,
+      "sha256": "1c894ac885ae20e79a3a013c4d307c5add0cb9fcacd3cd50cf6c2fb642728df0",
+      "crc32": "5918ff41"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_variety_patterns.py": {
+      "bytes": 3665,
+      "sha256": "bd4568b30470757d2b52524c153903bbfa8e03d65902b6495ff61ba631aaca56",
+      "crc32": "4262ee0a"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_variety_view_host.py": {
+      "bytes": 5192,
+      "sha256": "4822364fcf75acdcd2812a5d8180cada661093d0500ad06246a48d2ba37fc81a",
+      "crc32": "5e7d5572"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_warning_bomb_host.py": {
+      "bytes": 3467,
+      "sha256": "3a5f375a4ec292cb2f205cb6714c1f8c0020516f95708ebec22aea169f14b213",
+      "crc32": "fca97cde"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_wave_density.py": {
+      "bytes": 4235,
+      "sha256": "b717fa955ca0a7b3620082bebcc516e095e2bef8bce925ff6e400acec9ca50e7",
+      "crc32": "1da6a67e"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_wave_fixed.py": {
+      "bytes": 5503,
+      "sha256": "3ef8d845f84ff5a42e756099f197be6423e922db141a0614bc609e1ed4e766b9",
+      "crc32": "1ac14a3d"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/variants/chp10_1102/tools/verify_wave_patrol.py": {
+      "bytes": 7496,
+      "sha256": "38d5adea70bbf00b3565ffc2e3306b9e0d4cdae4f66c130f4ef6bd3e8329c087",
+      "crc32": "c1a2151a"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/application/gpuGardenDemo/vendor/garden-1.0.9/COPYING": {
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "crc32": "6677f57c"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/common/start.S": {
+      "bytes": 1317,
+      "sha256": "1f766009dfadd1b2b7808433054e211cd78ff14ec1054af85a8a61b6b413b462",
+      "crc32": "75b25ed2"
+    },
+    "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/embedded_sw/soc/software/standalone/common/trap.S": {
+      "bytes": 783,
+      "sha256": "20affa68e66b099aa688884b13c182a49fd7f5be7df9b9ed80799c2a95d5f8e9",
+      "crc32": "9cb8be77"
+    }
+  },
+  "original_sources_modified": false,
+  "flash_offsets": null,
+  "flash_programmed": false
+}

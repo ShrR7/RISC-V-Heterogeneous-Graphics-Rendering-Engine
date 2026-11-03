@@ -1,0 +1,13 @@
+Retained Garden baseline assets and typography
+
+Original Garden 1.0.9: Linley Henzell; GPL-3.0-or-later.
+Full license text: ../COPYING. Original authors and resources remain in
+../../assets/original/ relative to the variant root; the original upstream
+archive is ../../vendor/garden-of-coloured-lights_1.0.9.orig.tar.gz.
+
+baseline_atlas.bin and baseline_manifest.json are the unchanged input snapshot
+for the variant packer. This edition replaces selected graphics with CC0 art;
+the retained HUD fonts and adaptation code remain GPL-3.0-or-later.
+The 8x8/16x16 HUD font is adaptation content, not the upstream garden.dat font.
+Regenerate this edition with tools/build_void_atlas.py, not tools/build_atlas.py.
+The atlas bytes are stored separately from C metadata.

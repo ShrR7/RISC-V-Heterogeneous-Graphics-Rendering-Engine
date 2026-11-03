@@ -1,0 +1,103 @@
+{
+  "schema": 1,
+  "build_id": "20261031-j2-dual-nimble252-r7",
+  "chip": "esp32",
+  "expected_mac": "c8:8a:7b:8c:ea:74",
+  "expected_chip_type": "ESP32-D0WD-V3",
+  "flash_bytes": 4194304,
+  "sources": [
+    {
+      "path": "sources/bridge_runtime.cpp",
+      "bytes": 15030,
+      "sha256": "880c044dfbb2b65ff267e9061a9923170cdd23aa3e56f7264929f5f16e4fda32",
+      "origin": "03_Software_Firmware/joycon2_dual_bridge/joycon2_dual_bridge/bridge_runtime.cpp"
+    },
+    {
+      "path": "sources/bridge_runtime.h",
+      "bytes": 86,
+      "sha256": "9c594c1a2e7dde013b8ef991b87a7ed4eb6eeca7161dc152eca9e0657e3add74",
+      "origin": "03_Software_Firmware/joycon2_dual_bridge/joycon2_dual_bridge/bridge_runtime.h"
+    },
+    {
+      "path": "sources/j2_protocol.h",
+      "bytes": 6455,
+      "sha256": "1b330f860e89810f32b99743fa43a49c720aae0986522a29b69d2dd323069a70",
+      "origin": "03_Software_Firmware/joycon2_dual_bridge/joycon2_dual_bridge/j2_protocol.h"
+    },
+    {
+      "path": "sources/joycon2_dual_bridge.ino",
+      "bytes": 124,
+      "sha256": "258364275927d8f0fddc7ca9415b22a7cb6461292e4f60da7449313301f034f7",
+      "origin": "03_Software_Firmware/joycon2_dual_bridge/joycon2_dual_bridge/joycon2_dual_bridge.ino"
+    }
+  ],
+  "images": [
+    {
+      "name": "bootloader.bin",
+      "path": "images/bootloader.bin",
+      "offset": "0x1000",
+      "bytes": 23520,
+      "sha256": "f7ec7b7d9026e12dd3616bf79cee0e78974a2605afbc2863fcfb0ac9aeb159d4"
+    },
+    {
+      "name": "partitions.bin",
+      "path": "images/partitions.bin",
+      "offset": "0x8000",
+      "bytes": 3072,
+      "sha256": "148b959cbff1c38aa8e1d5c0ba9d612c54997b945e56a63f41223eef650653a1"
+    },
+    {
+      "name": "boot_app0.bin",
+      "path": "images/boot_app0.bin",
+      "offset": "0xe000",
+      "bytes": 8192,
+      "sha256": "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0"
+    },
+    {
+      "name": "application.bin",
+      "path": "images/application.bin",
+      "offset": "0x10000",
+      "bytes": 606000,
+      "sha256": "537e66179bfc2f030fa8ae6724cce3609a616ca3723c64fe6ac19d62d36277fd"
+    }
+  ],
+  "esptool": {
+    "path": "06_Controller_Dependencies/j2sdk/data/packages/esp32/tools/esptool_py/5.3.1/esptool.exe",
+    "bytes": 14323136,
+    "sha256": "a939e28fe2fbb53e65e46f0246a4d71b9fd6c052ef0e046182df4a4fe8bec946"
+  },
+  "rollback": {
+    "path": "06_Controller_Dependencies/joycon2_dual_20261031/private_backup/esp32_before_joycon2.bin",
+    "bytes": 4194304,
+    "sha256": "260bc6c041e2b6c6aaee23276226d7a7d629b8c793df4122f9c839e0e7d40023"
+  },
+  "preserved_nvs": [
+    "0x9000",
+    "0xe000"
+  ],
+  "whole_chip_erase": false,
+  "default_hardware_access": false,
+  "new_cold_reconnect_accepted": false,
+  "historical_esp32_r7_flash_verify": "20261031_203336; prior evidence, not a new joint acceptance",
+  "controls": {
+    "left_stick": "move",
+    "right_stick": "move",
+    "left_right_arrow": "throw",
+    "left_down_arrow": "restart",
+    "left_up_arrow": "T",
+    "left_left_arrow": "CPU/GPU",
+    "right_A": "throw",
+    "right_B": "restart",
+    "right_X": "T",
+    "right_Y": "CPU/GPU",
+    "plus": "pause/resume",
+    "minus": "auto/manual",
+    "L_R": "focus"
+  },
+  "origin_manifest": {
+    "path": "origin_manifest.json",
+    "bytes": 2782,
+    "sha256": "56b5a6c35019899efe2ab00b6caff8f0dd0ff679e800840647c767ba3e732dc4"
+  },
+  "private_backup_is_not_copied": true
+}

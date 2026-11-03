@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "format": "CGB1",
+  "version": 1,
+  "flash_bytes": 8388608,
+  "manifest_flash_offset": 4194304,
+  "header_bytes": 192,
+  "header_crc32": 2107354930,
+  "entry": 4096,
+  "gpu_id": 1196447025,
+  "bul9_id": 1112886329,
+  "bul9_revision": 65543,
+  "jedec_id": 15687703,
+  "entries": [
+    {
+      "kind": 1,
+      "name": "game.bin",
+      "source": "E:\\SUAT\\FoCM\\Efinix\\03_Software_Firmware\\garden_hp10_autoboot_20261102\\inputs\\game.bin",
+      "flash_offset": 4198400,
+      "ddr_address": 4096,
+      "bytes": 118862,
+      "crc32": 1645679095,
+      "sha256": "e21f57a34f4d854410e2cffdfaed0a4dd56b8182934c31b7cd746cd58a06caca"
+    },
+    {
+      "kind": 2,
+      "name": "atlas.bin",
+      "source": "E:\\SUAT\\FoCM\\Efinix\\03_Software_Firmware\\garden_hp10_autoboot_20261102\\inputs\\atlas.bin",
+      "flash_offset": 4321280,
+      "ddr_address": 6045696,
+      "bytes": 755700,
+      "crc32": 1083006358,
+      "sha256": "48e6a628e02d68f1bbd86be37c85dcccd3df800d6c79aa3e58ccd5571a56b867"
+    },
+    {
+      "kind": 3,
+      "name": "stage9_tiles.bin",
+      "source": "E:\\SUAT\\FoCM\\Efinix\\03_Software_Firmware\\garden_hp10_autoboot_20261102\\inputs\\stage9_tiles.bin",
+      "flash_offset": 5079040,
+      "ddr_address": 9437184,
+      "bytes": 666624,
+      "crc32": 307278501,
+      "sha256": "6a73ac55168bae6b84853f7d75fb57f960d63e52729235749610df8d7f0b07db"
+    },
+    {
+      "kind": 4,
+      "name": "pure_scatter16.bin",
+      "source": "E:\\SUAT\\FoCM\\Efinix\\03_Software_Firmware\\garden_hp10_autoboot_20261102\\inputs\\pure_scatter16.bin",
+      "flash_offset": 5746688,
+      "ddr_address": 10158080,
+      "bytes": 28640,
+      "crc32": 1323730624,
+      "sha256": "a738c4dff7eb4e4c7b2b73c5b56780b338940ec21b663b3a959231d44643bfa6"
+    }
+  ],
+  "segments": [
+    {
+      "name": "boot_slot.bin",
+      "flash_offset": 3670016,
+      "bytes": 126976,
+      "sha256": "daaaddab6b275694085571d63bf97531e42709a43a85236309f51937c7ec5bf6"
+    },
+    {
+      "name": "payload.bin",
+      "flash_offset": 4194304,
+      "bytes": 1581056,
+      "sha256": "f03b1e6e01fca8c2e95205d994b9887e1e9f93577c959683a4f29b86ff8e6032"
+    }
+  ],
+  "flash_programmed": false
+}

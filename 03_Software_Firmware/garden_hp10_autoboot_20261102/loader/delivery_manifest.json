@@ -1,0 +1,129 @@
+{
+  "source_files": {
+    "package.h": {
+      "bytes": 1396,
+      "sha256": "769fa6c5614677ac51c266cba91f057005b259aedd2ab9faed9785922f2d7a52"
+    },
+    "package.c": {
+      "bytes": 2673,
+      "sha256": "53e090878ee3921c2abf36c2d7ee4efd3e2f18485c825e9dbd72dd650cc8d0de"
+    },
+    "stage1.S": {
+      "bytes": 1456,
+      "sha256": "fca17be08027a121cd1d28d290b8298977e4eea1fa7047ea9babd1f061e55ac8"
+    },
+    "stage1.ld": {
+      "bytes": 295,
+      "sha256": "d5b8fdef9cc1db49991765ede9b2326598ac03f4fb7a0b96b452c64e5839348d"
+    },
+    "stage2_start.S": {
+      "bytes": 507,
+      "sha256": "1b87d51a18b91809eea30c0e516d3969bd56e7909b6b4484e066129545c3a35d"
+    },
+    "stage2.c": {
+      "bytes": 5094,
+      "sha256": "015f31e645601bac608b1f538f6ca41312702520b3921782184675a464c9252e"
+    },
+    "stage2.ld": {
+      "bytes": 669,
+      "sha256": "2c234b64ba2c9814b3b046255db1d03a1b2e76392b1abf84c1bc8d27969c4bcd"
+    },
+    "build.py": {
+      "bytes": 3644,
+      "sha256": "21af5a9a24f2d11d1d5f7ab58816defeb1acbb2652d2de4c954ebf8cf9486402"
+    },
+    "pack.py": {
+      "bytes": 4020,
+      "sha256": "b5b1a64a8174107a9a668853b7989c0bd2efd28710e872bed6550d14b489ca7c"
+    },
+    "host_checks.py": {
+      "bytes": 5603,
+      "sha256": "c74cf9a37ed85c42730ae9e1c8538ec84fb181a17a206af29eb8a2caf54b487b"
+    },
+    "README.txt": {
+      "bytes": 5982,
+      "sha256": "b9814a4edd65aefe9276fb655c4ff950d171efa6da4c8ff261be9b15ecf3be8a"
+    },
+    "audit_artifacts.py": {
+      "bytes": 3141,
+      "sha256": "e2406aae31fd08fedda5d25503db32a013d932713ffc637be46440b2cbead9b8"
+    },
+    "record_delivery.py": {
+      "bytes": 2246,
+      "sha256": "810d2f1abb14d0d01ef096e25951f7460c9ccb78ad7d1c349c23f65bd1503f6b"
+    },
+    "display_host_checks.py": {
+      "bytes": 3566,
+      "sha256": "30b6ba70aaba9eb3ae5e152d2246f0e6dcb69937cff1dfea6336df8da56ab792"
+    }
+  },
+  "copied_frozen_build": {
+    "stage1.elf": {
+      "record": {
+        "bytes": 9276,
+        "sha256": "a3eee481ed22645d381b13aa758441eba4a854aa9444a4b3dd9b69235d38b5af"
+      },
+      "identical_to_frozen_origin": true
+    },
+    "stage1.bin": {
+      "record": {
+        "bytes": 3464,
+        "sha256": "88a6ad13d129bc6f61274850d3e1668b6a526445815c76a27ab1a7ec689f38c8"
+      },
+      "identical_to_frozen_origin": true
+    },
+    "stage2.elf": {
+      "record": {
+        "bytes": 26276,
+        "sha256": "5ce5354d70993242841693d552bac66b44e463097b3ea7a3429f620a9e5afb78"
+      },
+      "identical_to_frozen_origin": true
+    },
+    "stage2.bin": {
+      "record": {
+        "bytes": 3212,
+        "sha256": "f970cdfaea04aecb5f3799faf1d7f011e20a96f7e17635d383dff623df5d30fc"
+      },
+      "identical_to_frozen_origin": true
+    },
+    "boot_slot.bin": {
+      "record": {
+        "bytes": 126976,
+        "sha256": "daaaddab6b275694085571d63bf97531e42709a43a85236309f51937c7ec5bf6"
+      },
+      "identical_to_frozen_origin": true
+    }
+  },
+  "repacked_segments": {
+    "boot_slot.bin": {
+      "record": {
+        "bytes": 126976,
+        "sha256": "daaaddab6b275694085571d63bf97531e42709a43a85236309f51937c7ec5bf6",
+        "crc32": "bb179cea"
+      },
+      "identical_to_frozen_origin": true,
+      "frozen_origin_kind": "this_final_build_package_generation",
+      "matches_previously_accepted_package": true
+    },
+    "payload.bin": {
+      "record": {
+        "bytes": 1581056,
+        "sha256": "f03b1e6e01fca8c2e95205d994b9887e1e9f93577c959683a4f29b86ff8e6032",
+        "crc32": "e8489fb0"
+      },
+      "identical_to_frozen_origin": true,
+      "frozen_origin_kind": "this_final_build_package_generation",
+      "matches_previously_accepted_package": false
+    },
+    "header.bin": {
+      "record": {
+        "bytes": 192,
+        "sha256": "ba0248ecd68067446e62ff83acd8f8c9a5338b686a87e2307f5c0359972884df",
+        "crc32": "d8f08394"
+      },
+      "identical_to_frozen_origin": true,
+      "frozen_origin_kind": "this_final_build_package_generation",
+      "matches_previously_accepted_package": false
+    }
+  }
+}

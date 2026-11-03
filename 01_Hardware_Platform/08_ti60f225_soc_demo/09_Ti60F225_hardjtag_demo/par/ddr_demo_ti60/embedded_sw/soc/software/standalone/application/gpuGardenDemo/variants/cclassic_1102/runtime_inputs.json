@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "variant": "cclassic_1102",
+  "mode": "original single Boss with shorter intervals; original single-screen2093 T",
+  "files": [
+    {
+      "path": "build/gardenStage9Game.elf",
+      "bytes": 158236,
+      "sha256": "8292aac1a13a522024d5dfd3dddea73c2ce159fa49dab43ea00ab543293298de"
+    },
+    {
+      "path": "assets/atlas.bin",
+      "bytes": 755700,
+      "sha256": "48e6a628e02d68f1bbd86be37c85dcccd3df800d6c79aa3e58ccd5571a56b867"
+    },
+    {
+      "path": "assets/stage9_tiles.bin",
+      "bytes": 666624,
+      "sha256": "6a73ac55168bae6b84853f7d75fb57f960d63e52729235749610df8d7f0b07db"
+    },
+    {
+      "path": "assets/pure_scatter16.bin",
+      "bytes": 28640,
+      "sha256": "a738c4dff7eb4e4c7b2b73c5b56780b338940ec21b663b3a959231d44643bfa6"
+    }
+  ],
+  "hardware_md5": "D59183E81A58833B1D550A91EBBE5E23",
+  "hardware_repository_path": "03_Software_Firmware/garden_report_phase2_20261101/inputs/ddr_demo_ti60_gpio6_uart.bit",
+  "flash_written": false
+}

@@ -1,0 +1,126 @@
+{
+  "schema": 1,
+  "architecture": "immutable_ROM_124KB_to_DDR_stage1_relocates_stage2",
+  "manifest_flash_offset": 4194304,
+  "bootstrap_flash_offset": 3670016,
+  "bootstrap_load_address": 4096,
+  "bootstrap_slot_bytes": 126976,
+  "stage2_address": 12582912,
+  "stage2_stack_top": 12648448,
+  "probe_address": 12709888,
+  "stage2_crc32": 2079731761,
+  "no_rtl_or_original_sources_modified": true,
+  "files": {
+    "stage1.elf": {
+      "bytes": 9276,
+      "sha256": "a3eee481ed22645d381b13aa758441eba4a854aa9444a4b3dd9b69235d38b5af"
+    },
+    "stage1.bin": {
+      "bytes": 3464,
+      "sha256": "88a6ad13d129bc6f61274850d3e1668b6a526445815c76a27ab1a7ec689f38c8"
+    },
+    "stage2.elf": {
+      "bytes": 26276,
+      "sha256": "5ce5354d70993242841693d552bac66b44e463097b3ea7a3429f620a9e5afb78"
+    },
+    "stage2.bin": {
+      "bytes": 3212,
+      "sha256": "f970cdfaea04aecb5f3799faf1d7f011e20a96f7e17635d383dff623df5d30fc"
+    },
+    "boot_slot.bin": {
+      "bytes": 126976,
+      "sha256": "daaaddab6b275694085571d63bf97531e42709a43a85236309f51937c7ec5bf6"
+    }
+  },
+  "commands": [
+    [
+      "D:\\Efinity\\efinity-riscv-ide-2026.1\\toolchain\\bin\\riscv-none-elf-gcc.exe",
+      "-march=rv32im_zicsr_zifencei",
+      "-mabi=ilp32",
+      "-Os",
+      "-g",
+      "-ffreestanding",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fno-pic",
+      "-fno-unwind-tables",
+      "-fno-asynchronous-unwind-tables",
+      "-msmall-data-limit=0",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-nostdlib",
+      "-nostartfiles",
+      "-Wl,--no-relax",
+      "-Wl,--gc-sections",
+      "-ffunction-sections",
+      "-fdata-sections",
+      "-DMANIFEST_FLASH_OFFSET=4194304U",
+      "E:\\SUAT\\FoCM\\Efinix\\06_Controller_Dependencies\\autoboot_20261031\\loader\\stage2_start.S",
+      "E:\\SUAT\\FoCM\\Efinix\\06_Controller_Dependencies\\autoboot_20261031\\loader\\stage2.c",
+      "E:\\SUAT\\FoCM\\Efinix\\06_Controller_Dependencies\\autoboot_20261031\\loader\\package.c",
+      "-T",
+      "E:\\SUAT\\FoCM\\Efinix\\06_Controller_Dependencies\\autoboot_20261031\\loader\\stage2.ld",
+      "-Wl,-Map=E:\\SUAT\\FoCM\\Efinix\\06_Controller_Dependencies\\autoboot_20261031\\loader\\build\\stage2.map",
+      "-o",
+      "E:\\SUAT\\FoCM\\Efinix\\06_Controller_Dependencies\\autoboot_20261031\\loader\\build\\stage2.elf"
+    ],
+    [
+      "D:\\Efinity\\efinity-riscv-ide-2026.1\\toolchain\\bin\\riscv-none-elf-objcopy.exe",
+      "-O",
+      "binary",
+      "E:\\SUAT\\FoCM\\Efinix\\06_Controller_Dependencies\\autoboot_20261031\\loader\\build\\stage2.elf",
+      "E:\\SUAT\\FoCM\\Efinix\\06_Controller_Dependencies\\autoboot_20261031\\loader\\build\\stage2.bin"
+    ],
+    [
+      "D:\\Efinity\\efinity-riscv-ide-2026.1\\toolchain\\bin\\riscv-none-elf-gcc.exe",
+      "-march=rv32im_zicsr_zifencei",
+      "-mabi=ilp32",
+      "-Os",
+      "-g",
+      "-ffreestanding",
+      "-fno-builtin",
+      "-fno-stack-protector",
+      "-fno-pic",
+      "-fno-unwind-tables",
+      "-fno-asynchronous-unwind-tables",
+      "-msmall-data-limit=0",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-nostdlib",
+      "-nostartfiles",
+      "-Wl,--no-relax",
+      "-Wl,--gc-sections",
+      "-ffunction-sections",
+      "-fdata-sections",
+      "-DSTAGE2_BYTES=3212",
+      "-DSTAGE2_CRC32=0x7BF63031",
+      "E:\\SUAT\\FoCM\\Efinix\\06_Controller_Dependencies\\autoboot_20261031\\loader\\stage1.S",
+      "-T",
+      "E:\\SUAT\\FoCM\\Efinix\\06_Controller_Dependencies\\autoboot_20261031\\loader\\stage1.ld",
+      "-Wl,-Map=E:\\SUAT\\FoCM\\Efinix\\06_Controller_Dependencies\\autoboot_20261031\\loader\\build\\stage1.map",
+      "-o",
+      "E:\\SUAT\\FoCM\\Efinix\\06_Controller_Dependencies\\autoboot_20261031\\loader\\build\\stage1.elf"
+    ],
+    [
+      "D:\\Efinity\\efinity-riscv-ide-2026.1\\toolchain\\bin\\riscv-none-elf-objcopy.exe",
+      "-O",
+      "binary",
+      "E:\\SUAT\\FoCM\\Efinix\\06_Controller_Dependencies\\autoboot_20261031\\loader\\build\\stage1.elf",
+      "E:\\SUAT\\FoCM\\Efinix\\06_Controller_Dependencies\\autoboot_20261031\\loader\\build\\stage1.bin"
+    ],
+    [
+      "D:\\Efinity\\efinity-riscv-ide-2026.1\\toolchain\\bin\\riscv-none-elf-objdump.exe",
+      "-d",
+      "-h",
+      "E:\\SUAT\\FoCM\\Efinix\\06_Controller_Dependencies\\autoboot_20261031\\loader\\build\\stage1.elf"
+    ],
+    [
+      "D:\\Efinity\\efinity-riscv-ide-2026.1\\toolchain\\bin\\riscv-none-elf-objdump.exe",
+      "-d",
+      "-h",
+      "E:\\SUAT\\FoCM\\Efinix\\06_Controller_Dependencies\\autoboot_20261031\\loader\\build\\stage2.elf"
+    ]
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "status": "OFFLINE_DELTA_NOT_PROGRAMMED",
+  "manifest_flash_offset": 4194304,
+  "bytes": 1581056,
+  "sha256": "f03b1e6e01fca8c2e95205d994b9887e1e9f93577c959683a4f29b86ff8e6032",
+  "header_sha256": "ba0248ecd68067446e62ff83acd8f8c9a5338b686a87e2307f5c0359972884df",
+  "entries": [
+    {
+      "kind": 1,
+      "name": "game.bin",
+      "flash_offset": 4198400,
+      "ddr_address": 4096,
+      "bytes": 118862,
+      "crc32": 1645679095,
+      "sha256": "e21f57a34f4d854410e2cffdfaed0a4dd56b8182934c31b7cd746cd58a06caca"
+    },
+    {
+      "kind": 2,
+      "name": "atlas.bin",
+      "flash_offset": 4321280,
+      "ddr_address": 6045696,
+      "bytes": 755700,
+      "crc32": 1083006358,
+      "sha256": "48e6a628e02d68f1bbd86be37c85dcccd3df800d6c79aa3e58ccd5571a56b867"
+    },
+    {
+      "kind": 3,
+      "name": "stage9_tiles.bin",
+      "flash_offset": 5079040,
+      "ddr_address": 9437184,
+      "bytes": 666624,
+      "crc32": 307278501,
+      "sha256": "6a73ac55168bae6b84853f7d75fb57f960d63e52729235749610df8d7f0b07db"
+    },
+    {
+      "kind": 4,
+      "name": "pure_scatter16.bin",
+      "flash_offset": 5746688,
+      "ddr_address": 10158080,
+      "bytes": 28640,
+      "crc32": 1323730624,
+      "sha256": "a738c4dff7eb4e4c7b2b73c5b56780b338940ec21b663b3a959231d44643bfa6"
+    }
+  ],
+  "delta_requires_current_flash_payload_sha256": "e9c13e63e6b70291984a4d6f70ef78686f34abe3581f9178229411c379e021df",
+  "delta_requires_fresh_board_read": true,
+  "delta_mode": "changed_sectors_same_extent",
+  "changed_sector_count": 30,
+  "changed_sector_bytes": 122880,
+  "changed_ranges": [
+    {
+      "address": 4194304,
+      "bytes": 24576,
+      "sha256": "252e1ffc6c758ab37e00d2a559b80186ebb45acd868b696382dcbb273ed57bd3",
+      "file": "package/delta/payload_01_400000.bin"
+    },
+    {
+      "address": 4222976,
+      "bytes": 98304,
+      "sha256": "995865c91b4cfd9aa9828583050682a00a4ed6a12b199625270d5af8452c377b",
+      "file": "package/delta/payload_02_407000.bin"
+    }
+  ],
+  "warning": "Before writing any delta, fresh board read must equal the exact accepted old payload; this script has not checked a board."
+}

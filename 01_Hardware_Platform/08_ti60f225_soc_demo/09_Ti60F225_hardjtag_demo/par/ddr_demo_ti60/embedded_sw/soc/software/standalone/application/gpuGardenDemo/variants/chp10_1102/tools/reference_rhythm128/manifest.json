@@ -1,0 +1,18 @@
+{
+  "purpose": "Independent complete128-budget production-state reference before Boss monotone slot allocation",
+  "input_evidence": "evidence/rhythm_smooth_attempt_20261014",
+  "physical_enemy_pool": 192,
+  "boss_live_bullet_budget": 128,
+  "files": [
+    {
+      "path": "garden_core.c",
+      "sha256": "b73311033370442c0a64f9bfe00a8ba788f69626eb598a78c84574fdf46255e6",
+      "bytes": 33440
+    },
+    {
+      "path": "garden_core.h",
+      "sha256": "4de7220d6e8c0126a7f582292a4e7a41beeeba97a771484010a3ad25a3060952",
+      "bytes": 5832
+    }
+  ]
+}

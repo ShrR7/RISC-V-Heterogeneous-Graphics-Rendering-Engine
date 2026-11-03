@@ -1,0 +1,14 @@
+# Local build products and logs
+*.log
+*.vcd
+*.vvp
+*.out
+*.map
+*.o
+*.asm
+*_local.ps1
+
+# Local editor / OS files
+.DS_Store
+Thumbs.db
+*~

@@ -1,0 +1,35 @@
+Selected runtime animation sources; verified 2026-10-16 (Asia/Shanghai).
+No archive license is inferred from a search result or a third-party mirror.
+
+1. Sinestesia: Hit Animation 2 | Frame by frame
+Author upload: https://opengameart.org/content/hit-animation-2-frame-by-frame
+Original PNG: https://opengameart.org/sites/default/files/Hit-Yellow.png
+Author page identifies Sinestesia and License(s): CC0.
+Page describes PNG transparency, 4x4 cells of 1024x1024, total16 frames.
+Author requests that users not misrepresent authorship and welcomes credit.
+Credit is retained here and in NOTICE.txt. Original PNG bytes are unmodified.
+
+2. Rawdanitsu: Lasers and beams
+Author upload: https://opengameart.org/content/lasers-and-beams
+Original PNG: https://opengameart.org/sites/default/files/beams.png
+Author page identifies Rawdanitsu and License(s): CC0.
+Description: Laser and beam effects in various colors.
+Original PNG bytes are unmodified.
+
+CC0-1.0 legal text: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+CC0 is applicable to those authors' asset uploads, not to this project's code.
+Generator, original text pixel grids, and existing Garden code: GPL-3.0-or-later.
+
+Conversion
+Hit frames are selected from authored cells1,2,3,5,7,10; grenade bursts use
+cells1,2,3,4,6,8,11,14. Index0 is the author's empty leading cell.
+All cells use a common center/pivot rather than independently shifting crops.
+Hit output32x32 uses documented cool channel remapping; burst56x56 retains
+the author's warm colors. Alpha below8 becomes the key; otherwise authored RGB is preserved and
+alpha becomes binary255, retaining angular rays for global hardware Alpha. No animation frames are AI generated.
+Beam samples the source red-laser profile, applies magenta tint and a13px
+bright collision core. Procedural 24px vertical modulation repeats exactly.
+The native grenade/medical sprites are new small text palette grids, not
+modifications of downloaded artwork. Full recipes and hashes: sources.json
+and assets/manifest.json source records.
+

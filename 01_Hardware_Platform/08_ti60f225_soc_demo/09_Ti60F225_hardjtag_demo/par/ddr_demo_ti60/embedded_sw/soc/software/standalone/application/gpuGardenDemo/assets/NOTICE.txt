@@ -1,0 +1,21 @@
+Garden 1.0.9 source-derived assets
+
+Original game programmed by Linley Henzell; see original/AUTHORS.
+Original BMP and source-derived geometry are distributed under GPL-3.0-or-later.
+The complete license text is retained in original/COPYING. The complete
+upstream source archive is in ../vendor/garden-of-coloured-lights_1.0.9.orig.tar.gz.
+
+assets/original contains unmodified source resources. atlas.bin is converted
+RGB565 output, not an original upstream asset. Every sprite in manifest.json
+records its crop or rendering recipe and the hashes of the source files.
+The actor poses are fixed offline. Runtime alpha is replaced with colours baked
+against the spring background. Polygon/circle rasterization uses Pillow and may
+differ at boundary pixels from Allegro. Scales are recorded in the manifest.
+
+The 8x8 HUD font is newly authored adaptation content (GPL-3.0-or-later), not the
+original garden.dat font. garden.dat is retained unmodified for provenance.
+
+Regenerate: python tools/build_atlas.py
+Dependency: Python 3 with Pillow (pip install pillow).
+Load separately: restore assets/atlas.bin binary 0x005C4000
+The C files contain only metadata, not the atlas pixel bytes.

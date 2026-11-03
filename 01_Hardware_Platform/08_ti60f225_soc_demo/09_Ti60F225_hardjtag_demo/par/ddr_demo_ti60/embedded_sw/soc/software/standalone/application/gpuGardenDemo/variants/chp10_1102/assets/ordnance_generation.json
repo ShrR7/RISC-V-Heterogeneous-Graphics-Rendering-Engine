@@ -1,0 +1,120 @@
+{
+  "status": "REPLACED_BY_CRUISER_GENERATION_SEE_CRUISER_MANIFEST",
+  "atlas_bytes": 472732,
+  "atlas_sha256": "1f3f39944e40d982dc7cdb24c8b6ebb5b8011ae3be83e842e7f2b4061f96acbd",
+  "atlas_crc32": "0xC760FA2E",
+  "budget_bytes": 761856,
+  "remaining_budget_bytes": 289124,
+  "old840pixels_and_metadata_exact": false,
+  "fixed_anchor_across_animation_frames": true,
+  "new_frames": 19,
+  "descriptor_bytes": 8,
+  "descriptor_total_bytes": 6872,
+  "descriptor_bytes_saved_against_old_840x16": 6568,
+  "hit": {
+    "base": 840,
+    "count": 6,
+    "size": [
+      32,
+      32
+    ],
+    "frame_logic_ticks": 1,
+    "duration_ms": 150
+  },
+  "blast": {
+    "base": 846,
+    "count": 8,
+    "size": [
+      56,
+      56
+    ],
+    "frame_logic_ticks": 2,
+    "duration_ms": 400
+  },
+  "bomb": {
+    "base": 854,
+    "count": 2,
+    "size": [
+      22,
+      30
+    ]
+  },
+  "heal": {
+    "id": 856,
+    "size": [
+      22,
+      22
+    ]
+  },
+  "beam": {
+    "base": 857,
+    "count": 2,
+    "size": [
+      25,
+      120
+    ],
+    "anchor": [
+      12,
+      0
+    ],
+    "core_width": 13,
+    "y_period": 24,
+    "tile_bound_per_600px_side": 5
+  },
+  "asset_sources": {
+    "schema": "ordnance-source-provenance-v1",
+    "verified_on": "2026-10-16",
+    "timezone": "Asia/Shanghai",
+    "license_evidence": "assets/source/ordnance_cc0/LICENSE_EVIDENCE.txt",
+    "files": [
+      {
+        "path": "assets/source/ordnance_cc0/Hit-Yellow.png",
+        "author": "Sinestesia",
+        "license": "CC0-1.0",
+        "page": "https://opengameart.org/content/hit-animation-2-frame-by-frame",
+        "download": "https://opengameart.org/sites/default/files/Hit-Yellow.png",
+        "sha256": "4b26848c3992fe77ddde205acab3312c78a2e6a572ce2041fd636a6224b0c8ff",
+        "bytes": 2252294,
+        "dimensions": [
+          4096,
+          4096
+        ],
+        "original_unmodified": true
+      },
+      {
+        "path": "assets/source/ordnance_cc0/beams.png",
+        "author": "Rawdanitsu",
+        "license": "CC0-1.0",
+        "page": "https://opengameart.org/content/lasers-and-beams",
+        "download": "https://opengameart.org/sites/default/files/beams.png",
+        "sha256": "0628fe6f326efbf97d6637b76913c77a1f6247a7f815bce2307744fcd62a82b0",
+        "bytes": 55098,
+        "dimensions": [
+          490,
+          446
+        ],
+        "original_unmodified": true
+      }
+    ],
+    "original_grid_files": [
+      "assets/source/ordnance_cc0/bomb_pixel_grid.json",
+      "assets/source/ordnance_cc0/heal_pixel_grid.json"
+    ],
+    "research_not_selected": [
+      {
+        "author": "kurohina",
+        "license": "CC0-1.0",
+        "page": "https://opengameart.org/content/spark-effect",
+        "reason": "Valid small sparks; Sinestesia chosen for stronger angular cuts and fragment progression."
+      },
+      {
+        "author": "Foozle",
+        "license": "CC0-1.0",
+        "page": "https://foozlecc.itch.io/void-fleet-pack-1",
+        "reason": "Existing confirmed ship destruction strip contains ship fragments and is not a general impact."
+      }
+    ]
+  },
+  "cruiser_generation": "assets/cruiser_generation.json",
+  "runtime_beam_payloads_unchanged_from_hazard": true
+}

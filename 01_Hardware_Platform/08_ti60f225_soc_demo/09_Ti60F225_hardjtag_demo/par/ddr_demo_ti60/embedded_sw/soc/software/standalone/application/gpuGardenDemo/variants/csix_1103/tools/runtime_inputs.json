@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "variant": "csix_1103",
+  "status": "SEALED",
+  "created_utc": "2026-11-03T18:26:06.498021+00:00",
+  "files": [
+    {
+      "path": "build/gardenStage9Game.elf",
+      "bytes": 59980,
+      "sha256": "c6b71b43855729f55c2aa8945f4dec30d2fda9c024833665b3228ad88b7be536"
+    },
+    {
+      "path": "assets/atlas.bin",
+      "bytes": 614916,
+      "sha256": "584c47be285778f8680a0f0a5f21a12aa610b3e02b7aa5c58885cedb06b998a6"
+    },
+    {
+      "path": "assets/stage9_tiles.bin",
+      "bytes": 666624,
+      "sha256": "6a73ac55168bae6b84853f7d75fb57f960d63e52729235749610df8d7f0b07db"
+    },
+    {
+      "path": "assets/pure_scatter16.bin",
+      "bytes": 28640,
+      "sha256": "a738c4dff7eb4e4c7b2b73c5b56780b338940ec21b663b3a959231d44643bfa6"
+    }
+  ],
+  "expected_hardware_md5": "D59183E81A58833B1D550A91EBBE5E23",
+  "target": {
+    "uart": "COM11",
+    "physical_usb": "1-10",
+    "gdb_port": 14333,
+    "telnet_port": 14444,
+    "tcl_port": 14666,
+    "protected_uart": "COM25",
+    "protected_physical_usb": "1-7",
+    "flash_written": false
+  },
+  "build_manifest_sha256": "5460157b66e2ae296c6a334aca2ae1423261f471f5d022497ddddc20094ec468",
+  "boot_signature": "[READY] SIX_1103 cases=6 duration_ms=10000 count=2093 independent=1",
+  "ram_only": true,
+  "flash_written": false
+}

@@ -1,0 +1,131 @@
+Void / Master484 selected art for the isolated Garden adaptation
+
+Foozle / David (chroma_dave): Void Main Ship and Void Fleet Pack 1, CC0-1.0.
+https://foozlecc.itch.io/void-main-ship
+https://foozlecc.itch.io/void-fleet-pack-1
+Original PNG mirrors, fixed commits and file hashes are recorded in imported/void_actor/manifest.json.
+
+Master484: Bullet Collection 2 and Explosion Set 2, CC0-1.0.
+https://opengameart.org/content/bullet-collection-2-m484-games
+https://opengameart.org/content/explosion-set-2-m484-games
+Extraction crops, palette mappings and pixel provenance are recorded in imported/master484/manifest.json.
+
+The existing Garden HUD fonts and game code remain GPL-3.0-or-later; see BASELINE_NOTICE.txt.
+Runtime graphic conversion: RGB565 with key0xF81F; opaque-key collisions mapped to key xor1.
+Three player thruster poses are precomposed offline, retaining one sprite draw per player frame.
+
+Neon FX appended runtime caches (2026-10-13)
+IDs 0..265 retain the exact Void runtime pixels and metadata.
+FLASH_DARTER1 / FLASH_STOPPER1 / FLASH_BOSS1: derived from the
+Foozle CC0 runtime sprites by deterministic RGB565 silhouette shading;
+the transparency key and original PNGs are unchanged.
+FX_RING32 / FX_RING48: Team C original integer-circle generator,
+GPL-3.0-or-later; pale core/cyan/dark outer band, cached for Color Key
+and GPU global Alpha. No downloaded image was edited for these rings.
+
+Neon Feedback appended runtime geometry (2026-10-14)
+IDs 0..270 retain the exact Stage/Neon FX runtime pixels and metadata.
+FOCUS_VULNERABLE / FOCUS_GRACE: Team C original integer corner/center
+geometry. A 19x19 boundary marks the inclusive +/-9px bullet-center
+collision threshold; the interior is transparent. Grace has a hollow
+cyan center and broken cyan corners; vulnerable has a solid white center.
+HIT_SPARK: Team C original integer cross/diagonal geometry, white/gold,
+cached for Color Key and GPU global Alpha. GPL-3.0-or-later.
+No imported PNG was edited. feedback_preview.png is a labelled host
+geometry illustration, not a board capture or a collision guarantee.
+
+Neon Scene appended runtime geometry (2026-10-14)
+IDs 0..273 retain the exact Feedback runtime pixels and metadata.
+BOSS_WING_L/R: Team C articulated mirrored satellite-pod geometry.
+BOSS_CORE: Team C gunmetal/cyan reactor; BOSS_CHARGE: pointed light cue.
+GARDEN_FAR/STREAK: Team C dim botanical and flow geometry.
+All six are cached code-native shapes, GPL-3.0-or-later, with Color Key
+and optional global Alpha. They are decorative only: collision, damage,
+game timing and imported PNGs are unchanged. scene_preview.png and
+scene_boss_preview.png are labelled host illustrations, not captures.
+
+Precision64projectiles (2026-10-15)
+The old236954RGB565bytes and old280records remain exact.560newframes
+retain Master484CC0pixels/palette recipes, use the real native16wheel,
+then nearest-neighbour offline rotation and tight cropping around the
+original tail(Dart)/center(Diamond) reference. No runtime resampling,
+new palette, core coordinates, collision, damage or clock changes.
+assets/precision_heading64_preview.png is a labelled host atlas preview.
+
+Ordnance animation assets (2026-10-16)
+IDs0..839 and first631954 bytes remain byte-exact. New IDs840..858:
+Sinestesia, Hit Animation2, CC0-1.0: selected real frame-by-frame angular
+cuts/fragment bursts. Source https://opengameart.org/content/hit-animation-2-frame-by-frame
+Warm source palette retained for blasts; cold hit palette is a documented
+channel mapping. Fixed common pivots; resized once offline; no runtime scaling.
+Rawdanitsu, Lasers and beams, CC0-1.0:
+https://opengameart.org/content/lasers-and-beams
+Original red-laser alpha cross-section supplies feathering; a cached13px
+bright core matches gameplay hazard width. Vertical modulation is code-native.
+Team C bomb/medical-package pixel-grid sources: GPL-3.0-or-later, authored
+as small text palettes. No downloaded art was repainted or claimed as ours.
+Original unmodified sources, SHA256 and license evidence are under
+assets/source/ordnance_cc0/sources.json and LICENSE_EVIDENCE.txt.
+assets/ordnance_contact_sheet.png is a labelled host RGB565 preview, not
+a hardware capture. The C descriptors are packed to8bytes; implicit stride
+is always width*2 and all source offsets/anchors remain unchanged.
+
+Hazard presentation correction (2026-10-16)
+All original bullet pixel bytes are identical.640 DART/DIAMOND descriptors,
+all64directions and5colors, now place their exact0xFFFF white-core centroid at
+the physics x/y point.480 anchor values changed;160 were already correct.
+This supersedes the earlier tail/center render anchors without changing the
+author's images, velocity, collision point or64direction lookup.
+assets/hazard_anchor_oracle.json records white-mask sums/count and rounding.
+Nonbullet geometry remains exact through ID856.
+Beam857/858 is rebaked45x120 with13px bright white-pink core and16px lower-
+luminance halo on each side. Original Rawdanitsu source alpha profile supplies
+feathering; Team C coded diagonal plasma filaments repeat every24rows.
+Only beam tail bytes are repacked. No runtime scaling or new source download.
+
+User five-image replacement, 2026-10-16 / neon_cruiser_20261016
+player_02_delta, enemy_01_scout, enemy_03_bomber, boss_01_cruiser and
+bullet_02_magenta_orb are USER-PROVIDED images from 04_Assets_Set_A.
+The supplied README says built-in image generation followed by scaling and
+transparent centering. Original PNGs, README and PROMPTS are copied verbatim
+under assets/source/user_20261016, with original SHA256 records. No explicit
+license was supplied. These five images are NOT claimed as CC0; previous
+third-party notices apply only to retained third-party assets.
+Offline import: crop alpha bounds, proportional LANCZOS fit, alpha<32 ->
+0xF81F key, other RGB multiplied by source alpha against black. Any opaque
+RGB565 quantization collision with0xF81F flips bit0. Round projectile authored
+white core is normalized to0xFFFF and its centroid is the physics pivot.
+All three player tail frames and all five bank poses use the new delta source.
+Both enemies retain matching white-hit masks. Boss body and two source-cropped
+gun pods reconstruct the complete new cruiser exactly at closed pose; gun pod
+anchors are actual barrel tips. Core/charge glow are existing retained effects.
+All numeric859IDs and8-byte descriptor ABI remain; offsets are repacked and
+may alias identical round cache payloads. DART64direction pixels/white pivots,
+font glyphs, angular hit frames, blast, thrown bomb, heal and plasma beam payloads
+remain byte-identical. DIAMOND source family is replaced by five round palettes,
+with two identical high-DDR caches per palette for startup precision coverage.
+No core collision, attack, scoring, health, wave or gameplay rule is changed by
+this importer. Actual board acceptance and renderer integration are separate.
+
+Nine-source projectile replacement / neon_variety_20261016 /2026-10-16
+All nine bullet_01..09 PNGs supplied under 04_Assets_Set_A are copied
+unchanged under assets/source/user_20261016. README calls them built-in image
+generation followed by transparent centering; no independent license supplied.
+They are NOT claimed as CC0. Seven directional styles are baked64directions
+offline; three round styles have two identical high-DDR physical source copies
+for the20-source precision probe. All640 enemy projectile payloads plus three
+legacy circle IDs and player SHOT are replaced. Exact white nuclei make the
+unchanged physical centre visible; a ring retains its hole around a small new
+central nucleus. Other authored highlights stay pale, not exact white.
+SHOT keeps5x19 source dimensions and(2,1) reference. No collision/range/velocity,
+forming-age, alpha, Colour Key, wave, reward, actor or effect rule changes.
+215 other sprites retain exact pixel payloads, dimensions and anchors.
+
+Projectile enlargement / neon_bullet_large_20261023 / 2026-10-23
+644 ordinary projectile sprite IDs enlarged offline by 5/4 using exact RGB565 nearest-neighbour samples. Original user-provided art, license and attribution remain as above. All 215 non-projectile payloads, laser/bomb/heal/effects, logical collision rules and original source PNGs are unchanged. Imported PNG previews and older generation reports are historical parent assets; atlas.bin and bullet_scale_generation.json describe this runtime.
+
+C Boss/skills cache additions (2026-11-02)
+859..861: user supplied red cruiser, violet hive and green overlord PNGs, offline fitted into80x80; no independent CC0 license inferred.
+862..863: enlarged Team C bomb pixel grid, GPL-3.0-or-later.
+864..871: larger78x78 cache of the existing Sinestesia Hit-Yellow CC0-1.0 sheet, same authored frame selections.
+All previous859sprite IDs, metadata and source bytes remain exact. Collision geometry unchanged.

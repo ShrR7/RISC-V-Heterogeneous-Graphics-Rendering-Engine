@@ -1,0 +1,410 @@
+{
+  "variant": "cclassic_1102",
+  "inputs": [
+    {
+      "bytes": 755700,
+      "name": "atlas.bin",
+      "sha256": "48E6A628E02D68F1BBD86BE37C85DCCCD3DF800D6C79AA3E58CCD5571A56B867"
+    },
+    {
+      "bytes": 2482,
+      "name": "build_manifest.json",
+      "sha256": "0114097C0688A1E9312804C62F33D9DD9E62B753CD39E3DB5F97CE052EB8AD65"
+    },
+    {
+      "bytes": 2739,
+      "name": "build.log",
+      "sha256": "0BB059C34B073A7EE99F7EEB2A6F57983CF972754E3E66DDA723D9DDAE00C162"
+    },
+    {
+      "bytes": 118854,
+      "name": "gardenStage9Game.bin",
+      "sha256": "CA45460FCFE20AB33860EA1BA339BA1BA2CB839DB30DCE51AFC42B3EA63AD0E1"
+    },
+    {
+      "bytes": 158236,
+      "name": "gardenStage9Game.elf",
+      "sha256": "8292AAC1A13A522024D5DFD3DDDEA73C2CE159FA49DAB43EA00AB543293298DE"
+    },
+    {
+      "bytes": 136534,
+      "name": "gardenStage9Game.map",
+      "sha256": "37939C42DA54225A9C638F131F8E5F0A8C209ACCB5FE9EBF4FF628AF9731F8AE"
+    },
+    {
+      "bytes": 28640,
+      "name": "pure_scatter16.bin",
+      "sha256": "A738C4DFF7EB4E4C7B2B73C5B56780B338940EC21B663B3A959231D44643BFA6"
+    },
+    {
+      "bytes": 666624,
+      "name": "stage9_tiles.bin",
+      "sha256": "6A73AC55168BAE6B84853F7D75FB57F960D63E52729235749610DF8D7F0B07DB"
+    }
+  ],
+  "loaded_hardware_md5": "D59183E81A58833B1D550A91EBBE5E23",
+  "assets_reused": false,
+  "created": "2026-11-02T20:16:43.6328920+08:00",
+  "sources": [
+    {
+      "bytes": 1534,
+      "name": "display_debug.c",
+      "sha256": "8A5D47B49F8A18A9F49B23C540528D9DEBBA9CB03D6A70D69A91B48A4FC8424B"
+    },
+    {
+      "bytes": 503,
+      "name": "display_debug.h",
+      "sha256": "1B2DE46C0C2CBAE9C947552D711634A0FDF3B9E6C63FC0FE61718C1A7AF10ACA"
+    },
+    {
+      "bytes": 3183,
+      "name": "frame_profile.c",
+      "sha256": "16029BE2CFACE54AC04569AC502591901EDE6AFECEDA708F758ACF13C7E0B239"
+    },
+    {
+      "bytes": 667,
+      "name": "frame_profile.h",
+      "sha256": "77993A7B85D732526683655A6006412F4F465CF4B00751D643E199EA34F949E0"
+    },
+    {
+      "bytes": 4848,
+      "name": "g9_memory.c",
+      "sha256": "9404EE412B3E55282257C73668402348E89088339C82C9A820B1E8166BDC1D38"
+    },
+    {
+      "bytes": 3070,
+      "name": "g9_memory.h",
+      "sha256": "0873236B832605AE7B50A3F90269C325DCADBAA40A086F5CEED05FA2F93FF6B0"
+    },
+    {
+      "bytes": 7071,
+      "name": "g9_route.c",
+      "sha256": "ADD3F8463CC51E959D1796C379656BD7D3573BAA357BC8DB3DB799F4AC7AE31A"
+    },
+    {
+      "bytes": 579,
+      "name": "g9_route.h",
+      "sha256": "D1B37249260A75EDF09E65F1BE67F83B12D811A2A34FDB44C42C575A1EC7A42E"
+    },
+    {
+      "bytes": 3865,
+      "name": "g9_workload.c",
+      "sha256": "F67049307ED715B46FAC9D92975467534A0D9093F49F7015C41FAEB96B24FBAC"
+    },
+    {
+      "bytes": 1695,
+      "name": "g9_workload.h",
+      "sha256": "CC3B766FEEBDCB5C0B7712AC2029EB8E638494898A664A821E673536FBDFC87E"
+    },
+    {
+      "bytes": 6843,
+      "name": "garden_actor_ui.c",
+      "sha256": "B7CD6B3EC472590F94CAD807DAD38C10F979BEA0A6CF483E773D4FE62C4673A9"
+    },
+    {
+      "bytes": 2233,
+      "name": "garden_actor_ui.h",
+      "sha256": "23D282330CDA4D6E5D9196AAC32944489B70DA1D827E728CB860A8B6E85D1CEC"
+    },
+    {
+      "bytes": 7312,
+      "name": "garden_animation.c",
+      "sha256": "2B17939083335C848586E6CFC6582CD3D99DF21573C29A444861708019635CCD"
+    },
+    {
+      "bytes": 2432,
+      "name": "garden_animation.h",
+      "sha256": "584E77A080E4ECAB0DD9B6D8E1B6DF052C3BF2C45E827A844CDB68E7080BCBF7"
+    },
+    {
+      "bytes": 57524,
+      "name": "garden_assets.c",
+      "sha256": "A0DAAA7C43F53E3AE94C2E2B3A62ADCDE5B5F97EF8731C95947F8349E79358F6"
+    },
+    {
+      "bytes": 5161,
+      "name": "garden_assets.h",
+      "sha256": "C0E590409D5B6376BBD9BC3379B673397E1665989CF9C1DC0D61B9E361B1BB21"
+    },
+    {
+      "bytes": 1133,
+      "name": "garden_clear.c",
+      "sha256": "2C096BA69B3F5B297F550CA72681082D1F87BB6701EF2590119AB104F2DE0C9D"
+    },
+    {
+      "bytes": 992,
+      "name": "garden_clear.h",
+      "sha256": "FBBE546354434D97527C1CCF159B1DF0BD448AD2D30DFFD333037AE091CF7E45"
+    },
+    {
+      "bytes": 21287,
+      "name": "garden_combat.c",
+      "sha256": "298553DBE013D245C0BC76C691D048F91CFC8A79BFE5E75EA99D52919BCD7335"
+    },
+    {
+      "bytes": 5160,
+      "name": "garden_combat.h",
+      "sha256": "5A64AA4C1C39FAF0045F25FCBB6B9CE095F0771CEF3D0C9D7967F599228BC7A3"
+    },
+    {
+      "bytes": 3489,
+      "name": "garden_controller.c",
+      "sha256": "62BB5419EA61E34672DA7FB192615E6F4EB76E3521CB8EC5A13BB3F96D4D87A4"
+    },
+    {
+      "bytes": 2608,
+      "name": "garden_controller.h",
+      "sha256": "D082E2D766AB398FC7E7D4B5D1EB48C5F37BCDA345F1C44BAC894D4A7A209737"
+    },
+    {
+      "bytes": 62015,
+      "name": "garden_core.c",
+      "sha256": "033B9087DE884C5531EFBADAF5F78A27A10C0A1D92AB89CBE49C74E1BBC1269E"
+    },
+    {
+      "bytes": 11667,
+      "name": "garden_core.h",
+      "sha256": "F3E8C6081B65D44CB90B7C93B0F92C5F2340F7B3325531B22CF892CEC2D4EF27"
+    },
+    {
+      "bytes": 10691,
+      "name": "garden_feedback.c",
+      "sha256": "03576D4250AFB723A1279E512E118A1A8A155072633BF77E5F732799CD257D46"
+    },
+    {
+      "bytes": 2613,
+      "name": "garden_feedback.h",
+      "sha256": "4E3F331A922020668263BBE096E4737D1BBD8D3ABF6AEA258C41A4FE8722EA62"
+    },
+    {
+      "bytes": 9149,
+      "name": "garden_fx.c",
+      "sha256": "00C07E70FD4EFD83CE9E323EAB2C0B9303309A4CCF477F5E377F03AAA3ED9D74"
+    },
+    {
+      "bytes": 2925,
+      "name": "garden_fx.h",
+      "sha256": "03F28A6A405F366EDDD71CB211DB299004E76EBFEAA8BA79F2CC2D9E3E25349E"
+    },
+    {
+      "bytes": 2764,
+      "name": "garden_heading_precision.c",
+      "sha256": "69B70EAD2D5FC4BD61B9B1A0898C02C67D6D601A593923AAF0846250BEEC74A9"
+    },
+    {
+      "bytes": 1345,
+      "name": "garden_heading_precision.h",
+      "sha256": "515E11875976BFD361B098601A1E9A8699F803717906B90D35DAAB6EF82F6D71"
+    },
+    {
+      "bytes": 5020,
+      "name": "garden_log.c",
+      "sha256": "45685DC8A665522BAE310D40C0A5BF60A482A18F3A7E449EBD864D575259DC6A"
+    },
+    {
+      "bytes": 1716,
+      "name": "garden_log.h",
+      "sha256": "5C899B858B9985CCD9C6846CDCEF6AC33D50508A8B070E9C9788A628D4A5F1EB"
+    },
+    {
+      "bytes": 9306,
+      "name": "garden_motion.c",
+      "sha256": "735305065E7BCB8C961294ECEF709389A87C4F54D178E58F94ECB146652A9E7F"
+    },
+    {
+      "bytes": 2287,
+      "name": "garden_motion.h",
+      "sha256": "B90763803898E081FE599CA2DA9B7C5EB7CDFEFAD7712758A21A9A32F3959277"
+    },
+    {
+      "bytes": 8956,
+      "name": "garden_ordnance_view.c",
+      "sha256": "20E03070A5B8007544C6EBE7F479900FF9F325391CE3B25C131B6BBABB0F280C"
+    },
+    {
+      "bytes": 1839,
+      "name": "garden_ordnance_view.h",
+      "sha256": "948C8AA21D3774B2DA14C173A926FC9C1E24A6EC0E13AF8514D475AA6ED798BF"
+    },
+    {
+      "bytes": 35172,
+      "name": "garden_render.c",
+      "sha256": "29A5B3737CA5841C9ED039D42FECF0F4236A762C7D01611F2ADFEA8AA1B104F6"
+    },
+    {
+      "bytes": 4164,
+      "name": "garden_render.h",
+      "sha256": "DC3B907F86501CAF2FD3060112F2C1062F3F770E3146C48CFC88982052FB077B"
+    },
+    {
+      "bytes": 16789,
+      "name": "garden_scene.c",
+      "sha256": "CBFE9802E96B6432C4CE5B0521E8975E3B11D9DBDCB4A264749A23A834D2126F"
+    },
+    {
+      "bytes": 3187,
+      "name": "garden_scene.h",
+      "sha256": "3E53EACE1A2028F4BE1B68A8505A807361341E9A96E3F630880AC87B66A3B471"
+    },
+    {
+      "bytes": 1332,
+      "name": "garden_session.c",
+      "sha256": "B523F1669561EA74E7AF426718EE8AD18E42A27391B01100928080476625B7A1"
+    },
+    {
+      "bytes": 642,
+      "name": "garden_session.h",
+      "sha256": "9396A73DA0FE7C753E9719725F1216C3CA06E74BCB153B7FC717335D86597827"
+    },
+    {
+      "bytes": 16939,
+      "name": "garden_stage.c",
+      "sha256": "488B5867CA0A1E721FA15BE703BFFF6F634604AA5F46918FB2FF0D63EC6F8A17"
+    },
+    {
+      "bytes": 3942,
+      "name": "garden_stage.h",
+      "sha256": "123C8980F9BBEA1E800CC8E69FF88E4A581A575B91CDC1C5062CF28520920289"
+    },
+    {
+      "bytes": 15295,
+      "name": "garden_ui.c",
+      "sha256": "FBB22171C4CA21772F361905CB1ACDFFAB5050BA7DFCBCBAF49C213A94D280B9"
+    },
+    {
+      "bytes": 1724,
+      "name": "garden_ui.h",
+      "sha256": "C7FF4BD7EF8EE185FDF1C4BFE718D9BA1254C336CF8465134114A6191A54303F"
+    },
+    {
+      "bytes": 1091,
+      "name": "gpu_alpha_ref.h",
+      "sha256": "D8AEF857DB5F7D39D724C952C442C7D2618F6DBF42ACDA0082030A9EB3E6CCF2"
+    },
+    {
+      "bytes": 6434,
+      "name": "gpu_alpha_verify.c",
+      "sha256": "38D8B41508A55318D3494D6A1E86E785CCBBE3BD3BB546D438460E59B3D66473"
+    },
+    {
+      "bytes": 1291,
+      "name": "gpu_alpha_verify.h",
+      "sha256": "94A8A57A0B5CF0BE18E6992EF96A2652735E1D162C3328EF1FE179CE482221B6"
+    },
+    {
+      "bytes": 4599,
+      "name": "gpu_display.c",
+      "sha256": "AD1E1F4FB1AF5B475700126AF7EE3223FD31EC4029CA108004DE6E10F6224FAC"
+    },
+    {
+      "bytes": 2709,
+      "name": "gpu_display.h",
+      "sha256": "BF7432E7E05956D006DD0F7BD254E4AA965E187520E0CB16D48CE51133C68923"
+    },
+    {
+      "bytes": 15890,
+      "name": "gpu_driver.c",
+      "sha256": "A222C9DF299AD7DECB7EE5C0FF837C6B376F378ECE250F886D4B069A44B65C0E"
+    },
+    {
+      "bytes": 2817,
+      "name": "gpu_driver.h",
+      "sha256": "053FA2D82438349CEDB15C259F5707C7E44FB7FDB2AE4F949B4103E235B5A21A"
+    },
+    {
+      "bytes": 10609,
+      "name": "gpu_precision_verify.c",
+      "sha256": "7EC0A32D13F0CDF4787C0D23C040E2BCAA8B6A4C58FC4B5E31C430D0250790F0"
+    },
+    {
+      "bytes": 1381,
+      "name": "gpu_precision_verify.h",
+      "sha256": "B7CC7739D693B0D21D39506462A6F895C1122E31DD2FCD561EE61BE208199554"
+    },
+    {
+      "bytes": 2956,
+      "name": "gpu_regs.h",
+      "sha256": "94DD9030848DDC75611F575C96A244F7F2E901D0FCDA606D06213623358CD59A"
+    },
+    {
+      "bytes": 43740,
+      "name": "main.c",
+      "sha256": "70605637CA8B37922C7ED17261A6C947579B1191CCB8109466346BB048A0C89C"
+    },
+    {
+      "bytes": 6853,
+      "name": "pad_hw.c",
+      "sha256": "F1FB5802232A621AEC9B63E367132FE121550E8E2565E9A7765A7D237E1E7133"
+    },
+    {
+      "bytes": 1886,
+      "name": "pad_hw.h",
+      "sha256": "AC397F1C9BD2444CDD13DD724A0309C262F4BDC70A5B431DBEB5F42BB08A3AF8"
+    },
+    {
+      "bytes": 2251,
+      "name": "pressure_player.c",
+      "sha256": "1DE7797FDDDEEAE3B2DDC9655B22B7DC2AF4E117312A34CB43CCEE2196E3E6A1"
+    },
+    {
+      "bytes": 803,
+      "name": "pressure_player.h",
+      "sha256": "2AA6D25C26DA96CC1ADB447CBE02A3CF45AAC1A54E070EC3092753A3DCA7C466"
+    },
+    {
+      "bytes": 2891,
+      "name": "pure_bullet_art16.h",
+      "sha256": "DB5AA14E4BCB4107F7767837BEE5FC32A6732CA6116816E0BEC9299297832142"
+    },
+    {
+      "bytes": 824,
+      "name": "pure_bullet_mix16.h",
+      "sha256": "5C5456304576D6F6BAD3E7254D3B090A68E54A44507E605F60F25FA94FA40F26"
+    },
+    {
+      "bytes": 2388,
+      "name": "pure_bullet_scatter16.h",
+      "sha256": "CC04C6FB13062BFB0FDEC9C056DCAE28A82E944B5DD489B786FE20B7BB3B34FC"
+    },
+    {
+      "bytes": 32387,
+      "name": "pure_bullet_test.c",
+      "sha256": "B4DA63FA35E1FAF80C8E202D170CB9AD503ECAC298A18C2EBD6CD46DF2FD4D03"
+    },
+    {
+      "bytes": 2977,
+      "name": "pure_bullet_test.h",
+      "sha256": "F804FC251176D033468D0ED279BB813F24A4C0E41B77AF6EC34C6A6C66B707A6"
+    },
+    {
+      "bytes": 6577,
+      "name": "stage9_link.c",
+      "sha256": "4F97D832844D50BD267AE708D410FD056F4EFD9A0B083887DB7A00762DC65771"
+    },
+    {
+      "bytes": 2132,
+      "name": "stage9_link.h",
+      "sha256": "8AC576B4B3A9C206F1B78B7AE5A108E74E9CD17EACB5D9DD0B24A2A56A9A44D1"
+    },
+    {
+      "bytes": 1928,
+      "name": "stage9_tiles.h",
+      "sha256": "6997537319725796E479D4A7D14F3B720C063AFD36905906EEF4D72DA28F49F2"
+    },
+    {
+      "bytes": 3854,
+      "name": "triple_boss.c",
+      "sha256": "4E1E0614830399AF18CA958A31413719A5CB2DA1F0FC8CD42139EF4C1CEE02AC"
+    },
+    {
+      "bytes": 510,
+      "name": "triple_boss.h",
+      "sha256": "6518F7F2530E102AECA75CB1D292EF87657FC38C64215AD2A54532B93511C90F"
+    },
+    {
+      "bytes": 8954,
+      "name": "void_display_counter.c",
+      "sha256": "7D79865DC9B01FDA0263FB4F67D8D99B67E46571983860B6A487CBC51E3A93CB"
+    }
+  ]
+}

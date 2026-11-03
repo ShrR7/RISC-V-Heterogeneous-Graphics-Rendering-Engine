@@ -1,0 +1,53 @@
+﻿{
+    "variant":  "csix_1103",
+    "source_files":  [
+                         "variants/csix_1103/src/display_debug.c",
+                         "variants/csix_1103/src/frame_profile.c",
+                         "variants/csix_1103/src/g9_memory.c",
+                         "variants/csix_1103/src/g9_route.c",
+                         "variants/csix_1103/src/g9_workload.c",
+                         "variants/csix_1103/src/garden_actor_ui.c",
+                         "variants/csix_1103/src/garden_animation.c",
+                         "variants/csix_1103/src/garden_assets.c",
+                         "variants/csix_1103/src/garden_clear.c",
+                         "variants/csix_1103/src/garden_combat.c",
+                         "variants/csix_1103/src/garden_controller.c",
+                         "variants/csix_1103/src/garden_core.c",
+                         "variants/csix_1103/src/garden_feedback.c",
+                         "variants/csix_1103/src/garden_fx.c",
+                         "variants/csix_1103/src/garden_heading_precision.c",
+                         "variants/csix_1103/src/garden_log.c",
+                         "variants/csix_1103/src/garden_motion.c",
+                         "variants/csix_1103/src/garden_ordnance_view.c",
+                         "variants/csix_1103/src/garden_render.c",
+                         "variants/csix_1103/src/garden_scene.c",
+                         "variants/csix_1103/src/garden_stage.c",
+                         "variants/csix_1103/src/garden_ui.c",
+                         "variants/csix_1103/src/gpu_alpha_verify.c",
+                         "variants/csix_1103/src/gpu_display.c",
+                         "variants/csix_1103/src/gpu_driver.c",
+                         "variants/csix_1103/src/gpu_precision_verify.c",
+                         "variants/csix_1103/src/main.c",
+                         "variants/csix_1103/src/modes_benchmark.c",
+                         "variants/csix_1103/src/pad_hw.c",
+                         "variants/csix_1103/src/pure_bullet_test.c",
+                         "variants/csix_1103/src/report_measure.c",
+                         "variants/csix_1103/src/stage9_link.c",
+                         "../../common/start.S",
+                         "../../common/trap.S"
+                     ],
+    "flags":  "-Os -Wall -Wextra -Werror -flto ",
+    "fixed_first_seed":  "",
+    "elf":  "D:\\YLS_Wrokspace\\Efinix_race_code\\work\\repo_staging\\01_Hardware_Platform\\08_ti60f225_soc_demo\\09_Ti60F225_hardjtag_demo\\par\\ddr_demo_ti60\\embedded_sw\\soc\\software\\standalone\\application\\gpuGardenDemo\\variants\\csix_1103\\build\\gardenStage9Game.elf",
+    "elf_sha256":  "C6B71B43855729F55C2AA8945F4DEC30D2FDA9C024833665B3228AD88B7BE536",
+    "load_ranges":  [
+                        {
+                            "start":  4096,
+                            "end_exclusive":  44096
+                        }
+                    ],
+    "protected_baseline_unchanged":  true,
+    "hardware_access":  false,
+    "atlas_sha256":  "584C47BE285778F8680A0F0A5F21A12AA610B3E02B7AA5C58885CEDB06B998A6",
+    "atlas_bytes":  614916
+}

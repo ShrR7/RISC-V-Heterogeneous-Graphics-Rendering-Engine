@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "variant": "cboss_hud_1103",
+  "status": "SEALED",
+  "created_utc": "2026-11-03T14:28:30.494680+00:00",
+  "files": [
+    {
+      "path": "build/gardenStage9Game.elf",
+      "bytes": 158244,
+      "sha256": "26159d46db24ba41ddc72bf550d1d19284aecda9bfd015dc36cd4f1699af0c43"
+    },
+    {
+      "path": "assets/atlas.bin",
+      "bytes": 755700,
+      "sha256": "48e6a628e02d68f1bbd86be37c85dcccd3df800d6c79aa3e58ccd5571a56b867"
+    },
+    {
+      "path": "assets/stage9_tiles.bin",
+      "bytes": 666624,
+      "sha256": "6a73ac55168bae6b84853f7d75fb57f960d63e52729235749610df8d7f0b07db"
+    },
+    {
+      "path": "assets/pure_scatter16.bin",
+      "bytes": 28640,
+      "sha256": "a738c4dff7eb4e4c7b2b73c5b56780b338940ec21b663b3a959231d44643bfa6"
+    }
+  ],
+  "expected_hardware_md5": "D59183E81A58833B1D550A91EBBE5E23",
+  "target": {
+    "uart": "COM11",
+    "physical_usb": "1-10",
+    "gdb_port": 14333,
+    "telnet_port": 14444,
+    "tcl_port": 14666,
+    "protected_uart": "COM25",
+    "protected_physical_usb": "1-7",
+    "flash_written": false
+  },
+  "build_manifest_sha256": "92e15dc522f0ba735f62f273322bddd1eefce7ad411d3cb92dd71e38aaf94cc1",
+  "boot_signature": "[READY] COM11 WASD Q F P R T U G I C B V N J",
+  "ram_only": true,
+  "flash_written": false
+}

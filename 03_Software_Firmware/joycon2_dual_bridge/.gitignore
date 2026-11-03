@@ -1,0 +1,3 @@
+joycon2_dual_bridge/build/
+delivery/*.elf
+delivery/*.map

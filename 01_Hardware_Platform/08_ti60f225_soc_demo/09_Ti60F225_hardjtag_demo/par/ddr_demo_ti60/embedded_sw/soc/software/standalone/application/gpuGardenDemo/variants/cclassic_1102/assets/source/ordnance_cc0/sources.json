@@ -1,0 +1,55 @@
+{
+  "schema": "ordnance-source-provenance-v1",
+  "verified_on": "2026-10-16",
+  "timezone": "Asia/Shanghai",
+  "license_evidence": "assets/source/ordnance_cc0/LICENSE_EVIDENCE.txt",
+  "files": [
+    {
+      "path": "assets/source/ordnance_cc0/Hit-Yellow.png",
+      "author": "Sinestesia",
+      "license": "CC0-1.0",
+      "page": "https://opengameart.org/content/hit-animation-2-frame-by-frame",
+      "download": "https://opengameart.org/sites/default/files/Hit-Yellow.png",
+      "sha256": "4b26848c3992fe77ddde205acab3312c78a2e6a572ce2041fd636a6224b0c8ff",
+      "bytes": 2252294,
+      "dimensions": [
+        4096,
+        4096
+      ],
+      "original_unmodified": true
+    },
+    {
+      "path": "assets/source/ordnance_cc0/beams.png",
+      "author": "Rawdanitsu",
+      "license": "CC0-1.0",
+      "page": "https://opengameart.org/content/lasers-and-beams",
+      "download": "https://opengameart.org/sites/default/files/beams.png",
+      "sha256": "0628fe6f326efbf97d6637b76913c77a1f6247a7f815bce2307744fcd62a82b0",
+      "bytes": 55098,
+      "dimensions": [
+        490,
+        446
+      ],
+      "original_unmodified": true
+    }
+  ],
+  "original_grid_files": [
+    "assets/source/ordnance_cc0/bomb_pixel_grid.json",
+    "assets/source/ordnance_cc0/heal_pixel_grid.json"
+  ],
+  "research_not_selected": [
+    {
+      "author": "kurohina",
+      "license": "CC0-1.0",
+      "page": "https://opengameart.org/content/spark-effect",
+      "reason": "Valid small sparks; Sinestesia chosen for stronger angular cuts and fragment progression."
+    },
+    {
+      "author": "Foozle",
+      "license": "CC0-1.0",
+      "page": "https://foozlecc.itch.io/void-fleet-pack-1",
+      "reason": "Existing confirmed ship destruction strip contains ship fragments and is not a general impact."
+    }
+  ]
+}
+

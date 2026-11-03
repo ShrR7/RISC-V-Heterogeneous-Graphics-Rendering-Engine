@@ -1,0 +1,74 @@
+{
+  "schema": 1,
+  "build_id": "20261031-j2-dual-nimble252-r7",
+  "chip": "esp32",
+  "expected_mac": "c8:8a:7b:8c:ea:74",
+  "flash_bytes": 4194304,
+  "uart_tx": 17,
+  "uart_baud": 115200,
+  "frame_bytes": 30,
+  "merged_player": 1,
+  "framework": "Arduino ESP32 3.3.12 / ESP-IDF 5.5.5",
+  "ble_library": "NimBLE-Arduino 2.5.2",
+  "sources": [
+    {
+      "path": "03_Software_Firmware/joycon2_dual_bridge/joycon2_dual_bridge/bridge_runtime.cpp",
+      "bytes": 15030,
+      "sha256": "880c044dfbb2b65ff267e9061a9923170cdd23aa3e56f7264929f5f16e4fda32"
+    },
+    {
+      "path": "03_Software_Firmware/joycon2_dual_bridge/joycon2_dual_bridge/bridge_runtime.h",
+      "bytes": 86,
+      "sha256": "9c594c1a2e7dde013b8ef991b87a7ed4eb6eeca7161dc152eca9e0657e3add74"
+    },
+    {
+      "path": "03_Software_Firmware/joycon2_dual_bridge/joycon2_dual_bridge/j2_protocol.h",
+      "bytes": 6455,
+      "sha256": "1b330f860e89810f32b99743fa43a49c720aae0986522a29b69d2dd323069a70"
+    },
+    {
+      "path": "03_Software_Firmware/joycon2_dual_bridge/joycon2_dual_bridge/joycon2_dual_bridge.ino",
+      "bytes": 124,
+      "sha256": "258364275927d8f0fddc7ca9415b22a7cb6461292e4f60da7449313301f034f7"
+    }
+  ],
+  "images": [
+    {
+      "name": "bootloader.bin",
+      "offset": "0x1000",
+      "bytes": 23520,
+      "sha256": "f7ec7b7d9026e12dd3616bf79cee0e78974a2605afbc2863fcfb0ac9aeb159d4"
+    },
+    {
+      "name": "partitions.bin",
+      "offset": "0x8000",
+      "bytes": 3072,
+      "sha256": "148b959cbff1c38aa8e1d5c0ba9d612c54997b945e56a63f41223eef650653a1"
+    },
+    {
+      "name": "boot_app0.bin",
+      "offset": "0xe000",
+      "bytes": 8192,
+      "sha256": "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0"
+    },
+    {
+      "name": "application.bin",
+      "offset": "0x10000",
+      "bytes": 606000,
+      "sha256": "537e66179bfc2f030fa8ae6724cce3609a616ca3723c64fe6ac19d62d36277fd"
+    }
+  ],
+  "rollback": {
+    "path": "06_Controller_Dependencies/joycon2_dual_20261031/private_backup/esp32_before_joycon2.bin",
+    "bytes": 4194304,
+    "sha256": "260bc6c041e2b6c6aaee23276226d7a7d629b8c793df4122f9c839e0e7d40023"
+  },
+  "esptool": "06_Controller_Dependencies/j2sdk/data/packages/esp32/tools/esptool_py/5.3.1/esptool.exe",
+  "nvs_preserved": [
+    "0x9000",
+    "0xe000"
+  ],
+  "whole_chip_erase": false,
+  "fpga_firmware_modified": false,
+  "required_game_variant": "cjui_1031"
+}

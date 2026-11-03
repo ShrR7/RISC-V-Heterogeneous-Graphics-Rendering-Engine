@@ -1,0 +1,601 @@
+{
+  "base": "f64d50c222031e1ddd89038d21d26c0ee371e876",
+  "files": [
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/build_flow.ps1",
+      "build_path": "par/ddr_demo_ti60/build_flow.ps1",
+      "bytes": 6520,
+      "sha256": "a9786c15b402487833ee2cb373b3e616d00385ef09a9b595dbeaa5c5a10fbd45"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/ddr_demo_ti60.peri.xml",
+      "build_path": "par/ddr_demo_ti60/ddr_demo_ti60.peri.xml",
+      "bytes": 68917,
+      "sha256": "f3704f708443e2ddefe84ed148c21b31bdfb86d0a57e04f8d5216a3de2797bda"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/ddr_demo_ti60.xml",
+      "build_path": "par/ddr_demo_ti60/ddr_demo_ti60.xml",
+      "bytes": 14315,
+      "sha256": "18f53c13a32c91fb80fc1ace51df08802e5e58c1fd19e3e4a61ed02d3cf368b8"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/debug_TEMPLATE.v",
+      "build_path": "par/ddr_demo_ti60/debug_TEMPLATE.v",
+      "bytes": 7734,
+      "sha256": "fc03918dde8dc9a9de07087f07b580fe79ac3f1733128bdd9c0fa22334d7ed31"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/debug_TEMPLATE.vhd",
+      "build_path": "par/ddr_demo_ti60/debug_TEMPLATE.vhd",
+      "bytes": 13877,
+      "sha256": "4343db0d4270e8615d22cdbc436760bc538c28c7f5b0a4c6a6cf215dede46fa2"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/debug_profile.json",
+      "build_path": "par/ddr_demo_ti60/debug_profile.json",
+      "bytes": 14260,
+      "sha256": "2f67af01053034cf964d710b5e3b7b685ebf36e661228c78721d479ca4d21400"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/debug_profile.wizard.json",
+      "build_path": "par/ddr_demo_ti60/debug_profile.wizard.json",
+      "bytes": 6631,
+      "sha256": "0c7f33b809161aa412098dfaa736a1b0f7cb0673e9febecad1b9c5a1b4cd3549"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/debug_top.v",
+      "build_path": "par/ddr_demo_ti60/debug_top.v",
+      "bytes": 441644,
+      "sha256": "18865e5e9d5d81447ac64acf339adf9ed03d2035e43f9a73d15bd6100035d72b"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/ip/soc/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol0.bin",
+      "build_path": "par/ddr_demo_ti60/ip/soc/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol0.bin",
+      "bytes": 10240,
+      "sha256": "2a2649a2a38a3ea022bc896dff4ccf25014a60482fe326e2cfb67afa386bb11c"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/ip/soc/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol1.bin",
+      "build_path": "par/ddr_demo_ti60/ip/soc/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol1.bin",
+      "bytes": 10240,
+      "sha256": "d7e89c2cce2e3df4a192a8b3c347aa5a3b4ec5f7e7e28f4fccf2fa8aff887513"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/ip/soc/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol2.bin",
+      "build_path": "par/ddr_demo_ti60/ip/soc/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol2.bin",
+      "bytes": 10240,
+      "sha256": "796b02aeccf92d4fc1561712babd5197379ac592868294efe2a5484e5321824a"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/ip/soc/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol3.bin",
+      "build_path": "par/ddr_demo_ti60/ip/soc/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol3.bin",
+      "bytes": 10240,
+      "sha256": "dd1da8bf1e3ccf0980b2ee7a453b68206f3b38891b798a98ef0090e15b474e84"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/ip/soc/settings.json",
+      "build_path": "par/ddr_demo_ti60/ip/soc/settings.json",
+      "bytes": 5450,
+      "sha256": "1aacef3cac0b219d16ef4915d1a4746cc88060608a420027608758b05f6bd407"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/ip/soc/soc.v",
+      "build_path": "par/ddr_demo_ti60/ip/soc/soc.v",
+      "bytes": 1644023,
+      "sha256": "9c54b1bb62135c3a1d12d09abac4b03e54c52998860baf310783d2cfb0989948"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/ip/soc/soc_define.vh",
+      "build_path": "par/ddr_demo_ti60/ip/soc/soc_define.vh",
+      "bytes": 2967,
+      "sha256": "553f4a1ce09c50245a1f350bd8eddcf0c7f6292ee25882857d4eaf791ece547c"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/ip/soc/soc_tmpl.v",
+      "build_path": "par/ddr_demo_ti60/ip/soc/soc_tmpl.v",
+      "bytes": 11849,
+      "sha256": "e521252fce425523a2e1f099011b6455acef272ecab1736e4e2fc70a2b184bd7"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/ip/soc/soc_tmpl.vhd",
+      "build_path": "par/ddr_demo_ti60/ip/soc/soc_tmpl.vhd",
+      "bytes": 20247,
+      "sha256": "89832f7d7ce38292f451594c5b3c865a8abfeb9589ae36598835ed1ea079ebae"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/ip/soc/source/hardware/netlist/EfxSapphireSoc.v",
+      "build_path": "par/ddr_demo_ti60/ip/soc/source/hardware/netlist/EfxSapphireSoc.v",
+      "bytes": 1619783,
+      "sha256": "c0a694fdec5c9a67e8d5719f813aa0486df130f34b5916c9f2f469ff61478310"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/ip/soc/source/hardware/netlist/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol0.bin",
+      "build_path": "par/ddr_demo_ti60/ip/soc/source/hardware/netlist/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol0.bin",
+      "bytes": 10240,
+      "sha256": "2a2649a2a38a3ea022bc896dff4ccf25014a60482fe326e2cfb67afa386bb11c"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/ip/soc/source/hardware/netlist/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol1.bin",
+      "build_path": "par/ddr_demo_ti60/ip/soc/source/hardware/netlist/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol1.bin",
+      "bytes": 10240,
+      "sha256": "d7e89c2cce2e3df4a192a8b3c347aa5a3b4ec5f7e7e28f4fccf2fa8aff887513"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/ip/soc/source/hardware/netlist/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol2.bin",
+      "build_path": "par/ddr_demo_ti60/ip/soc/source/hardware/netlist/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol2.bin",
+      "bytes": 10240,
+      "sha256": "796b02aeccf92d4fc1561712babd5197379ac592868294efe2a5484e5321824a"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/ip/soc/source/hardware/netlist/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol3.bin",
+      "build_path": "par/ddr_demo_ti60/ip/soc/source/hardware/netlist/EfxSapphireSoc.v_toplevel_system_ramA_logic_ram_symbol3.bin",
+      "bytes": 10240,
+      "sha256": "dd1da8bf1e3ccf0980b2ee7a453b68206f3b38891b798a98ef0090e15b474e84"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/ip/soc/source/hardware/netlist/source_aldec/EfxSapphireSoc.v",
+      "build_path": "par/ddr_demo_ti60/ip/soc/source/hardware/netlist/source_aldec/EfxSapphireSoc.v",
+      "bytes": 1619779,
+      "sha256": "bf115f811e85927a87f0759421265044b5d6031383efe62b6abe80e6a6350249"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/package_settings.xml",
+      "build_path": "par/ddr_demo_ti60/package_settings.xml",
+      "bytes": 642,
+      "sha256": "b1112e3086867bda7b73b938c7204ab14d7c5bafc200776f60f4fa22b097b1ea"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/sdc/ddr3.sdc",
+      "build_path": "par/ddr_demo_ti60/sdc/ddr3.sdc",
+      "bytes": 36165,
+      "sha256": "ece51eba94341a58030cbe08f425363acf817b5ce3f8221a9070fde418c1f390"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/src/Axi_Mux.v",
+      "build_path": "par/ddr_demo_ti60/src/Axi_Mux.v",
+      "bytes": 135166,
+      "sha256": "47f4ab27471e898d40f00fc114871e491b19cce8cfdaa3ad6fb78e3e757fc666"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/src/Axi_Mux_Param.vh",
+      "build_path": "par/ddr_demo_ti60/src/Axi_Mux_Param.vh",
+      "bytes": 873,
+      "sha256": "fd7b293ad5e0cc71cf1a8a741f74361dc3455a4a56c4b59d943055d975716e5b"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/src/DC_FIFO.v",
+      "build_path": "par/ddr_demo_ti60/src/DC_FIFO.v",
+      "bytes": 24222,
+      "sha256": "5b35e25b43132137ec0ebe97223ec5def70e11981fb425f0661c632e875826ea"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/src/Interrupt.v",
+      "build_path": "par/ddr_demo_ti60/src/Interrupt.v",
+      "bytes": 12241,
+      "sha256": "fe2e0c582418e4e1fac4490a1f86579f445c233f2d7bfb7d6a7ed9fb0078a1ca"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/src/axi_write_admission.v",
+      "build_path": "par/ddr_demo_ti60/src/axi_write_admission.v",
+      "bytes": 1570,
+      "sha256": "ba37aab6b49b864ad9081273df96abccf5369002e9938f7873ddb9cef9083deb"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/src/axir_arb2.v",
+      "build_path": "par/ddr_demo_ti60/src/axir_arb2.v",
+      "bytes": 6114,
+      "sha256": "e547031032fbad1e41d7e50076b5bbf2b66a79ef08be89fcaa7b794b5dd0db6f"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/src/bullet_apb_regs.v",
+      "build_path": "par/ddr_demo_ti60/src/bullet_apb_regs.v",
+      "bytes": 6770,
+      "sha256": "81f3cc0066e74c03c0c25bc4737f2d44f144b9add7423ee4f707f4527ff59f16"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/src/bullet_axir_arb3.v",
+      "build_path": "par/ddr_demo_ti60/src/bullet_axir_arb3.v",
+      "bytes": 5175,
+      "sha256": "d4eac7cd6356120fca38390c6e11d7083d77740cdbc28ddd8c5b9ab64a4dac7c"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/src/bullet_desc_loader.v",
+      "build_path": "par/ddr_demo_ti60/src/bullet_desc_loader.v",
+      "bytes": 11858,
+      "sha256": "9430c650b0efe38dd8e4c2b145a5bd881ecdcf64947376a3a00c33687ba43294"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/src/bullet_diag_history.v",
+      "build_path": "par/ddr_demo_ti60/src/bullet_diag_history.v",
+      "bytes": 2646,
+      "sha256": "9ecab4c540fa0c0a47a59976ff9196168c627f5d8228354984a396bd2e1f1117"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/src/bullet_display_subsystem.v",
+      "build_path": "par/ddr_demo_ti60/src/bullet_display_subsystem.v",
+      "bytes": 6375,
+      "sha256": "aea660dbdef42866e45a1fd312ef39cc73b18b433a9d436fcab307e37353c7c3"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/src/bullet_engine.v",
+      "build_path": "par/ddr_demo_ti60/src/bullet_engine.v",
+      "bytes": 26830,
+      "sha256": "e0630b40b78dbf6ee269d17e8b5fe0cf33c248d84b410384945b2a7ad489abab"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/src/bullet_first_missing.v",
+      "build_path": "par/ddr_demo_ti60/src/bullet_first_missing.v",
+      "bytes": 3840,
+      "sha256": "2fc465d68ef10f373cc151b6a227aa6126c16235a6c2ba3a81e5961a100ee043"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/src/bullet_line_render.v",
+      "build_path": "par/ddr_demo_ti60/src/bullet_line_render.v",
+      "bytes": 26580,
+      "sha256": "b38b671972c062d54893df0ee807fefd5bd9082e60752e226f79db335a3e2c87"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/src/bullet_platform.v",
+      "build_path": "par/ddr_demo_ti60/src/bullet_platform.v",
+      "bytes": 14024,
+      "sha256": "da0a2aa784b1a63f0c0a8d347e3cf7b039430b4f05fda8d7bf20740fd0be4efb"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/src/bullet_scanout.v",
+      "build_path": "par/ddr_demo_ti60/src/bullet_scanout.v",
+      "bytes": 10878,
+      "sha256": "4ba0c0a0ca46001a3108cf461c4c67a52221c9181ffdb14d57f3693869adf72c"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/src/display_dbg.v",
+      "build_path": "par/ddr_demo_ti60/src/display_dbg.v",
+      "bytes": 30437,
+      "sha256": "10561674829175f548033b3a1ea07d78d3f3c6cbba194d21de5db43a080a8fe8"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/src/display_req_queue.v",
+      "build_path": "par/ddr_demo_ti60/src/display_req_queue.v",
+      "bytes": 1296,
+      "sha256": "08be55c2162da55d1cc27b85f7e52736d7b881884a4d32db9b22e6d288c3cea4"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/src/gpu_apb_regs.v",
+      "build_path": "par/ddr_demo_ti60/src/gpu_apb_regs.v",
+      "bytes": 9432,
+      "sha256": "1fcb8523c654ff2374143caa705385945f663993f83f96495df35d6e1c352ef2"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/src/gpu_axi_master.v",
+      "build_path": "par/ddr_demo_ti60/src/gpu_axi_master.v",
+      "bytes": 15313,
+      "sha256": "ae486389aff715f7ac59eee021b4b2b3896d0e3476a649bf3dbb8a1baf8582a2"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/src/gpu_axi_reader.v",
+      "build_path": "par/ddr_demo_ti60/src/gpu_axi_reader.v",
+      "bytes": 10611,
+      "sha256": "aec1c212ba0c8f6162bb495170646fe9f8f79e9af01625662df1ce7178819f5e"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/src/gpu_bitblt.v",
+      "build_path": "par/ddr_demo_ti60/src/gpu_bitblt.v",
+      "bytes": 50747,
+      "sha256": "96618ec522b8f5717565c9ff44688ecb27f6faa4a18298c579c10aab8b1e16a2"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/src/gpu_copy.v",
+      "build_path": "par/ddr_demo_ti60/src/gpu_copy.v",
+      "bytes": 22491,
+      "sha256": "2458fc96531873c6115224f6d7b2fdc11cf6aa9434d82c3f8c99678320ebce8a"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/src/gpu_fill.v",
+      "build_path": "par/ddr_demo_ti60/src/gpu_fill.v",
+      "bytes": 20422,
+      "sha256": "af4aa17bfbabab831d31d50a35b31da943258f0e3b01b42958ba86542102aabe"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/src/gpu_pkg.vh",
+      "build_path": "par/ddr_demo_ti60/src/gpu_pkg.vh",
+      "bytes": 4458,
+      "sha256": "f8857f88f028bcb6cc841b226f594576a2a5afa0e1c6e0a075b89c4ea98b50e8"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/src/gpu_top.v",
+      "build_path": "par/ddr_demo_ti60/src/gpu_top.v",
+      "bytes": 13401,
+      "sha256": "099560dadfdbc303d15c5dcd2d1362cc803fcaf2490f25d082f012aaf9218602"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/src/hdmi/color_bar_rgb.v",
+      "build_path": "par/ddr_demo_ti60/src/hdmi/color_bar_rgb.v",
+      "bytes": 9632,
+      "sha256": "fd683b21df58efed111d6cc801f7a704b278222aa76a8e82c0e44b86ae803f3a"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/src/hdmi/dvi_encoder.v",
+      "build_path": "par/ddr_demo_ti60/src/hdmi/dvi_encoder.v",
+      "bytes": 1284,
+      "sha256": "cd74a42ee6e24742b07f4c6515e24f11b7092283a274b7ce4c71d54504694a1e"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/src/hdmi/encode.v",
+      "build_path": "par/ddr_demo_ti60/src/hdmi/encode.v",
+      "bytes": 7439,
+      "sha256": "8c7b4ee274e83f7264ad1eff7d88701fc9aba4d576e5bc6c4210050d27dd2b81"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/src/hdmi/hdmi_sync.v",
+      "build_path": "par/ddr_demo_ti60/src/hdmi/hdmi_sync.v",
+      "bytes": 6792,
+      "sha256": "719d06e77456e09f74e58aa362f3c0a6e9264424ebf8538f242359bf415d44c5"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/src/hdmi/px_serial.v",
+      "build_path": "par/ddr_demo_ti60/src/hdmi/px_serial.v",
+      "bytes": 6540,
+      "sha256": "c419bad7dbc5cf5e7f1412d256d170ede88bbe4be5ea6fe71f5b206a011d507e"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/src/hdmi/reset.v",
+      "build_path": "par/ddr_demo_ti60/src/hdmi/reset.v",
+      "bytes": 1880,
+      "sha256": "a17101d6d3a9030057e8676eeffad1ddbf8a1f4290289114e5ac1446ea2a2639"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/src/legacy_read_admission.v",
+      "build_path": "par/ddr_demo_ti60/src/legacy_read_admission.v",
+      "bytes": 1149,
+      "sha256": "1ea92323c486ead735e0160a0479d031a9f9495b50749d5de84ab16ec63333ba"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/src/platform_gpio.v",
+      "build_path": "par/ddr_demo_ti60/src/platform_gpio.v",
+      "bytes": 3478,
+      "sha256": "ef30fe0fd89cb137fb010d761902d68502f7eb4f2f9df977320e820b9df78998"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/work_dbg/debug_top.v",
+      "build_path": "par/ddr_demo_ti60/work_dbg/debug_top.v",
+      "bytes": 354634,
+      "sha256": "88bf3949b5f1d019f85a8f2858db5757d797084256a54e30af2a5b03a2b01c75"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/common/Ddr_Read.v",
+      "build_path": "rtl/common/Ddr_Read.v",
+      "bytes": 106939,
+      "sha256": "c5b5fc28ed8cd974f5d116a0cb70f1c64963996092a459583df671e85a8bc16e"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/common/Ddr_Write.v",
+      "build_path": "rtl/common/Ddr_Write.v",
+      "bytes": 133053,
+      "sha256": "b4f6e9776d027899f2f4912e215a7153c6913bee4c02ce70409aab3ede8f712f"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/common/efx_fifo_v2.3/efx_fifo_wrapper.v",
+      "build_path": "rtl/common/efx_fifo_v2.3/efx_fifo_wrapper.v",
+      "bytes": 55401,
+      "sha256": "63e824ebc3c4293ab5808519a7e9322f12f6700231d1fca30be0367420e61c19"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/common/simple_dual_port_ram.v",
+      "build_path": "rtl/common/simple_dual_port_ram.v",
+      "bytes": 1565,
+      "sha256": "ecb40539c1a25bcf4917c6d492767d90886316f286b4f26ecb63f008c721ca2a"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/ddr3_controller/axi4_bus_ctl/axi4_bus_ctl.v",
+      "build_path": "rtl/ddr3_controller/axi4_bus_ctl/axi4_bus_ctl.v",
+      "bytes": 187598,
+      "sha256": "f4145b3920b2666396a5161122bef7ba1b1bdb56aba8504e0c08214ae8237c0e"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/ddr3_controller/axi4_bus_ctl/axi_upsizer.v",
+      "build_path": "rtl/ddr3_controller/axi4_bus_ctl/axi_upsizer.v",
+      "bytes": 242096,
+      "sha256": "03c25e7276781d9c22f4cbd7b25b76b6317ed7083874a7c94b052a0abd1188e0"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/ddr3_controller/common/efx_fifo_v2.3/efx_fifo_wrapper.v",
+      "build_path": "rtl/ddr3_controller/common/efx_fifo_v2.3/efx_fifo_wrapper.v",
+      "bytes": 54025,
+      "sha256": "040558d9dafd6d7f4c6610b8cd8040cdedc3f95b58a6f31f32dbd7429182eb98"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/ddr3_controller/common/simple_dual_port_ram.v",
+      "build_path": "rtl/ddr3_controller/common/simple_dual_port_ram.v",
+      "bytes": 3413,
+      "sha256": "66cb376b6cf6bddaff66b73456417fc561a2a74330822feec49ffb1527ce9c98"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/ddr3_controller/ddr3_parameter.vh",
+      "build_path": "rtl/ddr3_controller/ddr3_parameter.vh",
+      "bytes": 994,
+      "sha256": "abe0c6f3207c30d5468c82cdcf73726ea03fab515274be62dd4bc3c031f52f48"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/ddr3_controller/ddr3_top.v",
+      "build_path": "rtl/ddr3_controller/ddr3_top.v",
+      "bytes": 58209,
+      "sha256": "5fd49b04f9c289133b923fcc33296b032f2ad9253af688b013df1967e496dd4a"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/ddr3_controller/lb2_axi_clk.v",
+      "build_path": "rtl/ddr3_controller/lb2_axi_clk.v",
+      "bytes": 16295,
+      "sha256": "093c020259988cbcc2b250a17b6a785c31f5bd98a4df6e356e64a79b1ec6f982"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/ddr3_controller/local_bus_ctl/local_bus_ctl.v",
+      "build_path": "rtl/ddr3_controller/local_bus_ctl/local_bus_ctl.v",
+      "bytes": 16841,
+      "sha256": "a3a97a8c5c3da29318df090d84f5292a5bc8d5abb9e051f80478b568056e4cf3"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/ddr3_controller/memory_bus_ctl/memory_bus_ctl.v",
+      "build_path": "rtl/ddr3_controller/memory_bus_ctl/memory_bus_ctl.v",
+      "bytes": 337789,
+      "sha256": "cb7b2498d9612b6978d09a059ed6fddc909700986bbc099c62f00980f7b5c55d"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/ddr3_controller/phy_ctl/ddr_calibration_ini.v",
+      "build_path": "rtl/ddr3_controller/phy_ctl/ddr_calibration_ini.v",
+      "bytes": 97258,
+      "sha256": "64b819a7e4f7d0966203cf47aaef55b29eecc6d76a9db36b372719e2adf9410a"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/ddr3_controller/phy_ctl/ddr_mpr_rdlvl.v",
+      "build_path": "rtl/ddr3_controller/phy_ctl/ddr_mpr_rdlvl.v",
+      "bytes": 17792,
+      "sha256": "db1922363adece86e57dd87e3b828c63e832997bf4687517abdd78ebf1de6367"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/ddr3_controller/phy_ctl/ddr_phy_if.v",
+      "build_path": "rtl/ddr3_controller/phy_ctl/ddr_phy_if.v",
+      "bytes": 55918,
+      "sha256": "91ba41274e4d2b25d336661be8444b5e2fc2ccd7b0bef383bd1dff1b9b152c31"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/ddr3_controller/phy_ctl/ddr_phy_rdlvl_dqs.v",
+      "build_path": "rtl/ddr3_controller/phy_ctl/ddr_phy_rdlvl_dqs.v",
+      "bytes": 24650,
+      "sha256": "45fc0f1ac4b12d9f993a5bfd335f31a6e929f55a01c60e79641e733f09d2f8a6"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/ddr3_controller/phy_ctl/ddr_phy_wrcal.v",
+      "build_path": "rtl/ddr3_controller/phy_ctl/ddr_phy_wrcal.v",
+      "bytes": 57540,
+      "sha256": "4cd5f5c5f1c0aa4a6d4caae1df15ae97863240cb680f0a956782c9e762fd3abb"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/ddr3_controller/phy_ctl/ddr_phy_wrlvl.v",
+      "build_path": "rtl/ddr3_controller/phy_ctl/ddr_phy_wrlvl.v",
+      "bytes": 27304,
+      "sha256": "1c84a0d63071372202d1c33e28c79532da6cf087c2d0ec8e80b6185673a34e0c"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/ddr3_controller/phy_ctl/phy_ctl.v",
+      "build_path": "rtl/ddr3_controller/phy_ctl/phy_ctl.v",
+      "bytes": 44157,
+      "sha256": "d59329e8844f20eadcea6f78a7d360e4d509e9b05a1497f8c293ea1c0e90e4b5"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/ddr3_example_top.v",
+      "build_path": "rtl/ddr3_example_top.v",
+      "bytes": 66243,
+      "sha256": "c584d317ca526f71b79b3f28aaf39986862966a0dcbbb9475d6b309c5a6edad8"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/define.v",
+      "build_path": "rtl/define.v",
+      "bytes": 66,
+      "sha256": "dd4555c207bb7009d00f5f4c4d325affa885f5551c1cf6f41d27f692bac8d8a3"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/memory_test/PrbsAnyGenerator.v",
+      "build_path": "rtl/memory_test/PrbsAnyGenerator.v",
+      "bytes": 2833,
+      "sha256": "5a0421c745236c1acfa876d9beffd662690baa49baa08c8f7b90e1bb0cd37c60"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/memory_test/addr_gen.v",
+      "build_path": "rtl/memory_test/addr_gen.v",
+      "bytes": 10749,
+      "sha256": "91029bec7f2b0a8eff57805732cdabca60cd2fe77bcf2f16f3b4388c5471edb3"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/memory_test/axi4_m_gen.v",
+      "build_path": "rtl/memory_test/axi4_m_gen.v",
+      "bytes": 29566,
+      "sha256": "16daded0790e415c6a6f1353b97e82ad68553149a9201962f742e68119753b1e"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/memory_test/axi4_onlym_gen.v",
+      "build_path": "rtl/memory_test/axi4_onlym_gen.v",
+      "bytes": 11288,
+      "sha256": "64e867802b53dfd5fa9a34aa7b3e3c89858a3020954a63befbad4db9cf65e045"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/memory_test/check.v",
+      "build_path": "rtl/memory_test/check.v",
+      "bytes": 14356,
+      "sha256": "f05c279b17b9b634e4a4a4b664cd30442983248ae15993cae03cc0c8d244c09d"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/memory_test/common/PrbsAnyGenerator.v",
+      "build_path": "rtl/memory_test/common/PrbsAnyGenerator.v",
+      "bytes": 4901,
+      "sha256": "e34dc0c5e5741b3b550f97063865ce18db7f3ac2d625f8055c343c572758e659"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/memory_test/common/bit1_delaym.v",
+      "build_path": "rtl/memory_test/common/bit1_delaym.v",
+      "bytes": 2580,
+      "sha256": "b23b263afff2030a91f55581de231be546775b3739c1953e5769671eecbd42b5"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/memory_test/common/divider.v",
+      "build_path": "rtl/memory_test/common/divider.v",
+      "bytes": 15764,
+      "sha256": "f7353321eeac4578d116859cb311944cb06f23e20e59219248514cd480a96aac"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/memory_test/common/efx_fifo_wrapper.v",
+      "build_path": "rtl/memory_test/common/efx_fifo_wrapper.v",
+      "bytes": 73766,
+      "sha256": "0d9ce9aa70296cdbb14abde3759181583f92ee4db7a07b8e03bfb4cabac366d7"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/memory_test/data_gen.v",
+      "build_path": "rtl/memory_test/data_gen.v",
+      "bytes": 7729,
+      "sha256": "47cc71f62a4ad1a8fd10e2388263ac22d9482d2583fc50783931dd4386885b61"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/memory_test/ddrtest_statistic.v",
+      "build_path": "rtl/memory_test/ddrtest_statistic.v",
+      "bytes": 45465,
+      "sha256": "e004a83dd0a58be3f828c18d5d0fd8d53fb1bf3d22b177b3902653d05099e0f9"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/memory_test/len_gen.v",
+      "build_path": "rtl/memory_test/len_gen.v",
+      "bytes": 8748,
+      "sha256": "59c23a6f0384d78587677fe2a0ec070b1eabd11e4d5853cbe063d2cbb64db290"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/memory_test/memory_test.v",
+      "build_path": "rtl/memory_test/memory_test.v",
+      "bytes": 35739,
+      "sha256": "1b905e911fc0453cb3496916c092ec4f808fc235c3dba28be9f124712f75e2e4"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/memory_test/rd_drive.v",
+      "build_path": "rtl/memory_test/rd_drive.v",
+      "bytes": 5693,
+      "sha256": "5d178d49417179c6db321449c8a3779cb7d1c46248ea6064f690abf56d48b709"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/memory_test/test_seq.v",
+      "build_path": "rtl/memory_test/test_seq.v",
+      "bytes": 9634,
+      "sha256": "7e48b7a363b54c071c3b6f17335276502f324bfc4d81b2d0ae685e21320c6f25"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/rtl/memory_test/wr_drive.v",
+      "build_path": "rtl/memory_test/wr_drive.v",
+      "bytes": 15024,
+      "sha256": "138a910d48312c78c5825d3f5942bb8f5687ad0e2513e972efcdf6acc1c77e83"
+    },
+    {
+      "path": "01_Hardware_Platform/08_ti60f225_soc_demo/09_Ti60F225_hardjtag_demo/par/ddr_demo_ti60/src/platform_uart_rx.v",
+      "build_path": "par/ddr_demo_ti60/src/platform_uart_rx.v",
+      "bytes": 5848,
+      "sha256": "48f7ffedc2f3f312f5b54d46d2aece436f335387a2e59d6c558fd7db832abc03"
+    }
+  ],
+  "profile": "RTL19 production + independent GPIO6 UART RX; no Stage10 swap",
+  "source_commit": "5a3b05e0b2ca760b7d9478398ec2ca05983d595c"
+}

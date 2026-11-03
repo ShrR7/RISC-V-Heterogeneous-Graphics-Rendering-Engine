@@ -1,0 +1,93 @@
+{
+  "schema": "cruiser-attachment-v1",
+  "canvas": [
+    128,
+    132
+  ],
+  "body_anchor": [
+    64,
+    66
+  ],
+  "source_bbox": [
+    8,
+    5,
+    184,
+    187
+  ],
+  "source_canvas": [
+    192,
+    192
+  ],
+  "target_muzzles": [
+    [
+      22,
+      85
+    ],
+    [
+      107,
+      85
+    ]
+  ],
+  "muzzle_offsets": [
+    [
+      -42,
+      19
+    ],
+    [
+      43,
+      19
+    ]
+  ],
+  "pod_rects": [
+    [
+      0,
+      16,
+      44,
+      88
+    ],
+    [
+      84,
+      16,
+      128,
+      88
+    ]
+  ],
+  "pod_ids": [
+    274,
+    275
+  ],
+  "pod_anchors": [
+    [
+      22,
+      69
+    ],
+    [
+      23,
+      69
+    ]
+  ],
+  "core_local": [
+    64,
+    47
+  ],
+  "core_offset": [
+    0,
+    -19
+  ],
+  "charge_local": [
+    64,
+    126
+  ],
+  "charge_offset": [
+    0,
+    60
+  ],
+  "neutral_composite_rgb565_sha256": "9e833d95c885e49a5968bf8844d423196463e927bcc6cf208db9b9e9b95261e0",
+  "neutral_composite_exact": true,
+  "muzzle_alpha": [
+    137,
+    126
+  ],
+  "muzzle_terminal_observation": "row85 barrel shrinks to left20..23 / right105..108 at alpha>=64; row86 has no barrel pixels",
+  "alignment_rule": "pod draw x/y is the canonical muzzle; WARN/FIRE/FADE pod, glow and13pxbeam collision all share it"
+}

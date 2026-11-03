@@ -1,0 +1,348 @@
+{
+  "status": "GENERATED_OFFLINE_NOT_BOARD_ACCEPTED",
+  "prefix_byte_equal": true,
+  "prefix_bytes": 236954,
+  "prefix_sha256": "82b626660cda45307a6b8f88b808eb4bb66ca240aff32de2a171e80bc9e22762",
+  "old_records_equal": 280,
+  "new_frames": 560,
+  "sprite_count": 840,
+  "atlas_bytes": 631954,
+  "atlas_sha256": "1b1fa155cc7db9fbfd72a76ae74fd8fdeffb43b4b3321a42aa594aeeabfef076",
+  "atlas_crc32": "0x6486F38E",
+  "span": [
+    "0x5c4000",
+    "0x680000"
+  ],
+  "reserved_tail_bytes": 8192,
+  "free_bytes_before_scratch": 129902,
+  "native16_source_components": {
+    "DART": {
+      "12": {
+        "crop": [
+          429,
+          85,
+          435,
+          99
+        ],
+        "opaque_pixels": 64
+      },
+      "10": {
+        "crop": [
+          398,
+          89,
+          409,
+          99
+        ],
+        "opaque_pixels": 73
+      },
+      "1": {
+        "crop": [
+          455,
+          127,
+          468,
+          135
+        ],
+        "opaque_pixels": 72
+      },
+      "13": {
+        "crop": [
+          443,
+          86,
+          451,
+          99
+        ],
+        "opaque_pixels": 72
+      },
+      "7": {
+        "crop": [
+          396,
+          127,
+          409,
+          135
+        ],
+        "opaque_pixels": 72
+      },
+      "4": {
+        "crop": [
+          429,
+          138,
+          435,
+          152
+        ],
+        "opaque_pixels": 64
+      },
+      "2": {
+        "crop": [
+          455,
+          139,
+          466,
+          149
+        ],
+        "opaque_pixels": 73
+      },
+      "0": {
+        "crop": [
+          455,
+          116,
+          469,
+          122
+        ],
+        "opaque_pixels": 64
+      },
+      "6": {
+        "crop": [
+          398,
+          139,
+          409,
+          149
+        ],
+        "opaque_pixels": 73
+      },
+      "5": {
+        "crop": [
+          413,
+          138,
+          421,
+          151
+        ],
+        "opaque_pixels": 72
+      },
+      "15": {
+        "crop": [
+          455,
+          103,
+          468,
+          111
+        ],
+        "opaque_pixels": 72
+      },
+      "8": {
+        "crop": [
+          395,
+          116,
+          409,
+          122
+        ],
+        "opaque_pixels": 64
+      },
+      "11": {
+        "crop": [
+          413,
+          86,
+          421,
+          99
+        ],
+        "opaque_pixels": 72
+      },
+      "3": {
+        "crop": [
+          443,
+          138,
+          451,
+          151
+        ],
+        "opaque_pixels": 72
+      },
+      "9": {
+        "crop": [
+          396,
+          103,
+          409,
+          111
+        ],
+        "opaque_pixels": 72
+      },
+      "14": {
+        "crop": [
+          455,
+          89,
+          466,
+          99
+        ],
+        "opaque_pixels": 73
+      }
+    },
+    "DIAMOND": {
+      "9": {
+        "crop": [
+          393,
+          185,
+          408,
+          193
+        ],
+        "opaque_pixels": 93
+      },
+      "3": {
+        "crop": [
+          443,
+          227,
+          451,
+          242
+        ],
+        "opaque_pixels": 93
+      },
+      "1": {
+        "crop": [
+          457,
+          214,
+          472,
+          222
+        ],
+        "opaque_pixels": 93
+      },
+      "6": {
+        "crop": [
+          395,
+          227,
+          408,
+          239
+        ],
+        "opaque_pixels": 90
+      },
+      "8": {
+        "crop": [
+          392,
+          200,
+          408,
+          207
+        ],
+        "opaque_pixels": 80
+      },
+      "13": {
+        "crop": [
+          443,
+          165,
+          451,
+          180
+        ],
+        "opaque_pixels": 93
+      },
+      "15": {
+        "crop": [
+          457,
+          185,
+          472,
+          193
+        ],
+        "opaque_pixels": 93
+      },
+      "4": {
+        "crop": [
+          429,
+          227,
+          436,
+          243
+        ],
+        "opaque_pixels": 80
+      },
+      "10": {
+        "crop": [
+          395,
+          168,
+          408,
+          180
+        ],
+        "opaque_pixels": 90
+      },
+      "2": {
+        "crop": [
+          457,
+          227,
+          470,
+          239
+        ],
+        "opaque_pixels": 90
+      },
+      "12": {
+        "crop": [
+          429,
+          164,
+          436,
+          180
+        ],
+        "opaque_pixels": 80
+      },
+      "7": {
+        "crop": [
+          393,
+          214,
+          408,
+          222
+        ],
+        "opaque_pixels": 93
+      },
+      "5": {
+        "crop": [
+          414,
+          227,
+          422,
+          242
+        ],
+        "opaque_pixels": 93
+      },
+      "0": {
+        "crop": [
+          457,
+          200,
+          473,
+          207
+        ],
+        "opaque_pixels": 80
+      },
+      "14": {
+        "crop": [
+          457,
+          168,
+          470,
+          180
+        ],
+        "opaque_pixels": 90
+      },
+      "11": {
+        "crop": [
+          414,
+          165,
+          422,
+          180
+        ],
+        "opaque_pixels": 93
+      }
+    }
+  },
+  "new_frame_geometry": {
+    "DART": {
+      "new_frames": 280,
+      "width_range": [
+        11,
+        24
+      ],
+      "height_range": [
+        11,
+        24
+      ],
+      "mean_new_bbox_pixels": 277.85714285714283,
+      "mean_new_opaque_pixels": 178.98214285714286
+    },
+    "DIAMOND": {
+      "new_frames": 280,
+      "width_range": [
+        14,
+        31
+      ],
+      "height_range": [
+        14,
+        31
+      ],
+      "mean_new_bbox_pixels": 426.92857142857144,
+      "mean_new_opaque_pixels": 279.69642857142856
+    }
+  },
+  "precision_step_degrees": 5.625,
+  "ideal_max_quantization_error_degrees": 2.8125,
+  "descriptor_extra_bytes_if_16byte_layout": 8960,
+  "lookup_table_extra_bytes": 0,
+  "nominal_source_palette_count": 5,
+  "core_collision_coordinates_unchanged": true,
+  "runtime_resampling": false,
+  "hardware_access": false
+}

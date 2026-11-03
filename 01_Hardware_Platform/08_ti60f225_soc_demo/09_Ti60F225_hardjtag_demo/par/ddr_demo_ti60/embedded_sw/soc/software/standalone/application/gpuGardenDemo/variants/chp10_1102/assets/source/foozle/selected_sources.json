@@ -1,0 +1,16 @@
+{
+  "license": "CC0-1.0",
+  "files_bundled": [
+    "devshare/assets/images/foozle/ship.png",
+    "devshare/assets/images/foozle/ship_engine.png",
+    "devshare/assets/images/foozle/ship_engine_thruster.png",
+    "devshare/assets/images/foozle/scout.png",
+    "devshare/assets/images/foozle/scout_engine.png",
+    "luke/img/enemy/lv1_to_5/base/Bomber.png",
+    "luke/img/enemy/lv1_to_5/Engine/Bomber.png",
+    "luke/img/enemy/lv1_to_5/base/Dreadnought.png",
+    "luke/img/enemy/lv1_to_5/Engine/Dreadnought.png"
+  ],
+  "scope": "Only nine original PNGs used by the actor extractor are bundled. The unchanged provenance manifest also lists other researched files that are not bundled.",
+  "official_archive_downloaded": false
+}

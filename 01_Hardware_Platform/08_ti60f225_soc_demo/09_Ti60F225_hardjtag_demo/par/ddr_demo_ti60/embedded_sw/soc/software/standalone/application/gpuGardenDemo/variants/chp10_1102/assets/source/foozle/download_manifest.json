@@ -1,0 +1,1470 @@
+{
+  "date": "2026-10-13",
+  "license": "CC0-1.0",
+  "official_sources": [
+    "https://foozlecc.itch.io/void-main-ship",
+    "https://foozlecc.itch.io/void-fleet-pack-1"
+  ],
+  "official_archive_downloaded": false,
+  "download_method": "Pinned public GitHub mirrors credited to the original author",
+  "note": "PNG bytes preserved exactly and Git blob SHA verified. Do not claim complete original ZIPs. No promotional images imported. CC0 verified on original author pages; mirror README files preserve provenance.",
+  "files": [
+    {
+      "path": "devshare/README.md",
+      "source_url": "https://raw.githubusercontent.com/devshareacademy/phaser-3-space-shooter/395f76d9003a6bec361ca9c3bba84d674b55c97a/README.md",
+      "repository": "devshareacademy/phaser-3-space-shooter",
+      "commit": "395f76d9003a6bec361ca9c3bba84d674b55c97a",
+      "source_path": "README.md",
+      "bytes": 3113,
+      "git_blob_sha1": "5ee8e00f8ce37617f214a344738e5ab5071bef1a",
+      "sha256": "b6615a2b3d765b15d577b2b56cf68207b4fe8f4db64500727f4ff9ab7a3f8554"
+    },
+    {
+      "path": "devshare/assets/data/animations.json",
+      "source_url": "https://raw.githubusercontent.com/devshareacademy/phaser-3-space-shooter/395f76d9003a6bec361ca9c3bba84d674b55c97a/assets/data/animations.json",
+      "repository": "devshareacademy/phaser-3-space-shooter",
+      "commit": "395f76d9003a6bec361ca9c3bba84d674b55c97a",
+      "source_path": "assets/data/animations.json",
+      "bytes": 1051,
+      "git_blob_sha1": "9e5d8f86db0d5127a686df4af17d6e2ed17ed098",
+      "sha256": "3bc77955a7f7d9ee8cd2d1169c4fac37a6f31fd090610d479e41dcce2c906583"
+    },
+    {
+      "path": "devshare/assets/data/assets.json",
+      "source_url": "https://raw.githubusercontent.com/devshareacademy/phaser-3-space-shooter/395f76d9003a6bec361ca9c3bba84d674b55c97a/assets/data/assets.json",
+      "repository": "devshareacademy/phaser-3-space-shooter",
+      "commit": "395f76d9003a6bec361ca9c3bba84d674b55c97a",
+      "source_path": "assets/data/assets.json",
+      "bytes": 2628,
+      "git_blob_sha1": "62a0af20df9f18f5352df33cdc668dbfbe81435c",
+      "sha256": "4b698d4e0f1bee1e702f2ebc96f2b29b7fdf2a03cde51dc7546105cd57563b1f"
+    },
+    {
+      "path": "devshare/assets/images/foozle/bullet.png",
+      "source_url": "https://raw.githubusercontent.com/devshareacademy/phaser-3-space-shooter/395f76d9003a6bec361ca9c3bba84d674b55c97a/assets/images/foozle/bullet.png",
+      "repository": "devshareacademy/phaser-3-space-shooter",
+      "commit": "395f76d9003a6bec361ca9c3bba84d674b55c97a",
+      "source_path": "assets/images/foozle/bullet.png",
+      "bytes": 627,
+      "git_blob_sha1": "811ee77a56a9310bffee40d37f731b180433cdae",
+      "sha256": "53bc193b84529be5b3b8eb0203d4240aab97fdcc579e1bb159626a5bc71242c7",
+      "width": 128,
+      "height": 32,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        11,
+        8,
+        117,
+        25
+      ]
+    },
+    {
+      "path": "devshare/assets/images/foozle/fighter.png",
+      "source_url": "https://raw.githubusercontent.com/devshareacademy/phaser-3-space-shooter/395f76d9003a6bec361ca9c3bba84d674b55c97a/assets/images/foozle/fighter.png",
+      "repository": "devshareacademy/phaser-3-space-shooter",
+      "commit": "395f76d9003a6bec361ca9c3bba84d674b55c97a",
+      "source_path": "assets/images/foozle/fighter.png",
+      "bytes": 590,
+      "git_blob_sha1": "15419879c2ae9a5a68cde8c536188666406a550e",
+      "sha256": "5471493f0810039def98930c0d404cb92aa7e7c87f314c011c77142d50a8b9d7",
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        20,
+        21,
+        44,
+        43
+      ]
+    },
+    {
+      "path": "devshare/assets/images/foozle/fighter_destroy.png",
+      "source_url": "https://raw.githubusercontent.com/devshareacademy/phaser-3-space-shooter/395f76d9003a6bec361ca9c3bba84d674b55c97a/assets/images/foozle/fighter_destroy.png",
+      "repository": "devshareacademy/phaser-3-space-shooter",
+      "commit": "395f76d9003a6bec361ca9c3bba84d674b55c97a",
+      "source_path": "assets/images/foozle/fighter_destroy.png",
+      "bytes": 3234,
+      "git_blob_sha1": "bda920e4aa40600d21b4816bf7a2d358ddede992",
+      "sha256": "74ba91259c12038497e18d70676c7762136c9e68b83ef0123caa027af905aa34",
+      "width": 576,
+      "height": 64,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        20,
+        2,
+        506,
+        58
+      ]
+    },
+    {
+      "path": "devshare/assets/images/foozle/fighter_engine.png",
+      "source_url": "https://raw.githubusercontent.com/devshareacademy/phaser-3-space-shooter/395f76d9003a6bec361ca9c3bba84d674b55c97a/assets/images/foozle/fighter_engine.png",
+      "repository": "devshareacademy/phaser-3-space-shooter",
+      "commit": "395f76d9003a6bec361ca9c3bba84d674b55c97a",
+      "source_path": "assets/images/foozle/fighter_engine.png",
+      "bytes": 655,
+      "git_blob_sha1": "b7deb1fd5e5717232068d9429842edbd5333bf0c",
+      "sha256": "a2605a73bbc1f13f57928129eb9cb6140a8d19afcea97e2510d98703e639c8b2",
+      "width": 640,
+      "height": 64,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        29,
+        38,
+        610,
+        50
+      ]
+    },
+    {
+      "path": "devshare/assets/images/foozle/scout.png",
+      "source_url": "https://raw.githubusercontent.com/devshareacademy/phaser-3-space-shooter/395f76d9003a6bec361ca9c3bba84d674b55c97a/assets/images/foozle/scout.png",
+      "repository": "devshareacademy/phaser-3-space-shooter",
+      "commit": "395f76d9003a6bec361ca9c3bba84d674b55c97a",
+      "source_path": "assets/images/foozle/scout.png",
+      "bytes": 674,
+      "git_blob_sha1": "8c1895f3b77d878c36841e898a1830e36f61099e",
+      "sha256": "48efffeeece3ae4f727404480addd346c87804813a4523364188c607f9b45168",
+      "width": 64,
+      "height": 64,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        21,
+        23,
+        43,
+        45
+      ]
+    },
+    {
+      "path": "devshare/assets/images/foozle/scout_destroy.png",
+      "source_url": "https://raw.githubusercontent.com/devshareacademy/phaser-3-space-shooter/395f76d9003a6bec361ca9c3bba84d674b55c97a/assets/images/foozle/scout_destroy.png",
+      "repository": "devshareacademy/phaser-3-space-shooter",
+      "commit": "395f76d9003a6bec361ca9c3bba84d674b55c97a",
+      "source_path": "assets/images/foozle/scout_destroy.png",
+      "bytes": 3408,
+      "git_blob_sha1": "e3e9796abed2008c4b59d430146a1e5552990a4d",
+      "sha256": "904bc3b1af660b35ca977a4dd59b534c4d9678434e784285a5c4cb3d53bfbacd",
+      "width": 640,
+      "height": 64,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        21,
+        11,
+        570,
+        55
+      ]
+    },
+    {
+      "path": "devshare/assets/images/foozle/scout_engine.png",
+      "source_url": "https://raw.githubusercontent.com/devshareacademy/phaser-3-space-shooter/395f76d9003a6bec361ca9c3bba84d674b55c97a/assets/images/foozle/scout_engine.png",
+      "repository": "devshareacademy/phaser-3-space-shooter",
+      "commit": "395f76d9003a6bec361ca9c3bba84d674b55c97a",
+      "source_path": "assets/images/foozle/scout_engine.png",
+      "bytes": 655,
+      "git_blob_sha1": "b7deb1fd5e5717232068d9429842edbd5333bf0c",
+      "sha256": "a2605a73bbc1f13f57928129eb9cb6140a8d19afcea97e2510d98703e639c8b2",
+      "width": 640,
+      "height": 64,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        29,
+        38,
+        610,
+        50
+      ]
+    },
+    {
+      "path": "devshare/assets/images/foozle/ship.png",
+      "source_url": "https://raw.githubusercontent.com/devshareacademy/phaser-3-space-shooter/395f76d9003a6bec361ca9c3bba84d674b55c97a/assets/images/foozle/ship.png",
+      "repository": "devshareacademy/phaser-3-space-shooter",
+      "commit": "395f76d9003a6bec361ca9c3bba84d674b55c97a",
+      "source_path": "assets/images/foozle/ship.png",
+      "bytes": 1271,
+      "git_blob_sha1": "58542fc9685105fa4d709721b6048006188eea59",
+      "sha256": "9d49be41832a5b4de6cb5d73aa194cfb084eaee9699f7b6d1f8980cdc290091f",
+      "width": 192,
+      "height": 48,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        9,
+        11,
+        183,
+        37
+      ]
+    },
+    {
+      "path": "devshare/assets/images/foozle/ship_engine.png",
+      "source_url": "https://raw.githubusercontent.com/devshareacademy/phaser-3-space-shooter/395f76d9003a6bec361ca9c3bba84d674b55c97a/assets/images/foozle/ship_engine.png",
+      "repository": "devshareacademy/phaser-3-space-shooter",
+      "commit": "395f76d9003a6bec361ca9c3bba84d674b55c97a",
+      "source_path": "assets/images/foozle/ship_engine.png",
+      "bytes": 336,
+      "git_blob_sha1": "35f4d9fe5e7fd33d094ba0c6918c5539c65a0869",
+      "sha256": "8a7c214047c980c13255830278d2bee9e70c69b097ff5bea57fb20cfb74694f7",
+      "width": 48,
+      "height": 48,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        13,
+        20,
+        35,
+        35
+      ]
+    },
+    {
+      "path": "devshare/assets/images/foozle/ship_engine_thruster.png",
+      "source_url": "https://raw.githubusercontent.com/devshareacademy/phaser-3-space-shooter/395f76d9003a6bec361ca9c3bba84d674b55c97a/assets/images/foozle/ship_engine_thruster.png",
+      "repository": "devshareacademy/phaser-3-space-shooter",
+      "commit": "395f76d9003a6bec361ca9c3bba84d674b55c97a",
+      "source_path": "assets/images/foozle/ship_engine_thruster.png",
+      "bytes": 292,
+      "git_blob_sha1": "f2175d92a273e249678cac45079f34c6b494cd41",
+      "sha256": "582c5ec41e274e552dd65eee4e34228cb2bf5ac66194ab0e2ea7107b7694d27b",
+      "width": 144,
+      "height": 48,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        14,
+        30,
+        130,
+        37
+      ]
+    },
+    {
+      "path": "luke/README.md",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/README.md",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "README.md",
+      "bytes": 9924,
+      "git_blob_sha1": "ba8945d4d8d7d23164dc9f6dfe998340cf39e3af",
+      "sha256": "ba85ae9f9f7e8ba43898e20cfe74383d66d8de181868a58edcb05b9f943d7274"
+    },
+    {
+      "path": "luke/img/enemy/lv1_to_5/Engine/Battlecruiser.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/Engine/Battlecruiser.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/enemy/lv1_to_5/Engine/Battlecruiser.png",
+      "bytes": 1401,
+      "git_blob_sha1": "5ef37556a3ae89f1664203f26717e786d3438b5a",
+      "sha256": "874cd74f19cbc0fc5232fc8e7674e2d3fb5340ae351479757285b25ac8cc0b35",
+      "width": 1536,
+      "height": 128,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        29,
+        93,
+        1507,
+        104
+      ]
+    },
+    {
+      "path": "luke/img/enemy/lv1_to_5/Engine/Bomber.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/Engine/Bomber.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/enemy/lv1_to_5/Engine/Bomber.png",
+      "bytes": 725,
+      "git_blob_sha1": "87247ed98d37a55e62071d9a4836997cbf40333a",
+      "sha256": "f28f26619a5a17c56cf8e7154bf52a34d303132c695ef74ae5b7d13ad7f520fa",
+      "width": 640,
+      "height": 64,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        18,
+        44,
+        621,
+        56
+      ]
+    },
+    {
+      "path": "luke/img/enemy/lv1_to_5/Engine/Dreadnought.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/Engine/Dreadnought.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/enemy/lv1_to_5/Engine/Dreadnought.png",
+      "bytes": 1706,
+      "git_blob_sha1": "bc6b2693cbce1e408ecfcd41ba411d0a9fee4e11",
+      "sha256": "8484c65ccb1d85c47207e8bdc34c5efee24d447ffe020ad927801af0ad603742",
+      "width": 1536,
+      "height": 128,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        29,
+        98,
+        1379,
+        116
+      ]
+    },
+    {
+      "path": "luke/img/enemy/lv1_to_5/Engine/Fighter.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/Engine/Fighter.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/enemy/lv1_to_5/Engine/Fighter.png",
+      "bytes": 655,
+      "git_blob_sha1": "b7deb1fd5e5717232068d9429842edbd5333bf0c",
+      "sha256": "a2605a73bbc1f13f57928129eb9cb6140a8d19afcea97e2510d98703e639c8b2",
+      "width": 640,
+      "height": 64,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        29,
+        38,
+        610,
+        50
+      ]
+    },
+    {
+      "path": "luke/img/enemy/lv1_to_5/Engine/Frigate.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/Engine/Frigate.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/enemy/lv1_to_5/Engine/Frigate.png",
+      "bytes": 479,
+      "git_blob_sha1": "da1bcccfdd0c8a00c9749e9e0fad9379b99d2a55",
+      "sha256": "3e7f8e1aa57e64f5b92cdc6bb630643d1eceb8f870476f1387134e4b6acabc7b",
+      "width": 768,
+      "height": 64,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        25,
+        48,
+        741,
+        54
+      ]
+    },
+    {
+      "path": "luke/img/enemy/lv1_to_5/Engine/Scout_assets/Scout.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/Engine/Scout_assets/Scout.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/enemy/lv1_to_5/Engine/Scout_assets/Scout.png",
+      "bytes": 655,
+      "git_blob_sha1": "b7deb1fd5e5717232068d9429842edbd5333bf0c",
+      "sha256": "a2605a73bbc1f13f57928129eb9cb6140a8d19afcea97e2510d98703e639c8b2",
+      "width": 640,
+      "height": 64,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        29,
+        38,
+        610,
+        50
+      ]
+    },
+    {
+      "path": "luke/img/enemy/lv1_to_5/Engine/Support ship.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/Engine/Support%20ship.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/enemy/lv1_to_5/Engine/Support ship.png",
+      "bytes": 427,
+      "git_blob_sha1": "838124921d87a6bf53ea3db2a9e6f5dde6975f79",
+      "sha256": "9662805eb9426bb027099e7de32e06deaca354c9e6e326485f464dd0b4503ed1",
+      "width": 640,
+      "height": 64,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        27,
+        41,
+        613,
+        47
+      ]
+    },
+    {
+      "path": "luke/img/enemy/lv1_to_5/Engine/Torpedo Ship.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/Engine/Torpedo%20Ship.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/enemy/lv1_to_5/Engine/Torpedo Ship.png",
+      "bytes": 769,
+      "git_blob_sha1": "c80a37b1674b67ea3ee3e22636d969f08bf5c50e",
+      "sha256": "365bfcbccb9aed890ceaf9e14930ea253e863060925461e458e0e7aed6b5bc26",
+      "width": 640,
+      "height": 64,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        3,
+        39,
+        636,
+        51
+      ]
+    },
+    {
+      "path": "luke/img/enemy/lv1_to_5/Projectiles/Big_Bullet_assets/Kla'ed - Big Bullet.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/Projectiles/Big_Bullet_assets/Kla%27ed%20-%20Big%20Bullet.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/enemy/lv1_to_5/Projectiles/Big_Bullet_assets/Kla'ed - Big Bullet.png",
+      "bytes": 266,
+      "git_blob_sha1": "f6e11211d715b65f906cbf479ffa349bece0ad39",
+      "sha256": "95030274e64946b4883c996a88858c14c7bc07b3d7a6c5220311bd7c900bdab0",
+      "width": 32,
+      "height": 16,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        1,
+        4,
+        30,
+        16
+      ]
+    },
+    {
+      "path": "luke/img/enemy/lv1_to_5/Projectiles/Bullet_assets/Bullet.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/Projectiles/Bullet_assets/Bullet.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/enemy/lv1_to_5/Projectiles/Bullet_assets/Bullet.png",
+      "bytes": 194,
+      "git_blob_sha1": "68eb2f2b2fc38875dd1336f1d6779e97a9b03df3",
+      "sha256": "63f994d653a9e810e76669acc0d4126d3c2b0ecbd3816d77c6447514bf2fd9b9",
+      "width": 16,
+      "height": 16,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        1,
+        4,
+        15,
+        16
+      ]
+    },
+    {
+      "path": "luke/img/enemy/lv1_to_5/Projectiles/Kla'ed - Wave.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/Projectiles/Kla%27ed%20-%20Wave.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/enemy/lv1_to_5/Projectiles/Kla'ed - Wave.png",
+      "bytes": 1663,
+      "git_blob_sha1": "3496020e999b9d7362b801123c03b89874064075",
+      "sha256": "914fd72d606c860ab86a6c9fd5dc78923a2a4ad5a5acdce92c49e9d6348f921b",
+      "width": 384,
+      "height": 64,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        15,
+        28,
+        369,
+        45
+      ]
+    },
+    {
+      "path": "luke/img/enemy/lv1_to_5/Projectiles/Ray_assets/Ray.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/Projectiles/Ray_assets/Ray.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/enemy/lv1_to_5/Projectiles/Ray_assets/Ray.png",
+      "bytes": 498,
+      "git_blob_sha1": "900621da33a3370260447bfb75979bd5ad5d50a0",
+      "sha256": "e3eedd11c806cf3a9c8d4898a6c3d4d5afbadb8861590810e15fb266a092a37b",
+      "width": 72,
+      "height": 38,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        1,
+        0,
+        71,
+        38
+      ]
+    },
+    {
+      "path": "luke/img/enemy/lv1_to_5/Projectiles/Torpedo_assets/Torpedo.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/Projectiles/Torpedo_assets/Torpedo.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/enemy/lv1_to_5/Projectiles/Torpedo_assets/Torpedo.png",
+      "bytes": 348,
+      "git_blob_sha1": "cb964dc84ed40441d08d09344c54ef801bfc62d9",
+      "sha256": "34c4915b96324737f4a699ebdeb150f765192f21b93a94102080047c483f9e37",
+      "width": 33,
+      "height": 32,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        3,
+        1,
+        30,
+        21
+      ]
+    },
+    {
+      "path": "luke/img/enemy/lv1_to_5/Shield/Frigate_assets/Frigate_Shield_frame_.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/Shield/Frigate_assets/Frigate_Shield_frame_.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/enemy/lv1_to_5/Shield/Frigate_assets/Frigate_Shield_frame_.png",
+      "bytes": 7118,
+      "git_blob_sha1": "dbe2f873375b0c15732184259adc4a2f5acaca34",
+      "sha256": "adcf48b02fe766c67376a4f60eee2a00679ed2656edf039108e7ee3846b23119",
+      "width": 2560,
+      "height": 64,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        11,
+        11,
+        2549,
+        56
+      ]
+    },
+    {
+      "path": "luke/img/enemy/lv1_to_5/Shield/Kla'ed - Battlecruiser - Shield.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/Shield/Kla%27ed%20-%20Battlecruiser%20-%20Shield.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/enemy/lv1_to_5/Shield/Kla'ed - Battlecruiser - Shield.png",
+      "bytes": 5476,
+      "git_blob_sha1": "e63f1d981a298caf2c8ef6a65d844afa35008ac2",
+      "sha256": "7474487ce8b5398e5f93a1d9bee946340490dd4eaf72a7883b143174ce183ace",
+      "width": 2048,
+      "height": 128,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        26,
+        9,
+        2022,
+        69
+      ]
+    },
+    {
+      "path": "luke/img/enemy/lv1_to_5/Shield/Kla'ed - Bomber - Shield.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/Shield/Kla%27ed%20-%20Bomber%20-%20Shield.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/enemy/lv1_to_5/Shield/Kla'ed - Bomber - Shield.png",
+      "bytes": 864,
+      "git_blob_sha1": "6633ddd906667c00f55ded4ded85ec4a8854dc62",
+      "sha256": "a849a438b2fc39e10e485348a02730e17b7111f6d8c3813916ac51276c0a953f",
+      "width": 384,
+      "height": 64,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        14,
+        16,
+        370,
+        27
+      ]
+    },
+    {
+      "path": "luke/img/enemy/lv1_to_5/Shield/Kla'ed - Dreadnought - Shield.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/Shield/Kla%27ed%20-%20Dreadnought%20-%20Shield.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/enemy/lv1_to_5/Shield/Kla'ed - Dreadnought - Shield.png",
+      "bytes": 9905,
+      "git_blob_sha1": "9beb88946f7f34b1fe2e6fe0754be973b85270c8",
+      "sha256": "7a95b166733c921543b749696498cc75d565c512aaeb5ad278a3a303c9c44a63",
+      "width": 1280,
+      "height": 128,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        5,
+        5,
+        1275,
+        123
+      ]
+    },
+    {
+      "path": "luke/img/enemy/lv1_to_5/Shield/Kla'ed - Fighter - Shield.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/Shield/Kla%27ed%20-%20Fighter%20-%20Shield.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/enemy/lv1_to_5/Shield/Kla'ed - Fighter - Shield.png",
+      "bytes": 1561,
+      "git_blob_sha1": "448f6f9b593cabae4ac5097c0d17616371570588",
+      "sha256": "dec79cc02b0f3e5d91d68fca754f090575c62ca46a9fe91052ef776e8f1b13f2",
+      "width": 640,
+      "height": 64,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        19,
+        20,
+        621,
+        44
+      ]
+    },
+    {
+      "path": "luke/img/enemy/lv1_to_5/Shield/Scout_assets/Scout_Shield.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/Shield/Scout_assets/Scout_Shield.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/enemy/lv1_to_5/Shield/Scout_assets/Scout_Shield.png",
+      "bytes": 2532,
+      "git_blob_sha1": "967827341ca525224f0fa5318a77cbefbd6ae5da",
+      "sha256": "dadfeeb23ccfde184e1a9d4f1c47ad02be36ad2290bb7c616a4cb067f890c4ee",
+      "width": 896,
+      "height": 64,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        20,
+        20,
+        876,
+        46
+      ]
+    },
+    {
+      "path": "luke/img/enemy/lv1_to_5/Shield/Torpedo_assets/Torpedo_frame_.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/Shield/Torpedo_assets/Torpedo_frame_.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/enemy/lv1_to_5/Shield/Torpedo_assets/Torpedo_frame_.png",
+      "bytes": 979,
+      "git_blob_sha1": "80541eafb31b69279ef8acc7c08e92e685f57c67",
+      "sha256": "10e495c9e876b5b4eb3f5b34125170c4f3dca51da49c170f6a3097f2adb184b7",
+      "width": 640,
+      "height": 64,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        2,
+        38,
+        638,
+        48
+      ]
+    },
+    {
+      "path": "luke/img/enemy/lv1_to_5/Weapons/PNGs/Kla'ed - Battlecruiser - Weapons.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/Weapons/PNGs/Kla%27ed%20-%20Battlecruiser%20-%20Weapons.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/enemy/lv1_to_5/Weapons/PNGs/Kla'ed - Battlecruiser - Weapons.png",
+      "bytes": 13701,
+      "git_blob_sha1": "e123b8010c69e2f12f3ff46ed6189938107e0b30",
+      "sha256": "516eca027308ab04395d93701c0f936478aa4ec9bbfb2a1e5390b1e3cfe38202",
+      "width": 3840,
+      "height": 128,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        28,
+        13,
+        3812,
+        101
+      ]
+    },
+    {
+      "path": "luke/img/enemy/lv1_to_5/Weapons/PNGs/Kla'ed - Dreadnought - Weapons.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/Weapons/PNGs/Kla%27ed%20-%20Dreadnought%20-%20Weapons.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/enemy/lv1_to_5/Weapons/PNGs/Kla'ed - Dreadnought - Weapons.png",
+      "bytes": 31997,
+      "git_blob_sha1": "31a650944a0934cdf410daef0e63bd6c8a73ffb9",
+      "sha256": "09c28d413736948fdf7a9d65779d99b2fa539337bf1be7a34799a1e857f7330b",
+      "width": 7680,
+      "height": 128,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        28,
+        13,
+        7652,
+        113
+      ]
+    },
+    {
+      "path": "luke/img/enemy/lv1_to_5/Weapons/PNGs/Kla'ed - Fighter - Weapons.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/Weapons/PNGs/Kla%27ed%20-%20Fighter%20-%20Weapons.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/enemy/lv1_to_5/Weapons/PNGs/Kla'ed - Fighter - Weapons.png",
+      "bytes": 1039,
+      "git_blob_sha1": "77e005594a4b036f27df8e9dba37f1cea3ed1f3f",
+      "sha256": "19a1e429f99d7c2bdef08fc82e8abacbe18f87526eb284ba3d5d95d00f7ea5d2",
+      "width": 384,
+      "height": 64,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        20,
+        21,
+        364,
+        43
+      ]
+    },
+    {
+      "path": "luke/img/enemy/lv1_to_5/Weapons/PNGs/Kla'ed - Frigate - Weapons.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/Weapons/PNGs/Kla%27ed%20-%20Frigate%20-%20Weapons.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/enemy/lv1_to_5/Weapons/PNGs/Kla'ed - Frigate - Weapons.png",
+      "bytes": 1764,
+      "git_blob_sha1": "6bb5105e35932f35b22e48eb446752e99d595819",
+      "sha256": "ac10f3ab5b81dc695424e898d2f8cde4341578c5f20a0ce3b0fd87034e04f859",
+      "width": 384,
+      "height": 64,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        14,
+        11,
+        370,
+        50
+      ]
+    },
+    {
+      "path": "luke/img/enemy/lv1_to_5/Weapons/PNGs/Kla'ed - Scout - Weapons.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/Weapons/PNGs/Kla%27ed%20-%20Scout%20-%20Weapons.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/enemy/lv1_to_5/Weapons/PNGs/Kla'ed - Scout - Weapons.png",
+      "bytes": 1163,
+      "git_blob_sha1": "b44833918b5961c31664e1312ba70cc16784c439",
+      "sha256": "f66b5902582eab9ba21506d1b9a0d6487c3b95422afb818d55da63979b8ade30",
+      "width": 384,
+      "height": 64,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        21,
+        21,
+        363,
+        45
+      ]
+    },
+    {
+      "path": "luke/img/enemy/lv1_to_5/Weapons/PNGs/Kla'ed - Torpedo Ship - Weapons.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/Weapons/PNGs/Kla%27ed%20-%20Torpedo%20Ship%20-%20Weapons.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/enemy/lv1_to_5/Weapons/PNGs/Kla'ed - Torpedo Ship - Weapons.png",
+      "bytes": 2723,
+      "git_blob_sha1": "e9057205e6bfc1d3f626ea38b6518967a3f29fa3",
+      "sha256": "7fdfe0525b840003639c30513fd556580864765e6164318806f0dec92aa70d54",
+      "width": 1024,
+      "height": 64,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        4,
+        15,
+        1020,
+        43
+      ]
+    },
+    {
+      "path": "luke/img/enemy/lv1_to_5/base/Battlecruiser_assets/Battlecruiser_frame_.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/base/Battlecruiser_assets/Battlecruiser_frame_.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/enemy/lv1_to_5/base/Battlecruiser_assets/Battlecruiser_frame_.png",
+      "bytes": 19917,
+      "git_blob_sha1": "34111bc732bbef18a45cb1c70cb254fd1842f5b4",
+      "sha256": "81db4efae582a50e9c9d0728e115d5743f4eba495ab0e9ec49d47720f1d365e4",
+      "width": 1792,
+      "height": 128,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        28,
+        13,
+        1748,
+        117
+      ]
+    },
+    {
+      "path": "luke/img/enemy/lv1_to_5/base/Bomber.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/base/Bomber.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/enemy/lv1_to_5/base/Bomber.png",
+      "bytes": 3645,
+      "git_blob_sha1": "23cfc813eb4f8477663264d221c8c63e105d4287",
+      "sha256": "801a270bf1189fd3dc62749145a5c5abb03e981a03b39a08f95bddc488e8880d",
+      "width": 512,
+      "height": 64,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        17,
+        3,
+        506,
+        63
+      ]
+    },
+    {
+      "path": "luke/img/enemy/lv1_to_5/base/Dreadnought.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/base/Dreadnought.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/enemy/lv1_to_5/base/Dreadnought.png",
+      "bytes": 20880,
+      "git_blob_sha1": "b3bd52c3a8972d09b015889283b23aac96d5dc7d",
+      "sha256": "fd238dd5799d68b34950e09b5eeb102d4ea226eb4866cb4e68dc194aecb48a52",
+      "width": 1536,
+      "height": 128,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        28,
+        13,
+        1492,
+        117
+      ]
+    },
+    {
+      "path": "luke/img/enemy/lv1_to_5/base/Fighter.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/base/Fighter.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/enemy/lv1_to_5/base/Fighter.png",
+      "bytes": 3234,
+      "git_blob_sha1": "bda920e4aa40600d21b4816bf7a2d358ddede992",
+      "sha256": "74ba91259c12038497e18d70676c7762136c9e68b83ef0123caa027af905aa34",
+      "width": 576,
+      "height": 64,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        20,
+        2,
+        506,
+        58
+      ]
+    },
+    {
+      "path": "luke/img/enemy/lv1_to_5/base/Frigate_assets/Frigate.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/base/Frigate_assets/Frigate.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/enemy/lv1_to_5/base/Frigate_assets/Frigate.png",
+      "bytes": 4389,
+      "git_blob_sha1": "86a6365191038de76dcb91f43ef3270680e70bf6",
+      "sha256": "87db4e148561d3b049010032d062092c43a026138403586ed8f081f14928c65a",
+      "width": 576,
+      "height": 64,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        14,
+        1,
+        570,
+        63
+      ]
+    },
+    {
+      "path": "luke/img/enemy/lv1_to_5/base/Scout_assets/Scout.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/base/Scout_assets/Scout.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/enemy/lv1_to_5/base/Scout_assets/Scout.png",
+      "bytes": 3408,
+      "git_blob_sha1": "e3e9796abed2008c4b59d430146a1e5552990a4d",
+      "sha256": "904bc3b1af660b35ca977a4dd59b534c4d9678434e784285a5c4cb3d53bfbacd",
+      "width": 640,
+      "height": 64,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        21,
+        11,
+        570,
+        55
+      ]
+    },
+    {
+      "path": "luke/img/enemy/lv1_to_5/base/Support_assets/Support.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/base/Support_assets/Support.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/enemy/lv1_to_5/base/Support_assets/Support.png",
+      "bytes": 3214,
+      "git_blob_sha1": "f9f65bdcd81545af29331f72f6cc9d85a9c9295b",
+      "sha256": "92e611cb3381bddf2824b1ec244d920bac10b5fa327b59f28870fc63b1d800d9",
+      "width": 640,
+      "height": 64,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        18,
+        8,
+        570,
+        54
+      ]
+    },
+    {
+      "path": "luke/img/enemy/lv1_to_5/base/Torpedo_assets/Torpedo.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/enemy/lv1_to_5/base/Torpedo_assets/Torpedo.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/enemy/lv1_to_5/base/Torpedo_assets/Torpedo.png",
+      "bytes": 3315,
+      "git_blob_sha1": "dc5f9c78c578b1862fb38c95da2fc6e14495344b",
+      "sha256": "5fe4848901b308ba39e3f3af0a86a27601bcfbb9749454f317bb42f49af3df26",
+      "width": 640,
+      "height": 64,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        4,
+        6,
+        570,
+        55
+      ]
+    },
+    {
+      "path": "luke/img/player/effects/Engine_frame_1.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/player/effects/Engine_frame_1.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/player/effects/Engine_frame_1.png",
+      "bytes": 150,
+      "git_blob_sha1": "987d26710aaaa6e36bfd0fd1bc398cbb3c6f73f3",
+      "sha256": "035d1a31b2f6a4b70a7e165752f84dc4c304f2ea8dc76d1afaea4424a932b546",
+      "width": 20,
+      "height": 5,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        0,
+        0,
+        20,
+        5
+      ]
+    },
+    {
+      "path": "luke/img/player/effects/Engine_frame_2.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/player/effects/Engine_frame_2.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/player/effects/Engine_frame_2.png",
+      "bytes": 168,
+      "git_blob_sha1": "d4ac6025eb56aa3e8f99921a9a92a45be85f7a52",
+      "sha256": "8db94826ff0eb09b3ca84633c647e121436d69caec4d1d7b465268ed49f29ff7",
+      "width": 20,
+      "height": 6,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        0,
+        0,
+        20,
+        6
+      ]
+    },
+    {
+      "path": "luke/img/player/effects/Engine_frame_3.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/player/effects/Engine_frame_3.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/player/effects/Engine_frame_3.png",
+      "bytes": 168,
+      "git_blob_sha1": "d4ac6025eb56aa3e8f99921a9a92a45be85f7a52",
+      "sha256": "8db94826ff0eb09b3ca84633c647e121436d69caec4d1d7b465268ed49f29ff7",
+      "width": 20,
+      "height": 6,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        0,
+        0,
+        20,
+        6
+      ]
+    },
+    {
+      "path": "luke/img/player/effects/Engine_frame_4.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/player/effects/Engine_frame_4.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/player/effects/Engine_frame_4.png",
+      "bytes": 128,
+      "git_blob_sha1": "9685d0a0c1c021c84768cf72a7869edea03a66dc",
+      "sha256": "9d64e804a6833be27e29e94d7fe9975ea4537713a86ee60b939776483d4210f8",
+      "width": 20,
+      "height": 5,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        0,
+        0,
+        20,
+        5
+      ]
+    },
+    {
+      "path": "luke/img/player/effects/Engine_frame_5.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/player/effects/Engine_frame_5.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/player/effects/Engine_frame_5.png",
+      "bytes": 174,
+      "git_blob_sha1": "b4ec57490588cf081b9cfee265291440eea6c9d8",
+      "sha256": "05d988f30717051813185223bec3fd39ba5468d52084b3f89b64012ea5c3da0e",
+      "width": 20,
+      "height": 7,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        0,
+        0,
+        20,
+        7
+      ]
+    },
+    {
+      "path": "luke/img/player/effects/Engine_frame_6.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/player/effects/Engine_frame_6.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/player/effects/Engine_frame_6.png",
+      "bytes": 150,
+      "git_blob_sha1": "1db412ad37b171dfb01213a53795a65994583499",
+      "sha256": "127a038dbb6ab9cab736f1c4a9329170de2c5e9873c95f131ca73fcea4ae5987",
+      "width": 20,
+      "height": 8,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        0,
+        0,
+        20,
+        8
+      ]
+    },
+    {
+      "path": "luke/img/player/effects/Engine_frame_7.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/player/effects/Engine_frame_7.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/player/effects/Engine_frame_7.png",
+      "bytes": 128,
+      "git_blob_sha1": "d0efdc5402db26ccde7b325aa52115a4b3aa2b62",
+      "sha256": "aac1716b30ecc6b33d689e0f4c5ca7904d545e1858815b8361b6e01ce2c787e6",
+      "width": 20,
+      "height": 5,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        0,
+        0,
+        20,
+        5
+      ]
+    },
+    {
+      "path": "luke/img/player/main_ship/damaged.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/player/main_ship/damaged.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/player/main_ship/damaged.png",
+      "bytes": 833,
+      "git_blob_sha1": "40790f593ab58c8aa3725960785e1ea0153d1456",
+      "sha256": "75cd6cefdab16fe434448a584e26ecf7b89115329ecea718e39ab2753ab2072c",
+      "width": 40,
+      "height": 35,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        0,
+        0,
+        40,
+        35
+      ]
+    },
+    {
+      "path": "luke/img/player/main_ship/full_health.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/player/main_ship/full_health.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/player/main_ship/full_health.png",
+      "bytes": 586,
+      "git_blob_sha1": "76a055baaee22d3f1ca5f18cd1955a89592cb1e8",
+      "sha256": "2f2cafe582bf9d4c6ef36b15982a80651c7fbc8b033873f2fad08d56397fd846",
+      "width": 40,
+      "height": 35,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        0,
+        0,
+        40,
+        35
+      ]
+    },
+    {
+      "path": "luke/img/player/main_ship/slight_damaged.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/player/main_ship/slight_damaged.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/player/main_ship/slight_damaged.png",
+      "bytes": 677,
+      "git_blob_sha1": "bd4033b6ce937e2014e8eaeb4572eb9573e38d21",
+      "sha256": "78d8ad2182125b23a958ca8744f8ad65a6b16b7e97d94b16a108aeda0e326695",
+      "width": 40,
+      "height": 35,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        0,
+        0,
+        40,
+        35
+      ]
+    },
+    {
+      "path": "luke/img/player/main_ship/very_damaged.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/player/main_ship/very_damaged.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/player/main_ship/very_damaged.png",
+      "bytes": 924,
+      "git_blob_sha1": "26369599487aa26e237f6246fe7ee3c4be6ccfc6",
+      "sha256": "d89561d8fb4b7ed4e1aedf23f74bf299312e41ab4e49af9c625dc43a880bc58f",
+      "width": 40,
+      "height": 35,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        0,
+        0,
+        40,
+        35
+      ]
+    },
+    {
+      "path": "luke/img/player/shields/Main Ship - Shields - Invincibility Shield.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/player/shields/Main%20Ship%20-%20Shields%20-%20Invincibility%20Shield.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/player/shields/Main Ship - Shields - Invincibility Shield.png",
+      "bytes": 1853,
+      "git_blob_sha1": "ebb606772563bf08d026a2b14253306c0b631f4a",
+      "sha256": "18964c68ec8689d39008196cef577136d1c526cd0ef67945b3f2cd79b463e375",
+      "width": 640,
+      "height": 64,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        16,
+        18,
+        624,
+        46
+      ]
+    },
+    {
+      "path": "luke/img/player/shields/Main Ship - Shields - Round Shield.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/player/shields/Main%20Ship%20-%20Shields%20-%20Round%20Shield.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/player/shields/Main Ship - Shields - Round Shield.png",
+      "bytes": 2207,
+      "git_blob_sha1": "d1e5b40e40cf20ed06bb8a247af70f56ca908da7",
+      "sha256": "d72cdb6c4ac9ed9fcab2dd7a5c6d146ca5aca22d1faedee4c2d954690fa67aea",
+      "width": 50,
+      "height": 50,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        0,
+        0,
+        50,
+        50
+      ]
+    },
+    {
+      "path": "luke/img/player/weapons/Main Ship - Weapons - Big Space Gun.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/player/weapons/Main%20Ship%20-%20Weapons%20-%20Big%20Space%20Gun.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/player/weapons/Main Ship - Weapons - Big Space Gun.png",
+      "bytes": 1668,
+      "git_blob_sha1": "634c06ccd4ab6d9163daa9da6390dd6be69ca6e3",
+      "sha256": "302c41fb0cd22c9479fa2f8138e7d3aa2edbaadcc0bf9dad2c3731463b6b8ca5",
+      "width": 576,
+      "height": 48,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        15,
+        8,
+        561,
+        34
+      ]
+    },
+    {
+      "path": "luke/img/player/weapons/Main Ship - Weapons - Rockets.png",
+      "source_url": "https://raw.githubusercontent.com/LukeTsengTW/pygame-space-shooting-game/88ffbea80ba1d20014dbef47f790577823f9ba01/img/player/weapons/Main%20Ship%20-%20Weapons%20-%20Rockets.png",
+      "repository": "LukeTsengTW/pygame-space-shooting-game",
+      "commit": "88ffbea80ba1d20014dbef47f790577823f9ba01",
+      "source_path": "img/player/weapons/Main Ship - Weapons - Rockets.png",
+      "bytes": 1394,
+      "git_blob_sha1": "3610aeac98ded85c6e4da7eeea4c87190d01086f",
+      "sha256": "706562651d4aa9849f97c107c4c986a9ca71ed871f120da4244c572c5dbcf970",
+      "width": 816,
+      "height": 48,
+      "mode": "RGBA",
+      "has_alpha": true,
+      "alpha_range": [
+        0,
+        255
+      ],
+      "opaque_bbox": [
+        7,
+        13,
+        765,
+        38
+      ]
+    }
+  ],
+  "failures": []
+}

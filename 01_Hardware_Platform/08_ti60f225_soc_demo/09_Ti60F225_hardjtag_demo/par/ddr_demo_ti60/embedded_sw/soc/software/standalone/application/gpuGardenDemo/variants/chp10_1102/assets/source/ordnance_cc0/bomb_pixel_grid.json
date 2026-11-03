@@ -1,0 +1,137 @@
+{
+  "schema": "team-c-original-pixel-grid-v1",
+  "author": "Team C",
+  "license": "GPL-3.0-or-later",
+  "description": "Thrown mechanical plasma grenade with copper charge, silver shell and cyan exhaust; original text palette design.",
+  "width": 22,
+  "height": 30,
+  "palette": {
+    ".": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "K": [
+      13,
+      22,
+      35,
+      255
+    ],
+    "S": [
+      58,
+      88,
+      111,
+      255
+    ],
+    "L": [
+      128,
+      178,
+      193,
+      255
+    ],
+    "W": [
+      239,
+      254,
+      255,
+      255
+    ],
+    "O": [
+      246,
+      157,
+      40,
+      255
+    ],
+    "G": [
+      69,
+      227,
+      134,
+      255
+    ],
+    "D": [
+      18,
+      91,
+      71,
+      255
+    ],
+    "C": [
+      71,
+      230,
+      250,
+      255
+    ],
+    "B": [
+      20,
+      70,
+      117,
+      255
+    ]
+  },
+  "frames": [
+    [
+      "......................",
+      "..........WW..........",
+      ".........WWWW.........",
+      "........KWWWWK........",
+      "........KLLLLK........",
+      ".......KLLLLLLK.......",
+      ".......KLOOOOLK.......",
+      "......KSLOOOOLSK......",
+      "......KSLOOOOLSK......",
+      ".....KSSLOOOOLSSK.....",
+      ".....KSSLWWWWLSSK.....",
+      ".....KSSLOOOOLSSK.....",
+      ".....KSSLOOOOLSSK.....",
+      ".....KSSLOOOOLSSK.....",
+      ".....KSSLLLLLLSSK.....",
+      ".....KSSKKKKKKSSK.....",
+      ".....KSSLOOOOLSSK.....",
+      "......KSLOOOOLSK......",
+      "......KSLOOOOLSK......",
+      "......KSSLLLLSSK......",
+      ".......KSSLLSSK.......",
+      ".......KSSKKSSK.......",
+      "........KKKKKK........",
+      "........BCCCCB........",
+      ".........CWWC.........",
+      ".........CWWC.........",
+      ".........BCCB.........",
+      "..........CC..........",
+      "......................",
+      "......................"
+    ],
+    [
+      "......................",
+      "..........WW..........",
+      ".........WWWW.........",
+      "........KWWWWK........",
+      "........KLLLLK........",
+      ".......KLLLLLLK.......",
+      ".......KLOOOOLK.......",
+      "......KSLOOOOLSK......",
+      "......KSLOOOOLSK......",
+      ".....KSSLOOOOLSSK.....",
+      ".....KSSLWWWWLSSK.....",
+      ".....KSSLOOOOLSSK.....",
+      ".....KSSLOOOOLSSK.....",
+      ".....KSSLOOOOLSSK.....",
+      ".....KSSLLLLLLSSK.....",
+      ".....KSSKKKKKKSSK.....",
+      ".....KSSLOOOOLSSK.....",
+      "......KSLOOOOLSK......",
+      "......KSLOOOOLSK......",
+      "......KSSLLLLSSK......",
+      ".......KSSLLSSK.......",
+      ".......KSSKKSSK.......",
+      "........KKKKKK........",
+      "........BCCCCB........",
+      ".........CWWC.........",
+      "........BCWWCB........",
+      ".........CWWC.........",
+      ".........BCCB.........",
+      "..........CC..........",
+      "......................"
+    ]
+  ]
+}
+
